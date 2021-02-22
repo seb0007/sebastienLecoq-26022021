@@ -1,4 +1,98 @@
-p
+body
 {
-   color: blue;
+
+}
+
+#bloc_page
+{
+   width: 1800px;
+   height: 2000px;
+   margin: 0px
+}
+
+header
+{
+
+}
+
+#titre_principal
+{
+   direction: flex;
+   flex-direction: column;
+}
+
+#logo
+{
+   margin-left: 5px;
+   flex-direction: row;
+   align-items: baseline;
+}
+
+#logo img
+{
+   width: 75px;
+   height: 80px;
+}
+
+header h1
+{
+
+}
+
+header h2
+{
+
+}
+
+nav ul 
+{
+   display: flex;
+   list-style-type: none;
+}
+
+nav li
+{ 
+   margin-right: 15px;
+}
+
+nav a:hover
+{
+background-color: blue;
+}
+
+section
+{
+   display: flex;
+   margin-bottom: auto;
+}
+
+article
+{
+   margin-right: 100px;
+   display: flex;
+   flex: 3;
+   background-color: #f2f2f2;
+   padding-left: 1px;
+}
+
+img
+{
+   height: 200px;
+   width: 200px;
+   padding-top: 50px;
+   padding-left: 0px;
+}
+
+aside
+{
+   flex: 1.2;
+   background-color: #f2f2f2;
+}
+
+aside img
+{
+   flex-direction: column;
+   display: flex;
+   margin-left: auto;
+   margin-right: auto;
 }
