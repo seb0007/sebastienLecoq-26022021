@@ -1,12 +1,23 @@
-body
+@font-face
 {
 
 }
 
+@font-face
+{
+
+}
+
+
+body
+{
+background-repeat: fixe no-repeat;
+}
+
 #bloc_page
 {
-   width: 1800px;
-   height: 2000px;
+   width: auto;
+   height: auto;
    margin: 0px
 }
 
@@ -15,10 +26,16 @@ header
 
 }
 
+h1
+{
+  display: inline;
+}
+
 #titre_principal
 {
    direction: flex;
    flex-direction: column;
+
 }
 
 #logo
@@ -26,12 +43,16 @@ header
    margin-left: 5px;
    flex-direction: row;
    align-items: baseline;
+   position: relative;
 }
 
 #logo img
 {
    width: 75px;
    height: 80px;
+   padding-top: 20px;
+   position: relative;
+   top: -50px;
 }
 
 header h1
@@ -47,23 +68,65 @@ header h2
 nav ul 
 {
    display: flex;
-   list-style-type: none;
+   text-decoration: none;
+}
+
+
+
+nav li a
+{ 
+   margin-right: 30px;
+   border-radius: 20px;
+   display: inline;
+   text-decoration: none;
 }
 
 nav li
-{ 
+
+{
    margin-right: 15px;
+   display: inline;
+
 }
 
 nav a:hover
 {
-background-color: blue;
+background-color: lightskyblue;
+}
+
+#menu1
+{
+   float: right;
+   position: absolute;
+   top: 80px;
+   right: 15px;
+   margin-right: 15px;
+   border: none;
+   
+}
+
+h2
+{
+   
+}
+
+#menu2 li
+{
+   border: solid 2px #b1b1b1;
+   padding-top: 4px;
+   padding-right: 4px;
+   padding-left: 4px;
+   padding-bottom: 4px;
+   float: left;
+   border-radius: 30px;
+
 }
 
 section
 {
    display: flex;
    margin-bottom: auto;
+   height: auto;
 }
 
 article
@@ -72,8 +135,19 @@ article
    display: flex;
    flex: 3;
    background-color: #f2f2f2;
+   background-repeat: no-repeat ;
+   height: auto;
    padding-left: 1px;
-}
+ }
+
+ #afficher_plus
+ {
+    position: relative;
+    right: 0px;
+    bottom: 0;
+    padding-bottom: 0px;
+ }
+
 
 img
 {
@@ -81,12 +155,25 @@ img
    width: 200px;
    padding-top: 50px;
    padding-left: 0px;
+   padding-bottom: 50px;
+   display: inline-flex;
+   margin-right: 50px;
+   margin-top: 100px;
+   padding-top: 5px;
+}
+
+
+aside, h1
+{
+   text-align: center;
+   height: auto;
 }
 
 aside
 {
    flex: 1.2;
    background-color: #f2f2f2;
+   background-repeat: no-repeat ;
 }
 
 aside img
@@ -96,3 +183,44 @@ aside img
    margin-left: auto;
    margin-right: auto;
 }
+
+#banniere, h5
+{
+font-size: 16px;
+}
+
+#banniere
+{
+
+}
+
+footer
+{
+   display: flex;
+   background-color: #f2f2f2;
+   justify-content: space-between;
+
+}
+
+footer, li
+{
+list-style-type: none;
+}
+
+
+#a propos
+{
+  
+}
+
+#nos hébergements
+{
+
+}
+
+#assistance
+{
+   margin-left: 20pxpx;
+   padding-right: 300px;
+}
+ 
