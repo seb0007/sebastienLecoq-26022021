@@ -4,6 +4,7 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=devise-widht" /> 
         <link rel="stylesheet" href="style.css" />
+        <script src="https://kit.fontawesome.com/406da18a0b.js" crossorigin="anonymous" defer ></script>                                             <!--intergrer fontawa-->
         <title>Reservia</title>
     </head>
     
@@ -13,38 +14,43 @@
             <header>
                 <div id="titre_principal">
                     <div id="logo">
-                        <img src="images/reservia.svg" alt="Réservia" />
+                        <img src="images/Reservia.svg" alt="Réservia" />
                         <nav>
-                            <div id="menu1">
-                          <ul>
-                             <div id="Hébergements"></div>
-                                <li><a href="#Hébergement">Hébergements</a></li>
-                                <div id="Activités"></div>                        <!--ancrage ne fonctionne plus-->
+                              <div id="menu1">
+                           <ul>
+                                <li><a href="#Hébergement">Hébergements</a></li>                      
                                 <li><a href="#Activités">Activités</a></li>
-                                <li><a href="#">S'inscrire</a></li>
-                             </div>
-                          </ul>
+                                <li><a href="#"><strong>s'inscrire</strong></a></li>
+                              </div>
+                             
+                           </ul>
                        </nav>
                     </div>
+
                         <h1>Trouver votre hébergement pour des vacances de rêve</h1> 
                         <p>En plein centre ville ou en pleine nature</p>  
                 </div>
 
                   <form>
-                      <div id="rechercher">
-                        <input type="rechercher" id="rechercher" name="" maxlength="5" placeholder="Marseille, France">
-                        <button>rechercher</button>                                                            <!--border-collaps dans css-->
-                     </div>
+                      <div class="rechercher">
+                           <div><button class="rechercher"><i class="fas fa-map-marker-alt"></i><input type="rechercher" id="rechercher" name="" maxlength="5" placeholder="Marseille, France">
+                            <button>rechercher</button>
+                           </div>                                                        <!--border-collaps dans css-->
+                      </div>
                   </form>
 
                 <nav>
-                    <div id="menu2">
+                    <div class="menu2">
                      <ul>
                         <h2>Filtres</h2>
-                        <li><a href="#"><strong>Economie</strong></a></li>
-                        <li><a href="#"><strong>familiale</strong></a></li>
-                        <li><a href="#"><strong>romantique</strong></a></li>
-                        <li><a href="#"><strong>animaux autorisés</strong></a></li>
+                        <div><button class="btn-menu2"><i class="fas fa-money-bill-wave"></i></button></div>
+                         <li><a href="#"><strong>Economie</strong></a></li>
+                        <div><button class="btn-menu2"><i class="fas fa-child"></i></button></div>
+                         <li><a href="#"><strong>familiale</strong></a></li>
+                        <div><button class="btn-menu2"><i class="fas fa-heart"></i></button></div>
+                         <li><a href="#"><strong>romantique</strong></a></li>
+                        <div><button class="btn-menu2"><i class="fas fa-dog"></i></button></div>
+                         <li><a href="#"><strong>animaux autorisés</strong></a></li>
                      </ul>
                     </div>
                 </nav>
@@ -59,17 +65,19 @@
 
             <section>
                 <article>
-                    <p> 
-                    <h3>Hébergements à Marseille</h3> 
-                    <div id="afficher_plus"><a href="#">afficher plus</a></div>             <!--impossible de mettre en bas de page article-->                                                                    <!--besoin de paragraphe?-->
-                    <img src="images/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="marcus" /> <!--mettre <span> pour texte en dessous de la photo-->
+
+                    <div class="container1">    <!--???-->
+                    <h3>Hébergements à Marseille</h3>
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i>                                                              
+                    <img src="images/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="marcus" /> <!--mettre <div> pour texte en dessous de la photo, enlever nom pour les remplacer-->   
                     <img src="images/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="fred" />
                     <img src="images/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="reisetoppia" />
                     </br>
                     <img src="images/annie.jpg" alt="annie" />
                     <img src="images/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="nicate" />
                     <img src="images/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="febrian" />
-                  </p>
+                    <div id="afficher_plus"><a href="#">afficher plus</a></div>   
+                    </div>                                                                        <!--doit afficher une page vierge?-->
 
                 </article>
                
@@ -87,30 +95,26 @@
                     <h5>Activités à Marseille</h5>
                     <img src="images/reno-laithienne-QUgjhdY5Fyk-unsplash.jpg" alt="reno" />
                     <img src="images/Paul.jpg" alt="paul" />
-                    <img src="images/kevin hikari-rV_Qd1l-VXg-unsplash.jpg" alt="kevin" />
-                    <img src="images/kilyan-sockalingum-NR8-cBCN3al-unsplash.jpg" alt="Kilyan" />
-                    <img src="images/florian-wehde-xW9e8gdotxl-unsplash.jpg" alt="florian" />
-                    <img src="images/lena-paulin-wH2-EjoDcVO-unsplash.jpg" alt="lena" />
+                    <img src="images/kevin.jpg" alt="kevin" />
+                    <img src="images/kilyan.jpg" alt="Kilyan" />
+                    <img src="images/florian.jpg" alt="florian" />
+                    <img src="images/lena.jpg" alt="lena" />
                 </div>
 
                 <footer>
-                    <div id="container">            <!--choisir entre cette div ou nav-->
-                        <div class="element1">
-                            <a propos=""></a>
-                            <a propos="">
-                        <h6>A propos</h6>
-                            </a>
-                         <a class="" href="#">Fonction du site</a>
-                        </div>
-                         <div class="element1">
-                            <a href="#">Conditions générales de vente</a>
-                         </div>
-                        <a class="" href="#">données de confitentialités</a>
+                    <div id="about">
+                        <ul>
+                            <h6><strong>à propos</strong></h6>
+                            <li><a href="#">Fonctionnement du site</a></li>
+                            <li><a href="#">Conditions générales de ventre</a></li>
+                            <li><a href="#"> Donées et confidentialité</a></li>
+                        </ul>
                     </div>
+                        
 
                     <div id="Nos_Hébergements">
-                        <h7>Nos hébergements</h7>
                         <ul>
+                            <h6><strong>hébergements</strong></h6>
                             <li><a href="#">charte qualité</a></li>
                             <li><a href="#">soumettre votre hôtel</a></li>
                         </ul>
@@ -118,8 +122,8 @@
                     </div>
 
                     <div id="assistance">
-                        <h8>assistance</h8>
                         <ul>
+                            <h6><strong>assistance</strong></h6>
                             <li><a href="#">centre d'intérêt</a></li>
                             <li><a href="#">nous contacter</a></li>
                         </ul>>
