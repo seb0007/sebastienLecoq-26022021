@@ -16,14 +16,13 @@
                     <div id="logo">
                         <img src="images/Reservia.svg" alt="Réservia" />
                         <nav>
-                              <div id="menu1">
-                           <ul>
-                                <li><a href="#Hébergement">Hébergements</a></li>                      
-                                <li><a href="#Activités">Activités</a></li>
-                                <li><a href="#"><strong>s'inscrire</strong></a></li>
-                              </div>
-                             
-                           </ul>
+                            <div id="menu1">
+                              <ul>
+                                <div id="Hébergements"><li><a href="#Hébergement">Hébergements</a></li></div>                    
+                                <div id="Activités"><li><a href="#Activités">Activités</a></li></div>
+                                <div id="sinscrire"><li><a href="#s'inscrire" style="color: blue;"><strong>s'inscrire</strong></a></li></div>           <!--color bleu du css-->
+                              </ul>
+                            </div>
                        </nav>
                     </div>
 
@@ -32,27 +31,34 @@
                 </div>
 
                   <form>
-                      <div class="rechercher">
-                           <div><button class="rechercher"><i class="fas fa-map-marker-alt"></i><input type="rechercher" id="rechercher" name="" maxlength="5" placeholder="Marseille, France">
-                            <button>rechercher</button>
-                           </div>                                                        <!--border-collaps dans css-->
+                      <div id="rechercher">                        <!--id ou class???-->
+                            <button class="rechercher"><i class="fas fa-map-marker-alt"></i><input type="rechercher" id="rechercher" name="" maxlength="5" placeholder="Marseille, France" >
+                            <button>rechercher</button>                                                        <!--border-collaps dans css?-->
                       </div>
                   </form>
 
                 <nav>
-                    <div class="menu2">
-                     <ul>
-                        <h2>Filtres</h2>
-                        <div><button class="btn-menu2"><i class="fas fa-money-bill-wave"></i></button></div>
-                         <li><a href="#"><strong>Economie</strong></a></li>
-                        <div><button class="btn-menu2"><i class="fas fa-child"></i></button></div>
-                         <li><a href="#"><strong>familiale</strong></a></li>
-                        <div><button class="btn-menu2"><i class="fas fa-heart"></i></button></div>
-                         <li><a href="#"><strong>romantique</strong></a></li>
-                        <div><button class="btn-menu2"><i class="fas fa-dog"></i></button></div>
-                         <li><a href="#"><strong>animaux autorisés</strong></a></li>
-                     </ul>
-                    </div>
+                                                        <!--mettre div id menu2 ?-->
+                        <ul>
+                            <h2>Filtres</h2>
+                               <div id="economie">
+                                       <div><button class="btn-economie"><i class="fas fa-money-bill-wave"></i></button></div>
+                                          <li><a href="#"><strong>Economie</strong></a></li>
+                              </div>
+                                   <div id="familiale"> 
+                                       <div><button class="btn-menu2"><i class="fas fa-child"></i></button></div>
+                                          <li><a href="#"><strong>familiale</strong></a></li>
+                                   </div>
+                                        <div id="romantique">
+                                          <div><button class="btn-menu2"><i class="fas fa-heart"></i></button></div>   
+                                             <li><a href="#"><strong>romantique</strong></a></li>
+                                        </div>   
+                                            <div id="animaux">
+                                                <div><button class="btn-menu2"><i class="fas fa-dog"></i></button></div>
+                                                   <li><a href="#"><strong>animaux autorisés</strong></a></li>
+                                            </div>
+                                                
+                       </ul>  
                 </nav>
 
                     <div id="p1">
@@ -66,7 +72,7 @@
             <section>
                 <article>
 
-                    <div class="container1">    <!--???-->
+                    <div class="container">    <!--???-->
                     <h3>Hébergements à Marseille</h3>
                     <i class="fas fa-star"></i><i class="fas fa-star"></i>                                                              
                     <img src="images/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="marcus" /> <!--mettre <div> pour texte en dessous de la photo, enlever nom pour les remplacer-->   
@@ -76,6 +82,7 @@
                     <img src="images/annie.jpg" alt="annie" />
                     <img src="images/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="nicate" />
                     <img src="images/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="febrian" />
+
                     <div id="afficher_plus"><a href="#">afficher plus</a></div>   
                     </div>                                                                        <!--doit afficher une page vierge?-->
 
@@ -90,8 +97,9 @@
 
                 </aside>
             </section>
-
-                <div id="banniere">
+               
+                
+            <div id="banniere">
                     <h5>Activités à Marseille</h5>
                     <img src="images/reno-laithienne-QUgjhdY5Fyk-unsplash.jpg" alt="reno" />
                     <img src="images/Paul.jpg" alt="paul" />
