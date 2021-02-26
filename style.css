@@ -94,6 +94,8 @@ nav li a
 #Hébergements:hover
 {
    text-decoration: overline 2px blue;
+   list-style: none;
+
 }
 
 #Activités:hover
