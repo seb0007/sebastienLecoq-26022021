@@ -90,12 +90,6 @@ nav li a
    text-align: center;     /*est ce necessessaire?*/
 }
 
-#menu1 a:hover
-{
-color: blue;                   /* marche pour menu 1*/
-}
-
-
 
 #Hébergements:hover
 {
@@ -170,11 +164,11 @@ h2
 
 }
 
+
 #p1
 {
    padding-left: 40px;
    opacity: 0.5;
-   
 }
    
 
