@@ -31,34 +31,36 @@
                 </div>
 
                   <form>
-                      <div id="rechercher">                        <!--id ou class???-->
-                            <button class="rechercher"><i class="fas fa-map-marker-alt"></i><input type="rechercher" id="rechercher" name="" maxlength="8" placeholder="Marseille, France" >
-                            <button>rechercher</button>                                                        <!--border-collaps dans css?-->
+                      <div id="search">                     
+                            <div class="icon-left"><i class="fas fa-map-marker-alt"></i></div>
+                            <input class="searchbar" type="search" id="search-bar" name="q" maxlength="8" placeholder="Marseille, France" >
+                            <div class="icon-right"><a href="#">rechercher</a></div>                                                      <!--border-collaps dans css?-->
                       </div>
                   </form>
 
                 <nav>
                                                         <!--mettre div id menu2 ?-->
                         <ul>
-                            <h2>Filtres</h2>
+                            <div id="menu2">
+                               <h2>Filtres</h2>
                                <div id="economie">
-                                       <div><button class="btn-economie"><i class="fas fa-money-bill-wave" style="color: blue;"></i></button></div>
+                                          <div><button class="economie"><i class="fas fa-money-bill-wave" style="color: blue;"></i></button></div>
                                           <li><a href="#"><strong>Economie</strong></a></li>
                               </div>
-                                   <div id="familiale"> 
-                                       <div><button class="familiale"><i class="fas fa-child" style="color: blue;"></i></button></div>
+                              <div id="familiale"> 
+                                          <div><button class="familiale"><i class="fas fa-child" style="color: blue;"></i></button></div>
                                           <li><a href="#"><strong>familiale</strong></a></li>
-                                   </div>
-                                        <div id="romantique">
+                              </div>
+                              <div id="romantique">
                                           <div><button class="romantique"><i class="fas fa-heart"style="color: blue;"></i></button></div>   
-                                             <li><a href="#"><strong>romantique</strong></a></li>
-                                        </div>   
-                                            <div id="animaux">
-                                                <div><button class="animaux"><i class="fas fa-dog"style="color: blue;"></i></button></div>
-                                                   <li><a href="#"><strong>animaux autorisés</strong></a></li>
-                                            </div>
-                                                
-                       </ul>  
+                                          <li><a href="#"><strong>romantique</strong></a></li>
+                              </div>   
+                              <div id="animaux">
+                                          <div><button class="animaux"><i class="fas fa-dog"style="color: blue;"></i></button></div>
+                                          <li><a href="#"><strong>animaux autorisés</strong></a></li>
+                              </div>
+                            </div>
+                        </ul>  
                 </nav>
 
                     <div id="p1">
@@ -77,11 +79,11 @@
                     <h3>Hébergements à Marseille</h3>                                                         
                     <img src="images/marcus.jpg" alt="marcus"/></a>      <!--cliquer sur image donant sur page vide, enlever nom pour les remplacer-->   
                     <img src="images/fred.jpg" alt="fred" />
-                    <img src="images/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="reisetoppia" />
+                    <img src="images/reisetopia.jpg" alt="reisetoppia" />
                     </br>
                     <img src="images/annie.jpg" alt="annie" />
-                    <img src="images/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="nicate" />
-                    <img src="images/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="febrian" />
+                    <img src="images/nicate.jpg" alt="nicate" />
+                    <img src="images/zakaria.jpg" alt="febrian" />
 
                     <div id="afficher_plus"><a href="#">afficher plus</a></div>   
                     </div>                                                                        <!--doit afficher une page vierge?-->
@@ -91,22 +93,29 @@
 
                 <aside>
                     <h4>Les plus populaires</h4>
-                    <img src="images/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="emile" />
-                    <img src="images/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="creatie" />
-                    <img src="images/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="zakaria" />
+                    <img src="images/emile.jpg" alt="emile" />
+                    <img src="images/creative.jpg" alt="creatie" />
+                    <img src="images/febrian.jpg" alt="zakaria" />
                </aside>
             </section>
                
                 
-            <div id="banniere">
+            <div id="container">
                     <h5>Activités à Marseille</h5>
-                    <img src="images/reno-laithienne-QUgjhdY5Fyk-unsplash.jpg" alt="reno" />
-                    <img src="images/Paul.jpg" alt="paul" />
-                    <img src="images/kevin.jpg" alt="kevin" />
-                    <img src="images/kilyan.jpg" alt="Kilyan" />
-                    <img src="images/florian.jpg" alt="florian" />
-                    <img src="images/lena.jpg" alt="lena" />
-                </div>
+                    <div class="element1">
+                    <img src="images/reno.jpg" alt="reno" /></div>
+                    <div class="element2">
+                    <img src="images/Paul.jpg" alt="paul" /></div>
+                    <div class="element3">
+                    <img src="images/kevin.jpg" alt="kevin" /></div>
+                    <div class="element4">
+                    <img src="images/kilyan.jpg" alt="Kilyan" /></div>
+                    <div class="element5">
+                    <img src="images/florian.jpg" alt="florian" /></div>
+                    <div class="element6">
+                    <img src="images/lena.jpg" alt="lena" /></div>
+
+            </div>
 
                 <footer>
                     <div id="about">
