@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=devise-widht" /> 
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" href="style.css" />
         <script src="https://kit.fontawesome.com/406da18a0b.js" crossorigin="anonymous" defer ></script>                                             <!--intergrer fontawa-->
         <title>Reservia</title>
@@ -20,7 +21,7 @@
                               <ul>
                                 <div id="Hébergements"><li><a href="#Hébergement">Hébergements</a></li></div>                    
                                 <div id="Activités"><li><a href="#Activités">Activités</a></li></div>
-                                
+
                                  <ul>
                                  <div id="sinscrire"><li><a href="#s'inscrire" style="color: blue;"><strong>s'inscrire</strong></a></li></div>           <!--encrage!!!!-->
                                  </ul>
@@ -42,7 +43,7 @@
                   </form>
 
                 <nav>
-                                                        <!--mettre div id menu2 ?-->
+                          <div container>                           <!--mettre div id menu2 ?-->
                         <ul>
                             <div id="menu2">
                                <h2>Filtres</h2>
@@ -63,7 +64,8 @@
                                           <li><a href="#"><strong>animaux autorisés</strong></a></li>
                                </div>
                             </div>
-                        </ul>  
+                        </ul> 
+                          </div> 
                 </nav>
 
                     <div id="p1">
@@ -77,19 +79,30 @@
 
             <section>
                 <article>
+    
+                    <div class="container1">
+                        <h3>Hébergements à Marseille</h3> 
 
-                    <div class="container">    <!--???-->
-                    <h3>Hébergements à Marseille</h3>                                                         
-                    <img src="images/marcus.jpg" alt="marcus"/></a>      <!--cliquer sur image donant sur page vide, enlever nom pour les remplacer-->   
-                    <img src="images/fred.jpg" alt="fred" />
-                    <img src="images/reisetopia.jpg" alt="reisetoppia" />
-                    </br>
-                    <img src="images/annie.jpg" alt="annie" />
-                    <img src="images/nicate.jpg" alt="nicate" />
-                    <img src="images/zakaria.jpg" alt="febrian" />
-
-                    <div id="afficher_plus"><a href="#">afficher plus</a></div>   
-                    </div>                                                                        <!--doit afficher une page vierge?-->
+                        <div class="card1">                                                       
+                            <div class="card-marcus">
+                             <img src="images/marcus.jpg" alt="marcus" />
+                            </div>
+                            <div class="content1">           <!--manque /div-->
+                              <span>auberge de la cannebiere</span>
+                              <p><i class="fas fa-star" style="color: blue;"></i><i class="fas fa-star"style="color: blue;"></i><i class="fas fa-star"style="color: blue;"></i><i class="fas fa-star"style="color: blue;"></i><i class="fas fa-star"></i></p>
+                            </div>
+                       </div> 
+                                                                                     
+                                                                                                                                                                      <!--cliquer sur image donant sur page vide-->   
+                        <img src="images/fred.jpg" alt="fred" />
+                        <img src="images/reisetopia.jpg" alt="reisetoppia" />
+                        <img src="images/annie.jpg" alt="annie" />
+                        <img src="images/nicate.jpg" alt="nicate" />
+                        <img src="images/zakaria.jpg" alt="febrian" />
+    
+                        <div id="afficher_plus"><a href="#">afficher plus</a></div>      
+                    </div>    <!--???--> 
+                                                                                        <!--doit afficher une page vierge?-->
 
                 </article>
                
@@ -102,22 +115,28 @@
                </aside>
             </section>
                
-                
-            <div id="container">
-                    <h5>Activités à Marseille</h5>
-                    <div class="element1">
-                    <img src="images/reno.jpg" alt="reno" /></div>
-                    <div class="element2">
-                    <img src="images/Paul.jpg" alt="paul" /></div>
-                    <div class="element3">
-                    <img src="images/kevin.jpg" alt="kevin" /></div>
-                    <div class="element4">
-                    <img src="images/kilyan.jpg" alt="Kilyan" /></div>
-                    <div class="element5">
-                    <img src="images/florian.jpg" alt="florian" /></div>
-                    <div class="element6">
-                    <img src="images/lena.jpg" alt="lena" /></div>
 
+            <div id="container2">
+                    <h5>Activités à Marseille</h5>
+                    <div id="element1">
+                    <img src="images/reno.jpg" alt="reno" />
+                    <span>Vieux port</span></div>
+                    <div id="element2">
+                    <img src="images/Paul.jpg" alt="paul" />
+                    <span>Fort de Pomègues</span></div>
+                    <div id="element3">
+                    <img src="images/kevin.jpg" alt="kevin" />
+                    <span>Iles du Frioul</span></div>
+                    <div id="element4">
+                    <img src="images/kilyan.jpg" alt="Kilyan" />
+                    <span>Parc National des Calanques</span></div>
+                    <div id="element5">
+                    <img src="images/florian.jpg" alt="florian" />
+                    <span>Notre-Dame-de-la-Garde</span></div>
+                    <div id="element6">
+                    <img src="images/lena.jpg" alt="lena" />
+                    <span>Parc Lonchamp</span></div>
+                    
             </div>
 
                 <footer>

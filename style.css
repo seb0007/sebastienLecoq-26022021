@@ -15,7 +15,6 @@ body
 #bloc_page
 {
    width: 100%;
-   margin: auto;
    height: 100%;
 }
 
@@ -46,7 +45,7 @@ h1
    width: 200px;
    height: auto;
    padding-top: 5px;
-   position: relative;
+   margin-top: 50px;
 }
 
 h1
@@ -119,6 +118,7 @@ nav li a
    padding: 3px 3px;
    color: black;
    display: flex;
+   border-color: #b1b1b1;
 }
 
 
@@ -167,11 +167,17 @@ font-weight: bold;
    left: 10px;
 }
 
+button
+{
+   border-radius: 50%;
+   height: 30px;
+}
+
 #economie
 {
    border: solid 2px blue;
    display: flex;
-   border-radius: 10px 30px 30px 10px;
+   border-radius: 20px 20px 20px 20px;
    height: 30px;
    border-color: #b1b1b1;
    margin-right: 30px;
@@ -181,7 +187,7 @@ font-weight: bold;
 {
    border: solid 2px blue;
    display: flex;
-   border-radius: 10px 30px 30px 10px;
+   border-radius: 20px 20px 20px 20px;
    height: 30px;
    border-color: #b1b1b1;
    margin-right: 30px;
@@ -192,7 +198,7 @@ font-weight: bold;
 {
    border: solid 2px blue;
    display: flex;
-   border-radius: 10px 30px 30px 10px;
+   border-radius: 20px 20px 20px 20px;
    height: 30px;
    border-color: #b1b1b1;
    margin-right: 30px;
@@ -202,7 +208,7 @@ font-weight: bold;
 {
    border: solid 2px blue;
    display: flex;
-   border-radius: 10px 30px 30px 10px;
+   border-radius: 20px 20px 20px 20px;
    height: 30px;
    border-color: #b1b1b1;
    margin-right: 30px;
@@ -232,41 +238,26 @@ section
 {
    display: flex;
    height: 1000px;
-   
-
 }
 
 article
 {
    display: flex;
-   flex: auto;
    background-color: #f2f2f2;
-   background-repeat: no-repeat ;
    height: auto;
    padding-left: 10x; 
    margin-right: 15px;   
-   display: block;   
+   display: inline-block;   
    flex-wrap: wrap;   /* important !*/
+}
 
-  
- }
-
-
- #afficher_plus
- {
-    position: relative;
-    left: 30px;
-    padding-bottom: 0px;         /* impossible de mettre lien en bas */  /* mettre plusieurs noms de villes? */
- }
-
-
- img
+img
 {
-   height: 200px;
+   height: 150px;
    width: 200px;
    padding-top: 50px;      
    padding-bottom: 50px;
-   display: inline-flex;
+   display: inline-block;
    margin-right: 100px;
    margin-top: 100px;
    flex-wrap: wrap;
@@ -275,19 +266,45 @@ article
    object-fit: cover;           /* important!!!!! */
 }
 
+#container1
+{
+   align-items: center;
+}
+
+#container1, .card1
+{
+   border: solid 2px #b1b1b1;
+   position: relative;
+   margin-right: 80%;
+   margin-top: 10px;
+   text-align: left;
+   padding-left: 30px;
+   box-shadow: 0 4px 8px 0;
+   border-radius: 5px 8px 8px 5px;
+}
+
+
+
+
+#afficher_plus
+{
+    position: relative;
+    left: 30px;
+    padding-bottom: 0px;         /* impossible de mettre lien en bas */  /* mettre plusieurs noms de villes? */
+}
+
+
+
+aside
+{
+   background-color: #f2f2f2;
+   background-repeat: no-repeat;
+}
 
 aside, h1
 {
    text-align: center;
    height: auto;
-}
-
-aside
-{
-   flex: 1.2;
-   background-color: #f2f2f2;
-   background-repeat: no-repeat ;
-   
 }
 
 aside img
@@ -297,47 +314,46 @@ aside img
    position: relative;
    margin-top: 10px;
    padding-bottom: 1px;
-   padding-left: 100px;
+   padding-left: 30px;
    margin-right: 250px;
    flex-wrap: wrap;
 
  }
 
 
-#container
+#container2
 {
    justify-content: center;
    display: flex;
    flex-direction: row;
    height: 600px;
-   width: auto;              /* plus ou moins à voir largeur*/
 }
 
-#container, h5
+#container2, h5
 {
    font-size: 16px;
 }
 
 
-#container img
+#container2 img
 {
  width: 200px;
  height: 200px;
- flex: 1;                     /*??????*/
+ flex: 1;                    /*??????*/
  justify-content: space-around;
  object-fit: cover;
- 
 }
 
-.element1 
+#container img, .element1
 {
-
+/*exactment comme container img*/
 }
 
-.element2
-{
-   
+#element1 
+{ 
+/*aucun n'effets mais marche avec a:hover*/
 }
+
 footer
 {
    display: flex;
