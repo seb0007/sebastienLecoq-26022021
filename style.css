@@ -91,6 +91,10 @@ nav li a
    color: blue;
 }
 
+#menu1 a, ul:hover
+{
+   transition: 0.5s;
+}
 
 #Hébergements:hover
 {
@@ -305,19 +309,35 @@ aside img
    justify-content: center;
    display: flex;
    flex-direction: row;
+   height: 600px;
+   width: auto;              /* plus ou moins à voir largeur*/
 }
 
-#conteneur, h5
+#container, h5
 {
    font-size: 16px;
 }
 
 
-#element1
+#container img
 {
+ width: 200px;
+ height: 200px;
+ flex: 1;                     /*??????*/
+ justify-content: space-around;
+ object-fit: cover;
  
 }
 
+.element1 
+{
+
+}
+
+.element2
+{
+   
+}
 footer
 {
    display: flex;
