@@ -10,7 +10,7 @@
     </head>
     
     <body>
-        
+      
         <div id="bloc_page">
             <header>
                 <div id="titre_principal">
@@ -43,7 +43,7 @@
                   </form>
 
                 <nav>
-                          <div container>                           <!--mettre div id menu2 ?-->
+                                                  <!--mettre div id menu2 ?-->
                         <ul>
                             <div id="menu2">
                                <h2>Filtres</h2>
@@ -65,7 +65,6 @@
                                </div>
                             </div>
                         </ul> 
-                          </div> 
                 </nav>
 
                     <div id="p1">
@@ -77,23 +76,29 @@
 
           </header>
 
-            <section>
+            <section class="main"> 
                 <article>
-    
-                    <div class="container1">
-                        <h3>Hébergements à Marseille</h3> 
+                    <h3>Hébergements à Marseille</h3> 
 
-                        <div class="card1">                                                       
-                            <div class="card-marcus">
-                             <img src="images/marcus.jpg" alt="marcus" />
+                    <div class="container1">
+                      <div class="Auberge">
+                        <img src="images/marcus.jpg" alt="marcus" />
+                        <div class="Auberge_info">
+                            <div>Auberge de la Cannebière</div>
+                            <div>Nuit à patire de 25 <strong>€</strong></div>
+                            <div>
+                                <i class="fas fa-star hostingMainCardGradeIcon" data-active="true"></i>
+                                <i class="fas fa-star hostingMainCardGradeIcon" data-active="true"></i>
+                                <i class="fas fa-star hostingMainCardGradeIcon" data-active="true"></i>
+                                <i class="fas fa-star hostingMainCardGradeIcon" data-active="true"></i>
+                                <i class="fas fa-star hostingMainCardGradeIcon" data-active="false"></i>
                             </div>
-                            <div class="content1">           <!--manque /div-->
-                              <span>auberge de la cannebiere</span>
-                              <p><i class="fas fa-star" style="color: blue;"></i><i class="fas fa-star"style="color: blue;"></i><i class="fas fa-star"style="color: blue;"></i><i class="fas fa-star"style="color: blue;"></i><i class="fas fa-star"></i></p>
-                            </div>
-                       </div> 
-                                                                                     
-                                                                                                                                                                      <!--cliquer sur image donant sur page vide-->   
+                        </div>
+                      </div>      
+                        
+                        
+
+
                         <img src="images/fred.jpg" alt="fred" />
                         <img src="images/reisetopia.jpg" alt="reisetoppia" />
                         <img src="images/annie.jpg" alt="annie" />
@@ -101,45 +106,77 @@
                         <img src="images/zakaria.jpg" alt="febrian" />
     
                         <div id="afficher_plus"><a href="#">afficher plus</a></div>      
-                    </div>    <!--???--> 
+                    </div>    
                                                                                         <!--doit afficher une page vierge?-->
 
                 </article>
                
 
                 <aside>
-                    <h4>Les plus populaires</h4>
-                    <img src="images/emile.jpg" alt="emile" />
-                    <img src="images/creative.jpg" alt="creatie" />
-                    <img src="images/febrian.jpg" alt="zakaria" />
+                    <h4>Les plus populaires <i class="fas fa-chart-line"></i></h4>
+                    <div class="container2">
+                        <div class="Hôteldumatin">
+                           <img src="images/emile.jpg" alt="emile" />
+                           <div class="Hôteldumatin_info">
+                               <div>Hôtel le soleil du matin</div>
+                               <div>Nuit à partir de 128<strong>€</strong></div>
+                               <div>
+                                    <i class="fas fa-star hostingMainCardGradeIcon" data-active="true"></i>
+                                    <i class="fas fa-star hostingMainCardGradeIcon" data-active="true"></i>
+                                    <i class="fas fa-star hostingMainCardGradeIcon" data-active="true"></i>
+                                    <i class="fas fa-star hostingMainCardGradeIcon" data-active="true"></i>
+                                    <i class="fas fa-star hostingMainCardGradeIcon" data-active="false"></i>
+                               </div>
+                        </div>
+                    </div>      
+                     
+                    <div class="hoteldeleau">
+                           <img src="images/creative.jpg" alt="creatie" />
+                        <div class="hoteldeleau_info"> 
+                              <div>Au coeur de l'eau Chambres d'hôtes</div>
+                              <div>Nuit à partir de 71<strong>€</strong></div>
+                              <div>
+                                  <i class="fas fa-star hostingMainCardGradeIcon" data-active="true"></i>
+                                  <i class="fas fa-star hostingMainCardGradeIcon" data-active="true"></i>
+                                  <i class="fas fa-star hostingMainCardGradeIcon" data-active="true"></i>
+                                  <i class="fas fa-star hostingMainCardGradeIcon" data-active="true"></i>
+                                  <i class="fas fa-star hostingMainCardGradeIcon" data-active="false"></i>
+                             </div>
+                        </div>           
+                    </div>
+
+                       <div class="hotelbleublanc">
+                          <img src="images/febrian.jpg" alt="zakaria" />
+                            <div class="hotelbleublanc_info">    
+                                <div>Hôtel Tout bleu et Blanc</div>
+                                <div>Nuit à partir de 68<strong>€</strong></div>
+                                <div>
+                                    <i class="fas fa-star hostingMainCardGradeIcon" data-active="true"></i>
+                                    <i class="fas fa-star hostingMainCardGradeIcon" data-active="true"></i>
+                                    <i class="fas fa-star hostingMainCardGradeIcon" data-active="true"></i>
+                                    <i class="fas fa-star hostingMainCardGradeIcon" data-active="true"></i>
+                                    <i class="fas fa-star hostingMainCardGradeIcon" data-active="false"></i>
+                                </div>
+                            </div>    
+                        </div>
                </aside>
             </section>
                
-
-            <div id="container2">
-                    <h5>Activités à Marseille</h5>
-                    <div id="element1">
+            <section class="activity">
+                <div class="container3">
+                   
                     <img src="images/reno.jpg" alt="reno" />
-                    <span>Vieux port</span></div>
-                    <div id="element2">
                     <img src="images/Paul.jpg" alt="paul" />
-                    <span>Fort de Pomègues</span></div>
-                    <div id="element3">
                     <img src="images/kevin.jpg" alt="kevin" />
-                    <span>Iles du Frioul</span></div>
-                    <div id="element4">
                     <img src="images/kilyan.jpg" alt="Kilyan" />
-                    <span>Parc National des Calanques</span></div>
-                    <div id="element5">
                     <img src="images/florian.jpg" alt="florian" />
-                    <span>Notre-Dame-de-la-Garde</span></div>
-                    <div id="element6">
                     <img src="images/lena.jpg" alt="lena" />
-                    <span>Parc Lonchamp</span></div>
-                    
-            </div>
+                   
+                </div>
+            </section>   
 
                 <footer>
+                  <div class="container4">
                     <div id="about">
                         <ul>
                             <h6><strong>à propos</strong></h6>
@@ -165,8 +202,9 @@
                             <li><a href="#">centre d'intérêt</a></li>
                             <li><a href="#">nous contacter</a></li>
                         </ul>>
-                         </div>                   
+                                            
                     </div>
+                  </div>
 
                 </footer>
 
