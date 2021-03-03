@@ -171,6 +171,7 @@ button
 {
    border-radius: 50%;
    height: 30px;
+   margin-right: 20px;
 }
 
 #economie
@@ -252,7 +253,6 @@ img
    padding-top: 50px;      
    padding-bottom: 50px;
    display: inline-block;
-   margin-right: 1px;             /* rétrécit le bloc blanc*/
    margin-top: 1px;
    flex-wrap: wrap;  
    align-items: center;   
@@ -322,6 +322,7 @@ text-align: center;
    height: 50%;               
    margin-left: 10px;
    padding-top: 1px;
+   margin-right: 1px;
 }
 
 .Auberge_info
@@ -357,17 +358,13 @@ aside, h1
    height: auto;
 }
 
-aside a
-{
-   text-decoration: #0065FC;
-}
 
 aside img
 {
    display: flex;
    position: relative;
    flex-wrap: wrap;
-   border-radius:  1rem 0 0 1rem;
+   border-radius:  1rem 0px 0px 1rem;
 }
 
 
@@ -410,10 +407,19 @@ aside img
    box-shadow: 10px 20px 16px #0000002e;
 }
 
+.Hôteldumatin img
+{
+   padding-left: 10px;
+   padding-bottom: 0px;
+   height: 50%;
+   width: 50%;
+}
+
 .Hôteldumatin_info
 {
    padding-left: 250px;
 }
+
 
 
 .hoteldeleau
@@ -447,14 +453,21 @@ aside img
 .container3
 {
    display: flex;
-   height: 500px;
-   margin-top: 100px;
+   height: 400px;
+   margin-top: 30px;
+}
+
+.container3 img
+{
+   margin-right: 30px;
+   padding-left: 50px;
+   
 }
 
 
 h5
 {
-   /*?????*/
+   font-size: 16px;/*?????*/
 }
 
 footer
