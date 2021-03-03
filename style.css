@@ -252,8 +252,8 @@ img
    padding-top: 50px;      
    padding-bottom: 50px;
    display: inline-block;
-   margin-right: 100px;             /* rétrécit le bloc blanc*/
-   margin-top: 10px;
+   margin-right: 1px;             /* rétrécit le bloc blanc*/
+   margin-top: 1px;
    flex-wrap: wrap;  
    align-items: center;   
    object-fit: cover; 
@@ -312,19 +312,21 @@ border-radius: 20px;
 box-sizing: border-box;
 box-shadow: 0 0 16px #0000002;
 padding-left: 30px;
+text-align: center;
 
 }
 
 .Auberge img
 {
+   position: relative;
    height: 50%;               
-   margin-left: 20px;
+   margin-left: 10px;
    padding-top: 1px;
 }
 
 .Auberge_info
 {
-   height: 50%;
+   height: 50%;        /*???*/
 }
 
 
@@ -408,6 +410,11 @@ aside img
    box-shadow: 10px 20px 16px #0000002e;
 }
 
+.Hôteldumatin_info
+{
+   padding-left: 250px;
+}
+
 
 .hoteldeleau
 {
@@ -417,7 +424,8 @@ aside img
     border: 2px white;
     border-radius: 8px;
     box-sizing: border-box;
-    box-shadow: 10px 20px 16px #0000002e
+    box-shadow: 10px 20px 16px #0000002e       /*??????*/
+    
 }
 
 .hotelbleublanc
