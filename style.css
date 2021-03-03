@@ -172,6 +172,7 @@ button
    border-radius: 50%;
    height: 30px;
    margin-right: 20px;
+   padding-left: 8px;
 }
 
 #economie
@@ -221,7 +222,7 @@ h2
    margin-right: 30px;
    margin-top: 2px;
    height: 20px;        /* hauteur entre h2 et p */
-   font-size: 20px;
+   font-size: 16px;
 
 }
 
