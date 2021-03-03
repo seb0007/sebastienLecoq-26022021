@@ -5,6 +5,7 @@ font-weight: normal;
 
 }
 
+
 body
 
 {
@@ -20,6 +21,8 @@ body
    height: auto;
 }
 
+
+/*SECTION HEADER*/
 
 
 #titre_principal
@@ -171,7 +174,7 @@ button
 {
    border-radius: 50%;
    height: 30px;
-   margin-right: 20px;
+   margin-right: 30px;
    padding-left: 8px;
 }
 
@@ -183,6 +186,7 @@ button
    height: 30px;
    border-color: #b1b1b1;
    margin-right: 30px;
+   align-items: center;
 }
 
 #familiale
@@ -193,6 +197,7 @@ button
    height: 30px;
    border-color: #b1b1b1;
    margin-right: 30px;
+   align-items: center;
 }
 
 
@@ -204,6 +209,7 @@ button
    height: 30px;
    border-color: #b1b1b1;
    margin-right: 30px;
+   align-items: center;
 }
 
 #animaux
@@ -214,6 +220,7 @@ button
    height: 30px;
    border-color: #b1b1b1;
    margin-right: 30px;
+   align-items: center;
 }
 
 
@@ -245,6 +252,10 @@ section
    margin-left: 5px;
 }
 
+.main .container1
+{
+  display: flex;      /*dispose les block article*/
+}
 
 img
 
@@ -260,6 +271,7 @@ img
    object-fit: cover; 
 }  
 
+/*SECTION ARTICLE*/
 
 article
 {
@@ -287,13 +299,14 @@ article img
 display: inline-block;
 height: 320px;
 width: 200px;
+margin-top: 50px;
 }
 
 .container1 div
 {
 margin-right: 10px;
-margin-left: 10px;
-display: inline-block;
+margin-left: 10px;         
+display: inline-block;                /*block blanc*/
 align-items: center;
 
 }
@@ -311,7 +324,6 @@ background-color: white;
 border: 2px white;
 border-radius: 20px;
 box-sizing: border-box;
-box-shadow: 0 0 16px #0000002;
 padding-left: 30px;
 text-align: center;
 
@@ -340,6 +352,10 @@ text-align: center;
 }
 
 
+
+
+
+/*SECTION ASIDE*/
 
 aside
 {
@@ -373,9 +389,10 @@ aside img
 {
    
    display: flex;
+   display: inline-block;
    flex-direction: column;
-   align-items: flex-end;
-   display: block;
+   align-items: center
+   
 
 }
 
@@ -386,7 +403,7 @@ aside img
    margin-bottom: 10px;
    align-items: center;
    text-align: left;
-   display: inline-block;
+   display: inline-block;   /* pas de display : les etoiles sont à droite*/
    padding-top: 2px;
 }
 
@@ -395,6 +412,8 @@ aside img
 {
    color: #0065FC;
 }
+
+
 
 
 .Hôteldumatin
@@ -431,8 +450,21 @@ aside img
     border: 2px white;
     border-radius: 8px;
     box-sizing: border-box;
-    box-shadow: 10px 20px 16px #0000002e       /*??????*/
+    box-shadow: 10px 20px 16px #0000002e;       /*??????*/
     
+}
+
+.hoteldeleau img
+{
+   width: 50%;
+   height: 50%;
+   padding-left: 10px;
+   padding-bottom: 0px;
+}
+
+.Hôteldeleau_info
+{
+   margin-left: 10px;
 }
 
 .hotelbleublanc
@@ -446,6 +478,15 @@ aside img
     box-shadow: 10px 20px 16px #0000002e;
 }
 
+.hotelbleublanc img
+{
+   width: 50%;
+}
+
+
+/*SECTION*/
+
+
 .Activity
 {
 
@@ -456,12 +497,14 @@ aside img
    display: flex;
    height: 400px;
    margin-top: 30px;
+   justify-content: space-between;
 }
 
 .container3 img
 {
-   margin-right: 30px;
-   padding-left: 50px;
+   margin-right: 35px;
+   margin-top: 40px;
+   padding: 35px;
    
 }
 
@@ -520,6 +563,7 @@ h6
    }
 
    .header_nav ul {
+ 
        
    }
 
