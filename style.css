@@ -16,16 +16,11 @@ body
 
 #bloc_page
 {
-   width: 95%;
+   width: 100%;
    height: auto;
 }
 
 
-h1
-{
-  display: inline;
-  height: 50px;
-}
 
 #titre_principal
 {
@@ -53,6 +48,8 @@ h1
 h1
 {
 font-size: 25px;
+display: inline;
+height: 50px;
 }
 
 
@@ -73,7 +70,7 @@ nav li
 
 nav li a
 { 
-   color: black;         /* marche pour le menu 1 et s'nscrire */ 
+   color: black;         /* marche pour le menu 1 */ 
 }
 
 #menu1
@@ -126,20 +123,21 @@ nav li a
 
 #search, .icone-left 
 {
-border-top: 2px solid #f2f2f2;
-border-bottom: 2px solid #f2f2f2;
-border-left: 2px solid #f2f2f2;
-border-top-left-radius: 15px;
-border-bottom-left-radius: 15px;
-border-right-color: #f2f2f2;
-padding: 6px 15px;
-background-color: #f2f2f2;
+   border-top: 2px solid #f2f2f2;
+   border-bottom: 2px solid #f2f2f2;
+   border-left: 2px solid #f2f2f2;
+   border-top-left-radius: 15px;
+   border-bottom-left-radius: 15px;
+   border-right-color: #f2f2f2;
+   padding: 6px 15px;
+   background-color: #f2f2f2;
+   padding-left: 30px;
 }
 
 ::placeholder
 {
-color: black;
-font-weight: bold;
+  color: black;
+  font-weight: bold;
 }
 
 .icon-right
@@ -239,7 +237,7 @@ h2
 section
 {
    display: flex;
-   justify-content: space-between;
+   justify-content: space-between;    /*?????*/
    width: 100%;
    margin-right: 5px;
    margin-left: 5px;
@@ -254,10 +252,9 @@ img
    padding-top: 50px;      
    padding-bottom: 50px;
    display: inline-block;
-   margin-right: 100px;
+   margin-right: 100px;             /* rétrécit le bloc blanc*/
    margin-top: 10px;
-   flex-wrap: wrap;
-   justify-content: center;  
+   flex-wrap: wrap;  
    align-items: center;   
    object-fit: cover; 
 }  
@@ -283,18 +280,26 @@ article img
    
 }
 
+
 .container1
 {
 display: inline-block;
+height: 320px;
+width: 200px;
 }
 
 .container1 div
 {
-margin-right: 200px;
+margin-right: 10px;
 margin-left: 10px;
 display: inline-block;
 align-items: center;
 
+}
+
+.container1 i
+{
+   color: #0065FC;
 }
 
 .Auberge
@@ -303,18 +308,31 @@ display: flex;
 padding: 0.375rem;
 background-color: white;
 border: 2px white;
-border-radius: 8px;
+border-radius: 20px;
 box-sizing: border-box;
-box-shadow: 0 0 16px #0000002e
+box-shadow: 0 0 16px #0000002;
+padding-left: 30px;
+
 }
 
+.Auberge img
+{
+   height: 50%;               
+   margin-left: 20px;
+   padding-top: 1px;
+}
+
+.Auberge_info
+{
+   height: 50%;
+}
 
 
 #afficher_plus
 {
     position: relative;
     left: 30px;
-    padding-bottom: 0px;         /* impossible de mettre lien en bas */  /* mettre plusieurs noms de villes? */
+    padding-bottom: 0px;        
 }
 
 
@@ -368,7 +386,8 @@ aside img
    margin-bottom: 10px;
    align-items: center;
    text-align: left;
-   display: inline-block;;
+   display: inline-block;
+   padding-top: 2px;
 }
 
 
@@ -386,8 +405,9 @@ aside img
    border: 2px white;
    border-radius: 8px;
    box-sizing: border-box;
-   box-shadow: 10px 20px 16px #0000002e
+   box-shadow: 10px 20px 16px #0000002e;
 }
+
 
 .hoteldeleau
 {
@@ -411,10 +431,22 @@ aside img
     box-shadow: 10px 20px 16px #0000002e;
 }
 
+.Activity
+{
+
+}
 
 .container3
 {
    display: flex;
+   height: 500px;
+   margin-top: 100px;
+}
+
+
+h5
+{
+   /*?????*/
 }
 
 footer
@@ -422,18 +454,25 @@ footer
    display: flex;
    background-color: #f2f2f2;
    justify-content: space-evenly;
-
+   width: 100%;
 }
 
 footer, li a
 {
   text-decoration: none;
   color: black;
+  
 }
 
 footer, ul
 {
    list-style-type: none;
+   margin-right: 160px;
+}
+
+.container4
+{
+display: flex;
 }
 
 h6
@@ -444,39 +483,24 @@ h6
 
 
 
-@media screen and (max-width: 1100px) and (min-width:740px)
-.body {                                     /*??????*/
-   display: block;
+@media screen and (max-width: 1024px) 
+   #bloc_page {
+       width: auto;
    }
-.main {
-   width: 100%;
-   display: block;
+
+   .header_nav {
+       width: auto;
+       text-align: left;
+       flex-flow: wrap;
+       margin-top: 0px;
+       margin-right: 0px;
+       margin-left: 0px;
    }
-.container1
-{
-   display: block;
-}
 
-.container2
-{
-   overflow: hidden;
-   display: block;
-}
+   .header_nav ul {
+       
+   }
 
-.container3
-{
-   display: block;
-}
-
-.container4 {display: block;}
-
-
-@media screen and (max-width: 1100px) and (min-width:740px)
-{
-   #logo {float: none;}
-   #menu1 {float: none;
-}
-
-
-
-
+   aside {
+       text-align: center;
+   }
