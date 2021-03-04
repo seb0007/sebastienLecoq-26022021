@@ -116,15 +116,21 @@ nav li a
 
 #search
 {
-   border: #f2f2f2 solid 2px;
    padding: 3px 3px;
    color: black;
    display: flex;
    border-color: #b1b1b1;
+   align-items: center;
+  
+}
+
+.searchbar
+{
+   height: 37px;
 }
 
 
-#search, .icone-left 
+.icon-left 
 {
    border-top: 2px solid #f2f2f2;
    border-bottom: 2px solid #f2f2f2;
@@ -135,12 +141,14 @@ nav li a
    padding: 6px 15px;
    background-color: #f2f2f2;
    padding-left: 30px;
+   height: 21px;
 }
 
 ::placeholder
 {
   color: black;
   font-weight: bold;
+ 
 }
 
 .icon-right
@@ -243,18 +251,20 @@ h2
 }
    
 
-section
+
+.main .container1
 {
+  display: flex;      /*dispose les block article*/
+}
+
+#hebergements_populaire
+{
+   
    display: flex;
    justify-content: space-between;    /*?????*/
    width: 100%;
    margin-right: 5px;
    margin-left: 5px;
-}
-
-.main .container1
-{
-  display: flex;      /*dispose les block article*/
 }
 
 img
@@ -273,14 +283,12 @@ img
 
 /*SECTION ARTICLE*/
 
-article
+#hebergements
 {
-   display: flex;
+   display: flex;        
    background-color: #f2f2f2;
-   height: auto;
    padding-left: 10x; 
    margin-right: 15px;   
-   display: inline-block;   
    flex-wrap: wrap;  
    width: 70%;
    border-radius: 7px;
@@ -296,19 +304,17 @@ article img
 
 .container1 
 {
-   display: inline-block;
-   height: 320px;
-   width: 200px;
-   margin-top: 50px;
+width: 30%;
+margin-top: 50px;
+display: flex;
+flex-direction: column;
 }
 
 .container1 div
 {
 margin-right: 10px;
-margin-left: 10px;         
-display: inline-block;                /*block blanc*/
+margin-left: 10px;                         /*block blanc*/
 align-items: center;
-
 }
 
 
@@ -321,12 +327,13 @@ align-items: center;
 .Auberge
 {
 display: flex;
+flex-direction: column;
 padding: 0.375rem;
 background-color: white;
 border: 2px white;
 border-radius: 20px;
 box-sizing: border-box;
-padding-left: 30px;
+padding-left: 10px;
 text-align: center;
 
 }
@@ -338,13 +345,9 @@ text-align: center;
    margin-left: 10px;
    padding-top: 1px;
    margin-right: 1px;
+  
 }
 
-
-.Auberge_info
-{
-   height: 50%;        /*???*/
-}
 
 
 #afficher_plus
@@ -502,7 +505,6 @@ h5
 .container3
 {
    display: flex;
-   height: 500px;
    margin-top: 30px;
    justify-content: space-between;
 }
@@ -523,30 +525,18 @@ h5
 }
 
 
-.container3 
-{
-   margin-right: 300px;
-}
-#contain img
-{
-   position: relative;
-   z-index: 1;
-}
-
-#text
-{
-   position: absolute;
-   z-index: 10;
-   background: transparent;
-   top: 10px;
-}
-
-#paire1 img
+.card img
 {
    height: 30%;
    display: block;
    margin-bottom: 30px;
    padding-bottom: 50px;
+}
+
+.card2
+{
+  
+
 }
 
 footer
