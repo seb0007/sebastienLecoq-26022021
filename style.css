@@ -517,13 +517,13 @@ h5
 {
    display: flex;
    margin-top: 30px;
-   justify-content: space-between;
+   justify-content: space-around;
 }
 
 .container3 img
 {
   
-   border-radius: 8px;      /* sert pour dimension bloc blanc*/
+   border-radius: 8px;     /* sert pour dimension bloc blanc*/
    padding-top: 1px;
    padding-left: 1px;
    padding-right: 1px;
@@ -545,6 +545,7 @@ h5
   
 }
 
+
 .card1 p
 {
    position: absolute;
@@ -554,12 +555,30 @@ h5
 
 }
 
+.card2
+{
+   display: flex;
+   padding: 0.375rem;
+   background-color: white;
+   border: 2px white;                       
+   border-radius: 8px;
+   box-sizing: border-box;
+   box-shadow: 10px 20px 16px #0000002e;
+   margin-bottom: 15px;
+}
+
+.card2 p
+{
+
+}
+
+
 .card3
 {
    display: flex;
    padding: 0.375rem;
    background-color: white;
-   border: 2px white;                              /*?????? mettre card1?*/
+   border: 2px white;                              /
    border-radius: 8px;
    box-sizing: border-box;
    box-shadow: 10px 20px 16px #0000002e;
@@ -568,11 +587,65 @@ h5
 
 .card3 p
 {
+
+}
+
+
+.card4
+{
+   display: flex;
+   padding: 0.375rem;
+   background-color: white;
+   border: 2px white;                             
+   border-radius: 8px;
+   box-sizing: border-box;
+   box-shadow: 10px 20px 16px #0000002e;
+   margin-bottom: 15px;
+}
+
+.card4 p
+{
    position: absolute;
    margin-bottom: 10px;
    top: 1650px;
-   left: 1010px;
+   left: 1000px;
 }
+
+
+.card5
+{
+   display: flex;
+   padding: 0.375rem;
+   background-color: white;
+   border: 2px white;                             
+   border-radius: 8px;
+   box-sizing: border-box;
+   box-shadow: 10px 20px 16px #0000002e;
+   margin-bottom: 15px;
+}
+
+.card5 p
+{
+
+}
+
+.card6
+{
+   display: flex;
+   padding: 0.375rem;
+   background-color: white;
+   border: 2px white;                             
+   border-radius: 8px;
+   box-sizing: border-box;
+   box-shadow: 10px 20px 16px #0000002e;
+   margin-bottom: 15px;
+}
+
+.card6 p
+{
+
+}
+
 
 footer
 {
