@@ -358,7 +358,7 @@ padding-bottom: 50px;
 {
     position: absolute;
     left: 30px;
-    margin-top: 720px;
+    margin-top: 750px;
     padding-bottom: 0px;        
 }
 
@@ -548,8 +548,8 @@ h5
 {
    position: absolute;
    margin-bottom: 10px;
-   top: 1650px;
-   left: 220px;
+   top: 1660px;
+   left: 200px;
 
 }
 
@@ -569,7 +569,10 @@ h5
 
 .card2 p
 {
-
+position: absolute;
+margin-bottom: 10px;
+top: 1500px;
+left: 640px;
 }
 
 
@@ -585,14 +588,17 @@ h5
    margin-bottom: 15px;
    margin-bottom: 200px;
    position: absolute;
-   left: 620px;
+   left: 600px;
    top: 1560px;    
    flex-wrap: wrap;                                                              
 }
 
 .card3 p
 {
-
+   position: absolute;
+   margin-bottom: 10px;
+   top: 110px;
+   left: 50px;
 }
 
 
@@ -613,8 +619,8 @@ h5
 {
    position: absolute;
    margin-bottom: 10px;
-   top: 1650px;
-   left: 1080px;
+   top: 1660px;
+   left: 1060px;
 }
 
 
@@ -634,7 +640,10 @@ h5
 
 .card5 p
 {
-
+position: absolute;
+margin-bottom: 15px;
+right: 160px;
+top: 1490px
 }
 
 .card6
@@ -649,13 +658,16 @@ h5
    margin-bottom: 15px;
    position: absolute;
    top: 1560px;
-   right: 120px;
+   right: 115px;
    padding-bottom: 1px;
 }
 
 .card6 p
 {
-
+   position: absolute;
+   margin-bottom: 15px;
+   right: 65px;
+   top: 110px;
 }
 
 
