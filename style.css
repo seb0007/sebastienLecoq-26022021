@@ -197,6 +197,7 @@ button
    border-color: #b1b1b1;
    margin-right: 30px;
    align-items: center;
+   
 }
 
 #familiale
@@ -605,7 +606,7 @@ left: 640px;
    margin-bottom: 15px;
    position: absolute;
    left: 585px;
-   top: 1550px;  
+   top: 1590px;  
    width: 250px;                                  /*agrandire bloc blanc*/                              
 }
 
@@ -674,7 +675,7 @@ top: 1470px
    box-shadow: 10px 20px 16px #0000002e;
    margin-bottom: 15px;
    position: absolute;
-   top: 1550px;
+   top: 1590px;
    right: 115px;
    padding-bottom: 1px;
 }
