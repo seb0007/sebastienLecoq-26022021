@@ -84,7 +84,8 @@ nav li a
    right: 15px;
    margin-right: 10px;
    border: none;
-   text-align: center;     /*est ce necessessaire?*/
+   text-align: center; 
+   left: 1400px 
 }
 
 #menu1 a:hover
@@ -176,6 +177,7 @@ nav li a
    display: flex;
    position: absolute;
    left: 10px;
+   padding-top: 20px;
 }
 
 button
@@ -248,7 +250,14 @@ h2
    opacity: 0.5;
    padding-top: 15px;
    padding-left: 10px;
+   display: flex;
+   align-items: center;
+   padding-top: 60px;
 }
+
+
+
+/*SECTION*/
    
 
 
@@ -313,8 +322,10 @@ flex-direction: column;
 .container1 div
 {
 margin-right: 10px;
-margin-left: 10px;                         /*block blanc*/
+margin-left: 10px;                         
 align-items: center;
+padding-left: 0px;
+padding-bottom: 10px;        /*block blanc!!!!!*/
 }
 
 
@@ -472,8 +483,7 @@ flex-direction: column;
     border: 2px white;
     border-radius: 8px;
     box-sizing: border-box;
-    box-shadow: 10px 20px 16px #0000002e;
-       /*??????*/
+    box-shadow: 10px 20px 16px #0000002e;/*??????*/
     
 }
 
@@ -482,7 +492,7 @@ flex-direction: column;
 .Hoteldeleau_info
 {
  position: absolute;
-
+ padding-left: 100px;
 }
 
 .hotelbleublanc
@@ -494,6 +504,12 @@ flex-direction: column;
     border-radius: 8px;
     box-sizing: border-box;
     box-shadow: 10px 20px 16px #0000002e;
+}
+
+.hotelbleublanc_info
+{
+position: absolute;
+padding-left: 80px;
 }
 
 
@@ -564,6 +580,7 @@ h5
    box-shadow: 10px 20px 16px #0000002e;
    margin-bottom: 15px;
    margin-bottom: 200px;
+   width: 250px;
 }
 
 
@@ -571,7 +588,7 @@ h5
 {
 position: absolute;
 margin-bottom: 10px;
-top: 1500px;
+top: 1480px;
 left: 640px;
 }
 
@@ -586,11 +603,10 @@ left: 640px;
    box-sizing: border-box;
    box-shadow: 10px 20px 16px #0000002e;
    margin-bottom: 15px;
-   margin-bottom: 200px;
    position: absolute;
-   left: 600px;
-   top: 1560px;    
-   flex-wrap: wrap;                                                              
+   left: 585px;
+   top: 1550px;  
+   width: 250px;                                  /*agrandire bloc blanc*/                              
 }
 
 .card3 p
@@ -598,8 +614,9 @@ left: 640px;
    position: absolute;
    margin-bottom: 10px;
    top: 110px;
-   left: 50px;
+   left: 60px;
 }
+
 
 
 
@@ -643,7 +660,7 @@ left: 640px;
 position: absolute;
 margin-bottom: 15px;
 right: 160px;
-top: 1490px
+top: 1470px
 }
 
 .card6
@@ -657,7 +674,7 @@ top: 1490px
    box-shadow: 10px 20px 16px #0000002e;
    margin-bottom: 15px;
    position: absolute;
-   top: 1560px;
+   top: 1550px;
    right: 115px;
    padding-bottom: 1px;
 }
@@ -690,7 +707,7 @@ footer, li a
 footer, ul
 {
    list-style-type: none;
-   margin-right: 160px;
+   margin-right: 300px;
 }
 
 .container4
