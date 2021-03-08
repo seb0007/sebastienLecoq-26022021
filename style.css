@@ -25,6 +25,7 @@ body
 /*SECTION HEADER*/
 
 
+
 #titre_principal
 {
    direction: flex;
@@ -172,7 +173,7 @@ nav li a
 }
 
 
-#menu2
+.menu2
 {
    display: flex;
    position: absolute;
@@ -188,7 +189,7 @@ button
    padding-left: 8px;
 }
 
-#economie
+.economie
 {
    border: solid 2px blue;
    display: flex;
@@ -200,7 +201,7 @@ button
    
 }
 
-#familiale
+.familiale
 {
    border: solid 2px blue;
    display: flex;
@@ -212,7 +213,7 @@ button
 }
 
 
-#romantique
+.romantique
 {
    border: solid 2px blue;
    display: flex;
@@ -223,7 +224,7 @@ button
    align-items: center;
 }
 
-#animaux
+.animaux
 {
    border: solid 2px blue;
    display: flex;
@@ -245,7 +246,7 @@ h2
 }
 
 
-#p1
+p1
 {
    padding-left: 40px;
    opacity: 0.5;
@@ -269,15 +270,6 @@ h2
 
 }
 
-#hebergements_populaire
-{
-   
-   display: flex;
-   justify-content: space-between;    
-   width: 100%;
-   margin-right: 5px;
-   margin-left: 5px;
-}
 
 img
 
@@ -295,6 +287,12 @@ img
 
 /*SECTION ARTICLE*/
 
+
+h3
+{
+   margin-bottom: 0px;
+}
+
 #hebergements
 {
    display: flex;        
@@ -309,7 +307,6 @@ article img
 {
    border-radius: 1rem 0 0 1rem;
    position: relative;
-   
 }
 
 
@@ -319,6 +316,7 @@ width: 30%;
 margin-top: 50px;
 display: flex;
 flex-direction: column;
+padding-top: 20px;
 }
 
 .container1 div
@@ -376,6 +374,7 @@ padding-bottom: 50px;
 }
 
 
+
 #afficher_plus
 {
     position: absolute;
@@ -387,8 +386,16 @@ padding-bottom: 50px;
 
 
 
-
 /*SECTION ASIDE*/
+
+#hebergements_populaire
+{
+   
+   display: flex;
+   justify-content: space-between; 
+   margin-right: 5px;
+   margin-left: 5px;
+}
 
 aside
 {
@@ -438,7 +445,7 @@ aside img
 
 .container2 div
 {
-   width: 400px;
+   width: 500px;
    margin-left: 5px;
    margin-bottom: 10px;
    align-items: center;
@@ -454,7 +461,8 @@ aside img
 {
    padding-top: 3px;
    padding-bottom: 3px;
-   /*position: relative;*/
+   position: relative;
+   width: 50%;
 }
 
 
@@ -474,7 +482,7 @@ aside img
 .Hôteldumatin_info
 {
    position: absolute;
-   padding-left: 80px;
+   padding-left: 260px;
 
 }
 
@@ -493,12 +501,12 @@ aside img
 }
 
 
-
 .Hoteldeleau_info
 {
  position: absolute;
- padding-left: 80px;
+ padding-left: 260px;
 }
+
 
 .hotelbleublanc
 {
@@ -514,7 +522,7 @@ aside img
 .hotelbleublanc_info
 {
 position: absolute;
-padding-left: 80px;
+padding-left: 250px;
 }
 
 
@@ -534,7 +542,7 @@ h5
 .container3
 {
    display: flex;
-   margin-top: 30px;
+   margin-top: 70px;
    justify-content: space-around;
    flex-wrap: wrap;
 }
@@ -593,7 +601,7 @@ h5
 {
 position: absolute;
 margin-bottom: 10px;
-top: 1500px;
+top: 1480px;
 left: 640px;
 }
 
@@ -611,7 +619,7 @@ left: 640px;
    position: absolute;
    left: 585px;
    top: 1580px;  
-   width: 250px;                                  /*agrandire bloc blanc*/                              
+   width: 250px;                                /*agrandire bloc blanc*/                              
 }
 
 .card3 p
@@ -641,7 +649,7 @@ left: 640px;
 {
    position: absolute;
    margin-bottom: 10px;
-   top: 1670px;
+   top: 1680px;
    left: 1080px;
 }
 
@@ -728,25 +736,14 @@ h6
 
 
 
-@media screen and (max-width: 1024px) 
+@media screen and (max-width: 740px) 
    #bloc_page {
        width: auto;
    }
 
    .header_nav {
-       width: auto;
-       text-align: left;
-       flex-flow: wrap;
-       margin-top: 0px;
-       margin-right: 0px;
-       margin-left: 0px;
-   }
-
-   .header_nav ul {
- 
-       
-   }
-
-   aside {
-       text-align: center;
-   }
+      /* width: auto;
+       display: flex;
+       flex-direction: column;
+       border-top: none;  }*/
+      
