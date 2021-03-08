@@ -99,11 +99,11 @@ nav li a
    transition: 0.5s;
 }
 
+
 .Hébergements:hover
 {
    text-decoration: overline 2px blue;
    list-style: none;
-
 }
 
 .Activités:hover
@@ -187,6 +187,8 @@ button
    height: 30px;
    margin-right: 30px;
    padding-left: 8px;
+   background-color: #DEEBFF;
+   color: #0065FC;
 }
 
 .economie
@@ -527,7 +529,7 @@ padding-left: 245px;
 
 .Activity
 {
-flex-wrap: wrap;
+
 
 }
 
@@ -567,7 +569,6 @@ h5
    box-shadow: 10px 20px 16px #0000002e;
    margin-bottom: 300px;
    flex-direction: column;
-   padding-bottom: 1px;
   
 }
 
@@ -577,8 +578,7 @@ h5
    padding-left: 20px;
    text-align: left;
    margin-bottom: 10px;
-  
-
+   margin-top: 3px;
 }
 
 
@@ -633,8 +633,6 @@ padding-left: 20px;
 }
 
 
-
-
 .card4
 {
    display: flex;
@@ -653,6 +651,7 @@ padding-left: 20px;
    margin-bottom: 10px;
    text-align: center;
    padding-left: 20px;
+   margin-top: 3px;
 }
 
 .bloc2
@@ -721,25 +720,46 @@ footer, li a
   
 }
 
-footer, ul
+
+.conteneur-footer{
+   display: flex;
+   justify-content: space-between;
+   padding-left: 50px;
+ }
+   
+.footer-title{
+   font-weight: 700;
+}
+.footer-text{
+   line-height: 5px;
+
+}
+.conteneur-footer{
+   background-color: #F2F2F2;
+}
+
+.right 
 {
-   list-style-type: none;
+  margin-left: 100px;
+ 
+}
+
+
+.middle
+{
    margin-right: 300px;
 }
 
-.container4
+.left
 {
-display: flex;
+   margin-right: 400px;
 }
 
-h6
+.footer-text a
 {
-   font-size: 15px;
+   text-decoration: none;
+   color: #181818;
 }
- 
-
-
-
 
 @media screen and (max-width: 740px) 
    #bloc_page {
