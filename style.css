@@ -103,7 +103,6 @@ nav li a
 .Hébergements:hover
 {
    text-decoration: overline 2px blue;
-   list-style: none;
 }
 
 .Activités:hover
@@ -178,7 +177,7 @@ nav li a
    display: flex;
    position: absolute;
    left: 10px;
-   padding-top: 20px;
+   padding-top: 40px;
 }
 
 button
@@ -245,7 +244,6 @@ h2
    margin-top: 2px;
    height: 20px;        /* hauteur entre h2 et p */
    font-size: 16px;
-
 }
 
 
@@ -253,11 +251,10 @@ p1
 {
    padding-left: 40px;
    opacity: 0.5;
-   padding-top: 15px;
    padding-left: 10px;
    display: flex;
    align-items: center;
-   padding-top: 60px;
+   padding-top: 100px;
 }
 
 
@@ -289,9 +286,11 @@ img
 
 h3
 {
-   position: absolute;
-   top: 400px;
+   position: relative;
+   top: 80px;
    left: 50px;
+   display: flex;
+   font-size: 18px;
 }
 
 #hebergements
@@ -313,7 +312,7 @@ article img
 .container1 
 {
 width: 30%;
-margin-top: 50px;
+margin-top: 60px;
 padding-top: 20px;
 }
 
@@ -371,9 +370,9 @@ box-sizing: border-box;
 
 #afficher_plus
 {
-    position: absolute;
-    left: 30px;
-    margin-top: 730px;
+    position: relative;
+    margin-left: 60px;
+    
 }
 
 #afficher_plus a
@@ -404,29 +403,25 @@ aside
    margin-left: 15px;
    font-size: 0.9em;
    width: 30%;
-   flex-wrap: wrap;
 }
 
 h4
 {
-   text-align: center;
    font-weight: bold;
+   font-size: 16px;
+   display: flex;
+   margin: 20px;
+   justify-content: space-between;
+   margin-left: 200px;
+   box-sizing: border-box;
  
 }
-
-h4 i
-{
-   position: absolute;
-   right: 40px;
-   font-size: 16px;
-   font-weight: bold;
-}
-
 
 aside img
 {
    display: flex;
-   /*position: relative;*/
+   align-items: stretch;
+   position: relative;
    flex-wrap: wrap;
    border-radius:  1rem 0px 0px 1rem;
 }
@@ -535,7 +530,7 @@ padding-left: 245px;
 
 h5
 {
-   font-size: 16px;/*?????*/
+   font-size: 16px;
 }
 
 .container3
@@ -543,18 +538,19 @@ h5
    display: flex;
    justify-content: space-around;
    flex-wrap: wrap;
+   height: 600px;
 }
 
 .container3 img
 {
   
-   border-radius: 8px;     /* sert pour dimension bloc blanc*/
-   padding-top: 0px;
+   border-radius: 8px; 
+   border-style: none;  
+   flex-direction: column;                                           
+  /*padding-top: 0px;
    padding-left: 1px;
    padding-right: 1px;
-   padding-bottom: 50px;
-   border-style: none;
-   flex-direction: column;
+   padding-bottom: 50px;*/
 }
 
 
@@ -567,7 +563,7 @@ h5
    border-radius: 8px;
    box-sizing: border-box;
    box-shadow: 10px 20px 16px #0000002e;
-   margin-bottom: 300px;
+   margin-bottom: 350px;
    flex-direction: column;
   
 }
@@ -577,15 +573,14 @@ h5
 {
    padding-left: 20px;
    text-align: left;
-   margin-bottom: 10px;
-   margin-top: 3px;
+   margin-bottom: 20px;
+   margin-top: 30px;
 }
 
 
 .bloc1
 {
    display: inline-block;
-  
 }
 
 .card2
@@ -597,9 +592,11 @@ h5
    box-sizing: border-box;
    box-shadow: 10px 20px 16px #0000002e;
    margin-bottom: 15px;
-   margin-bottom: 200px;
-   width: 250px;
+   margin-bottom: 600px;
+   width: 280px;
    flex-direction: column;
+   position: relative;
+   left: 210px;
 }
 
 
@@ -619,9 +616,14 @@ padding-left: 20px;
    border-radius: 8px;
    box-sizing: border-box;
    box-shadow: 10px 20px 16px #0000002e;
-   margin-bottom: 15px; 
-   width: 250px;          
-   flex-direction: column;                      /*agrandire bloc blanc*/                              
+   margin-bottom: 620px; 
+   width: 280px;                                       /*agrandire bloc blanc*/   
+   flex-direction: column; 
+   position: relative;
+   top: 270px;
+   right: 100px;
+
+                                                                                   
 }
 
 .card3 p
@@ -641,8 +643,10 @@ padding-left: 20px;
    border-radius: 8px;
    box-sizing: border-box;
    box-shadow: 10px 20px 16px #0000002e;
-   margin-bottom: 300px;
+   margin-bottom: 350px;
    flex-direction: column;
+   position: relative;
+   left: 100px;
 }
 
 .card4 p
@@ -651,12 +655,12 @@ padding-left: 20px;
    margin-bottom: 10px;
    text-align: center;
    padding-left: 20px;
-   margin-top: 3px;
+   margin-top: 30px;
 }
 
 .bloc2
 {
-   display: inline-block;
+   
 }
 
 
@@ -668,9 +672,12 @@ padding-left: 20px;
    border-radius: 8px;
    box-sizing: border-box;
    box-shadow: 10px 20px 16px #0000002e;
-   margin-bottom: 15px;
-   margin-bottom: 200px;
+   margin-bottom: 590px;
    flex-direction: column;
+   position: relative;
+   left: 300px;
+   width: 280px;
+
   
 }
 
@@ -682,6 +689,7 @@ padding-left: 20px;
 
 }
 
+
 .card6
 {
    display: flex;
@@ -690,9 +698,13 @@ padding-left: 20px;
    border-radius: 8px;
    box-sizing: border-box;
    box-shadow: 10px 20px 16px #0000002e;
-   margin-bottom: 15px;
+   margin-bottom: 620px;
    padding-bottom: 1px;
    flex-direction: column;
+   position: relative;/*ok*/
+   right: 10px;   
+   top: 270px;
+   width: 280px;
 }
 
 .card6 p
@@ -702,6 +714,7 @@ padding-left: 20px;
    padding-left: 20px;
    
 }
+
 
 
 footer
