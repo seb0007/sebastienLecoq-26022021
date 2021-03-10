@@ -57,7 +57,14 @@ h1
 font-size: 25px;
 display: inline;
 height: 50px;
+margin-left: 10px;
 }
+
+p
+{
+   margin-left: 10px;
+}
+
 
 .header_nav
 {
@@ -140,6 +147,7 @@ nav li a
    display: flex;
    border-color: #b1b1b1;
    align-items: center;
+   margin-left: 5px;
   
 }
 
@@ -194,6 +202,7 @@ nav li a
    display: flex;
    align-items: center;
    margin-top: 20px;
+   margin-left: 10px;
 }
 
 .block-filtre{
@@ -395,6 +404,8 @@ aside
    font-size: 0.9em;
    width: 30%;
 }
+
+
 
 h4
 {
@@ -801,8 +812,16 @@ footer, li a
            justify-content: flex-end;
            padding-right: 70px;
        }
-   
+       
+       .conteneur-filtre
+       {
+          flex-direction: column;
+       }
    }   
+
+   
+
+    
 
     
 
