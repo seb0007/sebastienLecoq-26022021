@@ -18,20 +18,22 @@
                 <div id="titre_principal">
                     <div id="logo">
                         <img src="images/Reservia.svg" alt="Réservia" />
-                        <nav>
-                            <div class="menu1">
-                              <ul>
-                                <li class="Hébergements"><a href="#Hébergement">Hébergements</a></li>             
-                                <li class="Activités"><a href="#Activités">Activités</a></li>
-                                <li class="sinscrire"><a href="#S'inscrire" style="color: blue;"><strong>s'inscrire</strong></a></li>           <!--encrage!!!!-->
-                              </ul>
-                            </div>
-                       </nav>
                     </div>
+                        <div class="header">      
+                            <nav class="header_nav">
+                                <p class="subscribe"><a href="#"><strong>S'inscrire</strong></a></p>
+                                
+                                 <ul id="header_list">
+                                    <li class="nav_list"><a href="#" title="Hébergements">Hébergements</a></li>
+                                    <li class="nav_list"><a href="#" title="Activités">Activités</a></li>
+                                </ul>
+                            </nav>  
+                        </div>
+                    
 
                         <h1>Trouver votre hébergement pour des vacances de rêve</h1> 
                         <p>En plein centre ville ou en pleine nature</p>  
-                </div>
+                
 
                   <form>
                       <div id="search">                     
@@ -41,32 +43,45 @@
                       </div>
                   </form>
 
-                <nav>
-                                                  <!--mettre div id menu2 ?-->
-                        
-                            <div class="menu2">
-                               <h2>Filtres</h2>
-                            
-                               <div class="economie">
-                                          <div><button class="economie"><i class="fas fa-money-bill-wave" style="color:blue ;"></i></button></div>
-                                          <li><a href="#"><strong>Economie</strong></a></li>
-                               </div>          
-                               
-                               <div class="familiale"> 
-                                          <div><button class="familiale"><i class="fas fa-child" style="color: blue;"></i></button></div>
-                                          <li><a href="#"><strong>Familiale</strong></a></li>
-                               </div>
-                               <div class="romantique">
-                                          <div><button class="romantique"><i class="fas fa-heart" style="color: blue;"></i></button></div>   
-                                          <li><a href="#"><strong>Romantique</strong></a></li>
-                               </div>   
-                               <div class="animaux">
-                                          <div><button class="animaux"><i class="fas fa-dog" style="color: blue;"></i></button></div>
-                                          <li><a href="#"><strong>Animaux autorisés</strong></a></li>
-                               </div>
+                  <section class="filtre">
+                    <div class="conteneur-filtre">
+                        <div class="block-text-filtre">
+                            <span>Filtre</span>
+                        </div>
+                        <div class="block-filtre">
+                            <div class="conteneur-icon-filtre">
+                                <i class="fas fa-money-bill-wave"></i>
                             </div>
-                        
-                </nav>
+                            <div class="conteneur-text-filtre">
+                                <span>Économique</span>
+                            </div>
+                        </div>
+                        <div class="block-filtre">
+                            <div class="conteneur-icon-filtre">
+                                <i class="fas fa-child"></i>
+                            </div>
+                            <div class="conteneur-text-filtre">
+                                <span>Familial</span>
+                            </div>
+                        </div>
+                        <div class="block-filtre">
+                            <div class="conteneur-icon-filtre">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <div class="conteneur-text-filtre">
+                                <span>Romantique</span>
+                            </div>
+                        </div>    
+                        <div class="block-filtre">
+                            <div class="conteneur-icon-filtre">
+                                <i class="fas fa-dog"></i>
+                            </div>
+                            <div class="conteneur-text-filtre">
+                                <span>Animaux autorisés</span>
+                            </div> 
+                        </div>
+                    </div>
+                </section>
 
                     <p1>
                         
