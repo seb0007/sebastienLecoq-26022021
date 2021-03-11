@@ -390,19 +390,15 @@ article
   margin-top: 15px;
 }
 
-
+#Afficher_plus a
+{
+   color: #181818;
+   text-decoration: none;
+}
 
 
 /*SECTION ASIDE*/
 
-#hebergements_populaire
-{
-   
-   display: flex;
-   justify-content: space-between; 
-   margin-right: 5px;
-   margin-left: 5px;
-}
 
 aside
 { 
