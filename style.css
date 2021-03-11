@@ -520,6 +520,7 @@ aside img
 h5
 {
    font-size: 18px;
+   margin-left: 20px;
 }
 
 .container3
@@ -602,6 +603,11 @@ h5
    height: 22rem;
 }
 
+.block2
+{
+   margin-right: 90px;
+}
+
 .card5
 {
    flex-direction: column;
@@ -649,7 +655,7 @@ h5
     flex-basis: 100%;
 }   
 
-.footer h2
+.footer h1
 {
     padding-left: 15px;
     font-size: larger;
