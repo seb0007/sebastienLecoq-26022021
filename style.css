@@ -237,7 +237,7 @@ h2
 {
    margin-right: 30px;
    margin-top: 2px;
-   height: 20px;        /* hauteur entre h2 et p */
+   height: 20px;       
    font-size: 16px;
 }
 
@@ -258,117 +258,133 @@ p1
    
 
 
-.main .container1
+.main_accommodation
 {
-  display: flex;      /*dispose les block article*/
-  flex-wrap: wrap;
-  flex-direction: column;
-
+    display: flex;
+    margin-right: 5px;
+    margin-left: 5px;
 }
 
-.main img
-
-   {
-   height: 150px;
-   margin-top: 1px; 
-   align-items: center;   
-   object-fit: cover; 
-   
-}  
-
-/*SECTION ARTICLE*/
-
-.heb 
+.marseille_accommodation
 {
-   background-color: #f2f2f2;
-   width: 65%;
-   border-radius: 7px;
+    flex-basis: 100%;
+}
+
+article 
+{
+    width: 66%;
+    background-color: #f2f2f2;
+    justify-content: left;
+    padding-top: 15px;
+    padding-left: 15px;
+    border-radius: 7px;
+    box-shadow: 0px 5px 10px #d9d9d9;
+}
+
+.conteneur1 
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 15px;
+    background-color:#f2f2f2;
+    border-radius: 10px;
+    padding-top: 40px;
+}
+
+.conteneur1 div 
+{
+    background-color: white;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    cursor: pointer;
+    width: 350px;
+    height: auto;
 }
 
 
-h3
+.main_accommodation img
 {
-   top: 80px;
-   display: flex;
+    border-radius: 1rem 1rem 0rem 0rem;
+    width: 99%;
+    height: 9rem;
+    background-color: white;
+    object-fit: cover;;
+    border-color: white;
+    align-items: stretch;
+}
+
+.marseille_accommodation h1
+{
    font-size: 18px;
+   font-weight: bold;
 }
 
-
-#hebergements
+.conteneur1 a:visited 
 {
-   display: flex;        
-   background-color: #f2f2f2;
-   flex-wrap: wrap;  
+   color:black 
 }
 
-.hebergement_populaire
+.aubergecannebiere
 {
-
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 0px 5px 10px #d9d9d9;
+    border-radius: 1rem 1rem 1rem 1rem;
 }
 
-.container1 
+.hotelduport
 {
-width: 30%;
-margin-top: 60px;
-padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 0px 5px 10px #d9d9d9;
+    border-radius: 1rem 1rem 1rem 1rem;
 }
 
-.container1 div
+.hotellesmouettes
 {
-margin-right: 10px;
-margin-left: 10px;                         
-padding-left: 0px;
-padding-bottom: 10px;       /*block blanc!!!!!*/
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 0px 5px 10px #d9d9d9;
+    border-radius: 1rem 1rem 1rem 1rem;
 }
 
-
-.container1 i
+.hoteldelamer
 {
-   color: #0065FC;
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 0px 5px 10px #d9d9d9;
+    border-radius: 1rem 1rem 1rem 1rem;
 }
 
-.Auberge
+
+.aubergelepanier
 {
-display: flex;
-flex-direction: column;
-background-color: white;
-border: 2px white;
-border-radius: 20px;
-box-sizing: border-box;
-padding: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 100px; 
+    padding: 10px 10px 10px 10px;
+    box-shadow: 0px 5px 10px #d9d9d9;
+    border-radius: 1rem 1rem 1rem 1rem;
 }
 
-.Auberge img
+.hotelamina
 {
-   position: relative;
-   height: 50%;
-   width: 60%;             
-   padding-top: 3px;
-   margin-right: 1px;
-   border-radius: 20px;
-   padding-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 0px 5px 10px #d9d9d9;
+    border-radius: 1rem 1rem 1rem 1rem;
 }
 
-.Auberge_info
-{
-   height: 1px;
-   text-align: left;           /*bloc dimension*/
-}
-
-
-
-#afficher_plus
-{
-    position: relative;
-    margin-left: 60px;
-    
-}
-
-#afficher_plus a
-{
-   color: black;
-   text-decoration: none;
-}
 
 
 
@@ -419,13 +435,13 @@ aside img
     background-color: white;
     align-items: stretch;
 }
-.conteneur3
+.conteneur2
 {
     display: inline-block;
     flex-direction: column;
 }
 
-.conteneur3 div 
+.conteneur2 div 
 {
     margin-left: 10px;
     margin-bottom: 15px;
@@ -525,11 +541,11 @@ h5
 
 
 
-.card1
+/*.card1
 {
    display: flex;
    background-color: white;
-   border: 2px white;                              /*?????? mettre card1?*/
+   border: 2px white;                              /*?????? mettre card1?
    border-radius: 8px;
    box-sizing: border-box;
    box-shadow: 10px 20px 16px #0000002e;
@@ -587,7 +603,7 @@ padding-left: 20px;
    box-sizing: border-box;
    box-shadow: 10px 20px 16px #0000002e;
    margin-bottom: 620px; 
-   width: 280px;                                       /*agrandire bloc blanc*/   
+   width: 280px;                                       /*agrandire bloc blanc*  
    flex-direction: column; 
    position: relative;
    top: 270px;
@@ -671,7 +687,7 @@ padding-left: 20px;
    margin-bottom: 620px;
    padding-bottom: 1px;
    flex-direction: column;
-   position: relative;/*ok*/
+   position: relative;
    right: 10px;   
    top: 270px;
    width: 280px;
@@ -682,7 +698,7 @@ padding-left: 20px;
  
    margin-bottom: 15px;
    padding-left: 20px;
-   
+   */
 }
 
 
