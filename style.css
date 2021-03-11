@@ -242,7 +242,7 @@ h2
 }
 
 
-p1
+.paragraphe
 {
    padding-left: 40px;
    opacity: 0.5;
@@ -265,9 +265,10 @@ p1
     margin-left: 5px;
 }
 
-.marseille
+.marseille h1
 {
-    flex-basis: 100%;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 article 
@@ -308,9 +309,9 @@ article
     width: 99%;
     height: 9rem;
     background-color: white;
-    object-fit: cover;;
+    object-fit: cover;
     border-color: white;
-    align-items: stretch;
+    /*align-items: stretch;*/
 }
 
 .marseille_accommodation h1
@@ -321,7 +322,7 @@ article
 
 .conteneur1 a:visited 
 {
-   color:black 
+   color:black    /*??????*/
 }
 
 .aubergecannebiere
@@ -415,7 +416,6 @@ aside
 aside h1
 {
     margin: 5px;
-    padding: 5px;
     display: flex;
     justify-content: space-between;
     font-size: 18px;
@@ -434,7 +434,7 @@ aside img
     width: 150px;
     height: 120px;
     background-color: white;
-    align-items: stretch;
+    /*align-items: stretch;*/
 }
 .conteneur2
 {
@@ -517,200 +517,126 @@ aside img
 
 
 /*SECTION ACTIVITY*/
-
 h5
 {
-   font-size: 16px;
-   margin-left: 10px;
+   font-size: 18px;
 }
 
 .container3
 {
    display: flex;
-   justify-content: space-around;
-   flex-wrap: wrap;
-   height: 500px;
+   justify-content: space-between;
+   align-items: center;
+   object-fit: cover;
+
 }
 
-.container3 img
+.activity_text
 {
-  
-   border-radius: 8px; 
-   border-style: none;  
-   flex-direction: column; 
-   object-fit: cover;                                          
+  /*text-align: start;*/
 }
 
-
-
-/*.card1
+.card1
 {
-   display: flex;
-   background-color: white;
-   border: 2px white;                              /*?????? mettre card1?
-   border-radius: 8px;
-   box-sizing: border-box;
-   box-shadow: 10px 20px 16px #0000002e;
-   margin-bottom: 350px;
+   margin-left: 20px;
    flex-direction: column;
-  
+   border: 2px #b1b1b1;
+   border-radius: 8px;
+   box-shadow: 0 0 16px #0000002e;
+}
+
+.picture_vieuxport
+{
+   width: 100%;
+   height: 200px;
 }
 
 
-.card1 p
+.block1
 {
-   padding-left: 20px;
-   text-align: left;
-   margin-bottom: 20px;
-   margin-top: 30px;
-}
 
-
-.bloc1
-{
-   display: inline-block;
 }
 
 .card2
 {
-   display: flex;
-   background-color: white;
-   border: 2px white;                       
-   border-radius: 8px;
-   box-sizing: border-box;
-   box-shadow: 10px 20px 16px #0000002e;
-   margin-bottom: 15px;
-   margin-bottom: 600px;
-   width: 280px;
    flex-direction: column;
-   position: relative;
-   left: 210px;
+   border: 2px #b1b1b1;
+   border-radius: 8px;
+   box-shadow: 0 0 16px #0000002e;
+   width: 140%;
 }
 
-
-.card2 p
+.picture_fort
 {
-margin-bottom: 10px;
-padding-left: 20px;
-
+   width: 100%;
+   height: 100px;
 }
-
-
 .card3
 {
-   display: flex;
-   background-color: white;
-   border: 2px white;                              
+   flex-direction: column;
+   border: 2px #b1b1b1;
    border-radius: 8px;
-   box-sizing: border-box;
-   box-shadow: 10px 20px 16px #0000002e;
-   margin-bottom: 620px; 
-   width: 280px;                                       /*agrandire bloc blanc*  
-   flex-direction: column; 
-   position: relative;
-   top: 270px;
-   right: 100px;
-
-                                                                                   
+   box-shadow: 0 0 16px #0000002e;
+   width: 140%;
 }
 
-.card3 p
+.picture_ile
 {
-   
-   margin-bottom: 10px;
-   padding-left: 20px;
-   
+   width: 100%;
+   height: 100px;
 }
-
 
 .card4
 {
-   display: flex;
-   background-color: white;
-   border: 2px white;                             
-   border-radius: 8px;
-   box-sizing: border-box;
-   box-shadow: 10px 20px 16px #0000002e;
-   margin-bottom: 350px;
    flex-direction: column;
-   position: relative;
-   left: 100px;
+   border: 2px #b1b1b1;
+   border-radius: 8px;
+   box-shadow: 0 0 16px #0000002e;
 }
 
-.card4 p
+.picture_calanques
 {
-   
-   margin-bottom: 10px;
-   text-align: center;
-   padding-left: 20px;
-   margin-top: 30px;
+   width: 100%;
+   height: 200px;
 }
 
-.bloc2
+.block2
 {
-   
+margin-right: 120px;
 }
-
 
 .card5
 {
-   display: flex;
-   background-color: white;
-   border: 2px white;                             
-   border-radius: 8px;
-   box-sizing: border-box;
-   box-shadow: 10px 20px 16px #0000002e;
-   margin-bottom: 590px;
    flex-direction: column;
-   position: relative;
-   left: 300px;
-   width: 280px;
-
-  
+   border: 2px #b1b1b1;
+   border-radius: 8px;
+   box-shadow: 0 0 16px #0000002e;
+   width: 110%;
 }
-
-.card5 p
+.picture_notredame
 {
-
-margin-bottom: 15px;
-padding-left: 20px;
-
+   width: 100%;
+   height: 100px;
 }
-
-
 .card6
 {
-   display: flex;
-   background-color: white;
-   border: 2px white;                             
-   border-radius: 8px;
-   box-sizing: border-box;
-   box-shadow: 10px 20px 16px #0000002e;
-   margin-bottom: 620px;
-   padding-bottom: 1px;
    flex-direction: column;
-   position: relative;
-   right: 10px;   
-   top: 270px;
-   width: 280px;
+   border: 2px #b1b1b1;
+   border-radius: 8px;
+   box-shadow: 0 0 16px #0000002e;
+   width: 110%;
 }
-
-.card6 p
+.picture_longchamp
 {
- 
-   margin-bottom: 15px;
-   padding-left: 20px;
-   */
+   width: 100%;
+   height: 100px;
 }
 
-
-
-
-
-/* Footer */
- {
-    display: flex;
+.activity_text p
+{
+   
 }
+
 
  .footer
 {
@@ -731,29 +657,29 @@ padding-left: 20px;
 
 .about
 {
-    width: 33.333%;
+    margin-right:200px ;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 .accommodation 
 {
-    width: 33.333%;
+    margin-right: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 .help
 {
-    width: 33.333%;
+  
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 
