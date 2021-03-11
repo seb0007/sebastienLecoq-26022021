@@ -265,7 +265,7 @@ p1
     margin-left: 5px;
 }
 
-.marseille_accommodation
+.marseille
 {
     flex-basis: 100%;
 }
@@ -385,6 +385,11 @@ article
     border-radius: 1rem 1rem 1rem 1rem;
 }
 
+.info
+{
+  margin-top: 15px;
+}
+
 
 
 
@@ -413,12 +418,12 @@ aside
 
 aside h1
 {
-margin: 5px;
-padding: 5px;
-display: flex;
-justify-content: space-between;
-font-size: 18px;
-font-weight: bold;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 aside a
@@ -456,7 +461,8 @@ aside img
     border: 2px white;
     border-radius: 8px;
     box-sizing: border-box;
-    box-shadow: 0 0 16px #0000002e
+    box-shadow: 0 0 16px #0000002e;
+    margin-top: 20px;
 }
 
 .hoteldeleau
@@ -469,7 +475,7 @@ aside img
     border-radius: 8px;
     box-sizing: border-box;
     box-shadow: 0 0 16px #0000002e;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .hotelbleublanc
@@ -482,7 +488,7 @@ aside img
     border-radius: 8px;
     box-sizing: border-box;
     box-shadow: 0 0 16px #0000002e;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .etoiles 
