@@ -73,6 +73,7 @@ p
 .header_nav a
 {
     color:#444;
+    text-decoration: none;
 }
 
 #header_list
@@ -302,6 +303,10 @@ article
     height: auto;
 }
 
+.conteneur1 a
+{
+    text-decoration: none;
+}
 
 .main_accommodation img
 {
@@ -529,7 +534,13 @@ h5
    justify-content: space-between;
    align-items: center;
    object-fit: cover;
+}
 
+.container3 a
+{
+    text-decoration: none;
+    color: #181818;
+    font-weight: bold;
 }
 
 .activity_text
