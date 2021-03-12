@@ -435,9 +435,9 @@ aside
 { 
     width: 25%;
     background-color: #f2f2f2;
+    padding: 20px;
     box-shadow: 0px 5px 10px #d9d9d9;
     border-radius: 1rem 0 0 1rem;
-    padding: 20px;
     margin-left: 25px;
     margin-right: 20px;
   
@@ -459,12 +459,11 @@ aside a
 
 aside img
 {
-    border-radius: 1rem 0 0 1rem;
     position: relative;
     width: 150px;
     height: 120px;
     background-color: white;
-    /*align-items: stretch;*/
+    align-items: stretch;
 }
 .conteneur2
 {
@@ -478,6 +477,11 @@ aside img
     margin-bottom: 15px;
 }
 
+.conteneur2 img
+{
+    border-radius: 1rem 0 0 1rem;
+}
+
 .hoteldumatin
 {
     display: flex;
@@ -489,6 +493,7 @@ aside img
     box-sizing: border-box;
     box-shadow: 0 0 16px #0000002e;
     margin-top: 20px;
+    width: 95%;
 }
 
 .hoteldeleau
@@ -502,6 +507,7 @@ aside img
     box-sizing: border-box;
     box-shadow: 0 0 16px #0000002e;
     margin-top: 40px;
+    width: 100%;
 }
 
 .hotelbleublanc
