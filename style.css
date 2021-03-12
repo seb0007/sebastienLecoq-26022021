@@ -594,7 +594,7 @@ h3
 {
    width: 100%;
    height: 22rem;
-   border-radius: 8px;
+   border-radius: 0.5rem 0.5rem 0 0;
 }
 
 .block1
@@ -615,7 +615,7 @@ padding-bottom: 10px;
 {
    width: 100%;
    height: 9rem;
-   border-radius: 8px;
+   border-radius: 0.5rem 0.5rem 0 0;
 }
 .card3
 {
@@ -632,7 +632,7 @@ padding-bottom: 10px;
 {
    width: 100%;
    height: 8rem;
-   border-radius: 8px;
+   border-radius: 0.5rem 0.5rem 0 0;
 }
 
 .card4
@@ -649,7 +649,7 @@ padding-bottom: 10px;
 {
    width: 100%;
    height: 22rem;
-   border-radius: 8px;
+   border-radius: 0.5rem 0.5rem 0 0;
 }
 
 .block2
@@ -671,7 +671,7 @@ padding-bottom: 10px;
 {
    width: 100%;
    height: 9rem;
-   border-radius: 8px;
+   border-radius: 0.5rem 0.5rem 0 0;
 }
 .card6
 {
@@ -687,7 +687,7 @@ padding-bottom: 10px;
 {
    width: 100%;
    height: 8rem;
-   border-radius: 8px;
+   border-radius: 0.5rem 0.5rem 0 0;
 }
 
 .activity_text p
