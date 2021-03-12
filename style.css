@@ -480,6 +480,7 @@ aside img
 .conteneur2 img
 {
     border-radius: 1rem 0 0 1rem;
+    
 }
 
 .hoteldumatin
@@ -506,8 +507,7 @@ aside img
     border-radius: 8px;
     box-sizing: border-box;
     box-shadow: 0 0 16px #0000002e;
-    margin-top: 40px;
-    width: 100%;
+    margin-top: 60px;
 }
 
 .hotelbleublanc
@@ -520,7 +520,7 @@ aside img
     border-radius: 8px;
     box-sizing: border-box;
     box-shadow: 0 0 16px #0000002e;
-    margin-top: 40px;
+    margin-top: 60px;
 }
 
 .etoiles 
