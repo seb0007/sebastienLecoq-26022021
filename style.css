@@ -81,6 +81,7 @@ p
     margin-right: 10px;
     padding-left: 10px;
     position: relative;
+    flex-direction: row-reverse;
 }
 
 .header_nav a
@@ -94,7 +95,7 @@ p
     display: flex;
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-right: 10px;
+    margin-right: 30px;
 }
 
 .nav_list, .subscribe 
@@ -110,7 +111,9 @@ p
 .subscribe 
 {
     margin-top: 35px;
-    margin-right: 10px;
+    margin-left: 5px;
+    padding-right: 120px;
+
 }
 
 .subscribe a {
@@ -748,14 +751,16 @@ footer a:hover
        width: auto;
    }   
    
-       .header_nav {
+       .header_nav
+       {
            width: 100%;
            display: flex;
            flex-direction: column;
            border-top: none;
        }
    
-       .nav_list {
+       .nav_list 
+       {
            width: 50%;
            display: flex;
            justify-content: center;
@@ -777,11 +782,28 @@ footer a:hover
            display: flex;
            justify-content: flex-end;
            padding-right: 70px;
+        
        }
        
        .conteneur-filtre
        {
           flex-direction: column;
+       }
+
+       .aside 
+       {
+           flex-direction: column;
+       }
+
+       .activity
+       {
+           flex-direction: column;
+           display: flex
+       }
+
+       .footer
+       {
+           flex-direction: column;
        }
 
       
