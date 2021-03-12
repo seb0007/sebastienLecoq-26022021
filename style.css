@@ -10,6 +10,7 @@ body
 
 {
    font-family: "raleway thin";
+   font-weight: normal;
    color: #181818;
    box-sizing: border-box;
    margin: auto;
@@ -21,6 +22,18 @@ body
    width: 100%;
    height: auto;
 }
+
+nav a, h1, p
+{
+    font-family: 'raleway', Arial, Helvetica, sans-serif;
+}
+
+h2, aside h1, h3
+{
+    font-family: 'raleway', Arial, Helvetica, sans-serif;
+}
+
+
 
 
 /*SECTION HEADER*/
@@ -228,11 +241,14 @@ nav li a
    font-weight: bold;
 }
 
+
 .conteneur-text-filtre
 {
    margin-left: 5px;
    font-weight: bold;
 }
+
+
 
 h2
 {
@@ -522,7 +538,7 @@ aside img
 
 
 /*SECTION ACTIVITY*/
-h5
+h3
 {
    font-size: 18px;
    margin-left: 20px;
