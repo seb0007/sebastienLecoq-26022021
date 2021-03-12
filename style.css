@@ -588,11 +588,12 @@ h3
 {
    width: 100%;
    height: 22rem;
+   border-radius: 8px;
 }
 
 .block1
 {
-
+padding-bottom: 10px;
 }
 .card2
 {
@@ -600,7 +601,7 @@ h3
    border: 2px #b1b1b1;
    border-radius: 8px;
    box-shadow: 0 0 16px #0000002e;
-   width: 15rem;
+   width: 17rem;
    height: 12rem;
 }
 
@@ -608,6 +609,7 @@ h3
 {
    width: 100%;
    height: 9rem;
+   border-radius: 8px;
 }
 .card3
 {
@@ -615,15 +617,16 @@ h3
    border: 2px #b1b1b1;
    border-radius: 8px;
    box-shadow: 0 0 16px #0000002e;
-   height: 12rem;
-   width: 15rem;
+   height: 11rem;
+   width: 17rem;
    margin-top: 50px;
 }
 
 .img_ile
 {
    width: 100%;
-   height: 9rem;
+   height: 8rem;
+   border-radius: 8px;
 }
 
 .card4
@@ -640,11 +643,13 @@ h3
 {
    width: 100%;
    height: 22rem;
+   border-radius: 8px;
 }
 
 .block2
 {
    margin-right: 90px;
+   padding-bottom: 10px;
 }
 
 .card5
@@ -654,12 +659,13 @@ h3
    border-radius: 8px;
    box-shadow: 0 0 16px #0000002e;
    height: 12rem;
-   width: 15rem;
+   width: 17rem;
 }
 .img_notredame
 {
    width: 100%;
    height: 9rem;
+   border-radius: 8px;
 }
 .card6
 {
@@ -667,14 +673,15 @@ h3
    border: 2px #b1b1b1;
    border-radius: 8px;
    box-shadow: 0 0 16px #0000002e;
-   height: 12rem;
-   width: 15rem;
+   height: 11rem;
+   width: 17rem;
    margin-top: 50px;
 }
 .img_longchamp
 {
    width: 100%;
-   height: 9rem;
+   height: 8rem;
+   border-radius: 8px;
 }
 
 .activity_text p
