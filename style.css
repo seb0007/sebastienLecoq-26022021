@@ -28,7 +28,7 @@ nav a, h1, p
     font-family: 'raleway', Arial, Helvetica, sans-serif;
 }
 
-h2, aside h1, h3
+h2, aside h1, h3, footer h1,
 {
     font-family: 'raleway', Arial, Helvetica, sans-serif;
 }
@@ -215,6 +215,7 @@ nav li a
    align-items: center;
    margin-top: 20px;
    margin-left: 10px;
+   cursor: pointer;
 }
 
 .block-filtre{
@@ -249,6 +250,11 @@ nav li a
 {
    margin-left: 5px;
    font-weight: bold;
+}
+
+.block-filtre:hover
+{
+    color: blue;
 }
 
 
