@@ -122,7 +122,7 @@ p
 }
 
 
-    /* Nav au survol */ 
+    /* survol */ 
 
 .nav_list:hover
 {
@@ -288,7 +288,7 @@ h2
 {
     display: flex;
     margin-right: 5px;
-    margin-left: 5px;
+    margin-left: 10px;
 }
 
 .marseille h1
@@ -713,7 +713,7 @@ padding-bottom: 10px;
     font-size: larger;
 }
 
-.about
+.left
 {
     width: 33.333%;
     display: flex;
@@ -722,7 +722,7 @@ padding-bottom: 10px;
     margin-top: 40px;
 }
 
-.accommodation 
+.middle
 {
     width: 33.333%;
     display: flex;
@@ -731,7 +731,7 @@ padding-bottom: 10px;
     margin-top: 40px;
 }
 
-.help
+.right
 {
     width: 33.333%;
     display: flex;
