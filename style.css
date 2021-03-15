@@ -11,7 +11,7 @@ body
 {
    font-family: "raleway thin";
    font-weight: normal;
-   color: #181818;
+   /*color: #181818;*/
    box-sizing: border-box;
    margin: auto;
 }
