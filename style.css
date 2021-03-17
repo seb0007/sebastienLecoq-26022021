@@ -180,7 +180,7 @@ nav li a
    padding: 6px 15px;
    background-color: #f2f2f2;
    padding-left: 30px;
-   height: 21px;
+   height: 22px;
 }
 
 ::placeholder
@@ -207,6 +207,10 @@ nav li a
    text-decoration: none;
    color: white;
    font-weight: 600;
+}
+
+.rechercher_loupe {
+    display: none;
 }
 
 
@@ -837,12 +841,29 @@ footer a:hover
         width: 100%;
         border-radius: 15px 15px 15px 15px;
         margin-left: 15px;
-        
        }
 
-      
+       .icon-right
+       {
+          display: none;
+       }
+
+       .rechercher_loupe
+       {
+        display: flex;
+        width: 40px;
+        background-color: #0065FC;
+        color: white;
+        font-weight: bold;
+        border: none;
+        border-radius: 0 1rem 1rem 0;
+        height: 37px;
+        align-items: center;
+       }
+        
        
-       .conteneur-filtre
+
+      .conteneur-filtre
        {
           flex-direction: column;
           display: inline;
@@ -875,7 +896,7 @@ footer a:hover
            margin-right: 0;
            margin-left: 0;
            flex-wrap: wrap;
-           flex-direction: ;
+           flex-direction: column-reverse;
 
        }
 
@@ -899,7 +920,6 @@ footer a:hover
        
         article
        {
-        order: 2;
         flex: 1;
         margin-right: 0%;
         width: 100%;
@@ -915,7 +935,6 @@ footer a:hover
 
        aside
        {
-        order: 1;
         flex: 1;
         width: 100%;
         border-radius: 0px;
@@ -940,6 +959,7 @@ footer a:hover
           height: 300px;
           width: 500px;
           border-radius: 10px;
+          margin: 0px;
        }
 
        .img_vieuxport
@@ -954,6 +974,7 @@ footer a:hover
           margin-top: 50px;
           margin-left: 20px;
           border-radius: 10px;
+          
        }
 
        .img_fort
@@ -969,6 +990,7 @@ footer a:hover
         margin-top: 50px;
         margin-left: 20px;
         border-radius: 10px;
+        
        }
 
        .img_ile
@@ -1050,7 +1072,7 @@ footer a:hover
 
    
 
-   @media only screen and (max-width: 1024px) {
+   @media screen and (max-width: 1024px) {
        
     #bloc_page 
     {
