@@ -257,6 +257,13 @@ nav li a
    font-weight: bold;
 }
 
+.conteneur-text-filtre1
+{
+    font-size: 16px;
+   font-weight: bold;
+}
+ 
+
 .block-filtre:hover
 {
     color: blue;
@@ -336,6 +343,7 @@ article
 .conteneur1 a
 {
     text-decoration: none;
+    color: black;
 }
 
 .main_accommodation img
