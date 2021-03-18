@@ -18,12 +18,6 @@ body
 }
 
 
-#bloc_page
-{
-   width: 100%;
-   height: auto;
-}
-
 nav a, h1, p
 {
     font-family: 'raleway', Arial, Helvetica, sans-serif;
@@ -713,6 +707,8 @@ padding-bottom: 10px;
     border: 2px #f2f2f2;
     border-radius: 5px;
     height: 220px;
+    justify-content: space-around;
+    padding-top: 40px;
 }   
 
 .footer h1
@@ -723,29 +719,27 @@ padding-bottom: 10px;
 
 .left
 {
-    width: 33.333%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 40px;
+   
 }
 
 .middle
 {
-    width: 33.333%;
+   
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 40px;
+ 
 }
 
 .right
 {
-    width: 33.333%;
+   
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 40px;
 }
 
 
@@ -753,8 +747,8 @@ padding-bottom: 10px;
  footer ul
  {
      padding: 2rem 1rem;
-     margin-right: 160px;
      list-style-type: none;
+    
 } 
 
 
