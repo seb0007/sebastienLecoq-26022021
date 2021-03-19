@@ -779,7 +779,7 @@ footer a:hover
 
 
 
-@media screen and (max-width: 1300px) {
+@media all and (max-width: 1400px) {
     
       
 
@@ -800,6 +800,37 @@ footer a:hover
        {
           margin-left: 15px;
        }
+
+       #main_accommodation {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+       article {
+        width: 100%;
+    }
+
+    aside {
+        width: 95%;
+        flex-direction: row;
+        margin-left: 15px;
+        margin-bottom: 40px;
+    }  
+
+    .hoteldumatin {
+        width: 33%;
+    }
+
+    .hoteldeleau {
+        width: 33%;
+    }
+
+    .hotelbleublanc {
+        width: 33%;
+    }
+
+    
+
         }
 
         /*mobile*/
@@ -902,6 +933,8 @@ footer a:hover
               
        }
 
+       /*main_accomodation*/
+
        .main_accommodation
        {
            flex-direction: column;
@@ -950,23 +983,8 @@ footer a:hover
         width: 350px;
        }
 
-       .conteneur2
-       {
-        width: 65%;
-    
-       }
+       /*aside*/
 
-       .conteneur2 div
-       {
-           width: 80%;
-       }
-       
-       .conteneur2 img {
-        width: 100%;
-        height: 200px;   
-    }
-
-    
        aside
        {
         width: 100%;
@@ -978,10 +996,29 @@ footer a:hover
         padding-left: 10px;
        }
 
+       .conteneur2
+       {
+        width: 65%;
+    
+       }
+
+       .conteneur2 div
+       {
+        width: 80%;
+       }
+       
+       .conteneur2 img {
+        width: 100%;
+        height: 200px;   
+    }
+
        .conteneur2 img 
        {
            width: 500px;
        }
+
+
+/*activités*/
 
        .container3
        {
@@ -1202,49 +1239,54 @@ footer a:hover
     margin: 0px;
    }
 
+/*aside*/
+
+aside 
+{
+ width: 92%;
+ margin-left: 10px;
+ flex-direction: row;
+}  
+
+aside h1
+{
+ margin-right: 20px;
+}
+
    .conteneur2
    {
-       flex-wrap: wrap;
-       flex-direction: row;
+    flex-wrap: wrap;
+    flex-direction: row;
 
    }
 
    .conteneur2 div
    {
-       width: 140%;
-   }
+    width: 140%;
+   } 
 
-   aside 
-   {
-    width: 95%;
-    margin-left: 10px;
-    flex-direction: row;
-   }  
+   /*article*/
 
-   aside h1
+   article 
    {
-       margin-right: 80px;
+    width: 800px;
+    margin-top: 15px;
+    margin-top: 20px;
    }
 
    .conteneur1
    {
      display: flex;
      width: 100%;
-     background-color: white;
    }
 
    .conteneur1 div
    {
-   
+    
    }
 
-   article 
-   {
-    width: 800px;
-    margin-top: 15px;
-    background-color: white;
-    box-shadow: none;
-   }
+
+   /*activités*/
 
   .container3
   {
