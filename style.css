@@ -575,6 +575,11 @@ h3
    object-fit: cover;
 }
 
+.container3 img
+{
+    object-fit: cover;
+}
+
 .container3 a
 {
     text-decoration: none;
@@ -582,20 +587,19 @@ h3
     font-weight: bold;
 }
 
-.activity_text
+.picture1
 {
-  /*text-align: start;*/
-}
-
-.card1
-{
+   width: 20%;
    margin-left: 20px;
    flex-direction: column;
    border: 2px #b1b1b1;
    border-radius: 8px;
    box-shadow: 0 0 16px #0000002e;
-   width: 18rem;
-   height: 26rem;
+}
+
+.card1
+{
+ margin :0;
 }
 
 .img_vieuxport
@@ -608,15 +612,22 @@ h3
 .block1
 {
 padding-bottom: 10px;
+width: 25%;
+padding-top: 40px;
 }
-.card2
+
+.picture2
 {
    flex-direction: column;
    border: 2px #b1b1b1;
    border-radius: 8px;
    box-shadow: 0 0 16px #0000002e;
-   width: 17rem;
-   height: 12rem;
+   width: 100%;
+}
+.card2
+{
+    position: relative;
+    bottom: 15px;
 }
 
 .img_fort
@@ -625,15 +636,19 @@ padding-bottom: 10px;
    height: 9rem;
    border-radius: 0.5rem 0.5rem 0 0;
 }
+
+.picture3
+{
+    flex-direction: column;
+    border: 2px #b1b1b1;
+    border-radius: 8px;
+    box-shadow: 0 0 16px #0000002e;
+    width: 100%;
+    margin-top: 50px;
+}
 .card3
 {
-   flex-direction: column;
-   border: 2px #b1b1b1;
-   border-radius: 8px;
-   box-shadow: 0 0 16px #0000002e;
-   height: 11rem;
-   width: 17rem;
-   margin-top: 50px;
+   
 }
 
 .img_ile
@@ -643,14 +658,19 @@ padding-bottom: 10px;
    border-radius: 0.5rem 0.5rem 0 0;
 }
 
+.picture4
+{
+    flex-direction: column;
+    border: 2px #b1b1b1;
+    border-radius: 8px;
+    box-shadow: 0 0 16px #0000002e;
+    width: 20%;
+    height: 26rem;
+}
+
 .card4
 {
-   flex-direction: column;
-   border: 2px #b1b1b1;
-   border-radius: 8px;
-   box-shadow: 0 0 16px #0000002e;
-   width: 18rem;
-   height: 26rem;
+  
 }
 
 .img_calanques
@@ -664,32 +684,44 @@ padding-bottom: 10px;
 {
    margin-right: 90px;
    padding-bottom: 10px;
+   width: 25%;
+   padding-top: 40px;
 }
 
-.card5
+.picture5
 {
    flex-direction: column;
    border: 2px #b1b1b1;
    border-radius: 8px;
    box-shadow: 0 0 16px #0000002e;
-   height: 12rem;
-   width: 17rem;
+   width: 100%;
 }
+
+.card5
+{
+   position: relative;
+   bottom: 15px;
+}
+
 .img_notredame
 {
    width: 100%;
    height: 9rem;
    border-radius: 0.5rem 0.5rem 0 0;
 }
+
+.picture6
+{
+    flex-direction: column;
+    border: 2px #b1b1b1;
+    border-radius: 8px;
+    box-shadow: 0 0 16px #0000002e;
+    width: 100%;
+    margin-top: 50px;
+}
 .card6
 {
-   flex-direction: column;
-   border: 2px #b1b1b1;
-   border-radius: 8px;
-   box-shadow: 0 0 16px #0000002e;
-   height: 11rem;
-   width: 17rem;
-   margin-top: 50px;
+    
 }
 .img_longchamp
 {
@@ -717,38 +749,11 @@ padding-bottom: 10px;
     font-size: 16px;
 }
 
-.left
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-   
-}
-
-.middle
-{
-   
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
- 
-}
-
-.right
-{
-   
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-
 
  footer ul
  {
      padding: 2rem 1rem;
      list-style-type: none;
-    
 } 
 
 
@@ -775,15 +780,7 @@ footer a:hover
 
 @media screen and (max-width: 1300px) {
     
-        #blocpage {
-          width: auto;
-          margin: auto;
-        }   
-
-        header
-        {
-           width: 100%;
-        }
+      
 
         #logo img
         {
@@ -791,7 +788,22 @@ footer a:hover
            padding-top: 30px;
         }
    
-       .header_nav
+       h1 
+       {
+          margin-left: 15px;
+       }
+        }
+
+       @media all and (max-width: 740px)
+       {
+
+        #logo img
+        {
+           height: 4rem;
+           padding-top: 30px;
+        }
+
+        .header_nav
        {
            width: 100%;
            display: flex;
@@ -829,15 +841,6 @@ footer a:hover
         border-top: none;
         border-bottom: none;
     }
-    
-
-       h1 
-       {
-          margin-left: 15px;
-       }
-
-       @media  screen and (max-width: 740px)
-       {
            
        #search
        {
@@ -889,9 +892,6 @@ footer a:hover
               
        }
 
-
-
-
        .main_accommodation
        {
            flex-direction: column;
@@ -900,7 +900,6 @@ footer a:hover
            margin-left: 0;
            flex-wrap: wrap;
            flex-direction: column-reverse;
-
        }
 
        .conteneur1
@@ -913,6 +912,8 @@ footer a:hover
         background-color: none; /*??????*/
         margin-top: 20px;
         flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
        }
 
        .conteneur1 div
@@ -957,7 +958,7 @@ footer a:hover
           flex-wrap: wrap;
        }
 
-       .card1
+       .picture1
        {
           height: 300px;
           width: 500px;
@@ -970,7 +971,7 @@ footer a:hover
            height: 200px;
        }
 
-       .card2
+       .picture2
        {
           height: 300px;
           width: 500px;
@@ -985,7 +986,7 @@ footer a:hover
           height: 200px;
        }
 
-       .card3
+       .picture3
        {
           
         height: 300px;
@@ -1001,7 +1002,7 @@ footer a:hover
         height: 200px;
        }
 
-       .card4
+       .picture4
        {
         height: 300px;
         width: 500px;
@@ -1015,7 +1016,7 @@ footer a:hover
         height: 200px;
        }
 
-       .card5
+       .picture5
        {
         height: 300px;
         width: 500px;
@@ -1029,7 +1030,7 @@ footer a:hover
         height: 200px;
        }
 
-       .card6
+       .picture6
        {
         height: 300px;
         width: 500px;
@@ -1073,11 +1074,14 @@ footer a:hover
       
    }   
 
+
+   /*tablette*/
+
    
 
    @media screen and (max-width: 1024px) {
        
-    #bloc_page 
+    body
     {
     width: 100%;
     height: auto;
@@ -1107,7 +1111,7 @@ footer a:hover
     {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content:space-around;
     border-bottom: solid 3px lightgrey;
     padding-bottom: 20px;
     position: relative;
@@ -1121,12 +1125,11 @@ footer a:hover
     padding-bottom: 30px;
     }    
 
-    
     .subscribe 
     {
     display: flex;
     justify-content: flex-end;
-    padding-right: 240px;
+    padding-right: 100px;
     flex-wrap: wrap;
     }
 
@@ -1147,6 +1150,12 @@ footer a:hover
     display: flex;
     flex-direction: column-reverse;
     flex-wrap: wrap;
+    margin: 0px;
+   }
+
+   .conteneur2
+   {
+       flex-wrap: wrap;
    }
 
    aside 
@@ -1160,17 +1169,16 @@ footer a:hover
        width: 45rem;
    }
 
+   .conteneur1
+   {
+       
+   }
+
    article 
    {
     width: 800px;
     margin-top: 15px;
    }
-
-   .conteneur2
-   {
-       flex-wrap: wrap;
-   }
-
 
   .container3
   {
@@ -1180,32 +1188,42 @@ footer a:hover
     
   }
 
-  .card1
+  .block1
+  {
+      margin-right: 210px;
+  }
+
+  .block2
+  {
+      margin-right: 250px;
+  }
+
+  .picture1
   {
     margin-left: 15px;
-    width: 350px;
+    width: 300px;
   }
 
-  .card2
+  .picture2
   {
    margin-left: 50px;
    width: 300px;
   }
 
-  .card3
+  .picture3
   {
    width: 300px;
    margin-left: 50px;
   }
 
-  .card4
+  .picture4
   {
    margin-left: 15px;
    margin-top: 40px;
-   width: 350px;
+   width: 300px;
   }
 
-  .card5
+  .picture5
   {
    position: relative;
    left: 90px;
@@ -1213,16 +1231,12 @@ footer a:hover
    width: 300px;
   }
 
-  .card6
+  .picture6
   {
     position: relative;
     left: 90px;
     width: 300px;
-  }
-
-  .img_longchamp
-  {
-      
+    margin-right: 50px;
   }
 
    .footer
@@ -1237,6 +1251,10 @@ footer a:hover
     margin-right: 0;
 }
 
+   .left
+   {
+       margin-top: 22px;
+   }
 
    .middle
    {
