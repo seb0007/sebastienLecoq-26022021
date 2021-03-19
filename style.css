@@ -322,6 +322,7 @@ article
     background-color:#f2f2f2;
     border-radius: 10px;
     padding-top: 40px;
+   
 }
 
 .conteneur1 div 
@@ -467,10 +468,8 @@ aside a
 aside img
 {
     position: relative;
-    width: 150px;
     height: 120px;
     background-color: white;
-    align-items: stretch;
 }
 .conteneur2
 {
@@ -482,6 +481,7 @@ aside img
 {
     margin-left: 10px;
     margin-bottom: 15px;
+    width: 90%;
 }
 
 .conteneur2 img
@@ -573,6 +573,7 @@ h3
    justify-content: space-between;
    align-items: center;
    object-fit: cover;
+   flex-wrap: wrap;
 }
 
 .container3 img
@@ -787,12 +788,21 @@ footer a:hover
            height: 4rem;
            padding-top: 30px;
         }
+
+        .conteneur_filtre {
+            flex-wrap: wrap;
+            flex-direction: row;
+            align-items: left;
+            justify-content: space-around;
+        }
    
        h1 
        {
           margin-left: 15px;
        }
         }
+
+        /*mobile*/
 
        @media all and (max-width: 740px)
        {
@@ -833,7 +843,7 @@ footer a:hover
        .subscribe {
            display: flex;
            justify-content: flex-end;
-           padding-right: 240px;
+           margin-right: 150px;
            flex-wrap: wrap;
        }
 
@@ -871,20 +881,20 @@ footer a:hover
 
       .conteneur-filtre
        {
-          flex-direction: column;
-          display: inline;
-          margin-left: 15px;
-          flex-wrap: wrap;
-          align-items: left;
+        justify-content: space-between;
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 5px;
+        width: 70%;
+        margin-top: 40px;
        }
-
-       
 
        .block-text-filtre
        {
-           padding-left: 5px;
-           margin-left: 15px;
+        position: absolute;
+        top: 410px;
        }
+
 
        .block-filtre
        {
@@ -902,6 +912,24 @@ footer a:hover
            flex-direction: column-reverse;
        }
 
+       .marseille 
+       {
+          text-align: left;
+       }
+
+
+       article
+       {
+        flex: 1;
+        margin-right: 0%;
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        margin-left: 10px;
+        background-color: white;
+        box-shadow: none;
+       }
+
        .conteneur1
        {
         width: 100%;
@@ -909,7 +937,7 @@ footer a:hover
         padding-top: 5px;
         border-radius: 15px;
         justify-content: space-evenly;  /*???*/
-        background-color: none; /*??????*/
+        background-color: white; 
         margin-top: 20px;
         flex-wrap: wrap;
         display: flex;
@@ -919,17 +947,18 @@ footer a:hover
        .conteneur1 div
        {
         background-color: none;/*?????*/
+        width: 350px;
        }
 
-       
-        article
+       .conteneur2
        {
-        flex: 1;
-        margin-right: 0%;
-        width: 100%;
-        height: 900px;
-        flex-wrap: wrap;
-       
+        width: 65%;
+    
+       }
+
+       .conteneur2 div
+       {
+           width: 80%;
        }
        
        .conteneur2 img {
@@ -937,25 +966,30 @@ footer a:hover
         height: 200px;   
     }
 
+    
        aside
        {
-        flex: 1;
         width: 100%;
         border-radius: 0px;
-        height: 800px;
+        height: 850px;
         margin-bottom: 15px;
         margin-left: 0px;
         flex-wrap: wrap;
         padding-left: 10px;
        }
 
+       .conteneur2 img 
+       {
+           width: 500px;
+       }
+
        .container3
        {
           flex-direction: column;
+          justify-content: center;
           height: auto;
-          display: block;
           object-fit: cover;
-          flex-wrap: wrap;
+         /* flex-wrap: wrap;*/
        }
 
        .block1
@@ -965,7 +999,8 @@ footer a:hover
 
        .block2
        {
-           width: 80%;
+           width: 100%;
+    
        }
 
 
@@ -976,11 +1011,13 @@ footer a:hover
           border-radius: 10px;
           margin: 0px;
           margin-right: 230px;
+          width: 100%;
        }
 
        .img_vieuxport
        {
            height: 200px;
+
        }
 
        .picture2
@@ -990,7 +1027,6 @@ footer a:hover
           margin-top: 50px;
           margin-left: 20px;
           border-radius: 10px;
-          
        }
 
        .img_fort
@@ -1006,7 +1042,6 @@ footer a:hover
         margin-top: 50px;
         margin-left: 20px;
         border-radius: 10px;
-        
        }
 
        .img_ile
@@ -1052,7 +1087,8 @@ footer a:hover
         border-radius: 10px;
        }
 
-       .img_longchamp
+      
+      .img_longchamp
        {
         height: 200px;
        }
@@ -1169,12 +1205,20 @@ footer a:hover
    .conteneur2
    {
        flex-wrap: wrap;
+       flex-direction: row;
+
+   }
+
+   .conteneur2 div
+   {
+       width: 140%;
    }
 
    aside 
    {
-    width: 800px;
-    margin: 0px;
+    width: 95%;
+    margin-left: 10px;
+    flex-direction: row;
    }  
 
    aside h1
@@ -1182,20 +1226,24 @@ footer a:hover
        margin-right: 80px;
    }
 
-   .hoteldumatin, .hotelduport, .hotellesmouettes
-   {
-       width: 45rem;
-   }
-
    .conteneur1
    {
-       
+     display: flex;
+     width: 100%;
+     background-color: white;
+   }
+
+   .conteneur1 div
+   {
+   
    }
 
    article 
    {
     width: 800px;
     margin-top: 15px;
+    background-color: white;
+    box-shadow: none;
    }
 
   .container3
@@ -1287,9 +1335,3 @@ footer a:hover
    
 
     }
-
-    
-
-
-
-   
