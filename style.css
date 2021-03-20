@@ -1231,7 +1231,7 @@ footer a:hover
     {
     display: flex;
     justify-content: flex-end;
-    padding-right: 100px;
+    padding-left: 600px;
     flex-wrap: wrap;
     }
 
