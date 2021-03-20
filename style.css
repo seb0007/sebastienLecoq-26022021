@@ -265,12 +265,12 @@ nav li a
 
 
 
-h2
+h1
 {
-   margin-right: 30px;
+  
    margin-top: 2px;
    height: 20px;       
-   font-size: 16px;
+   font-size: 20px;
 }
 
 
@@ -305,7 +305,7 @@ h2
 
 article 
 {
-    width: 66%;
+    width: 60%;
     background-color: #f2f2f2;
     justify-content: left;
     padding-top: 15px;
@@ -319,9 +319,9 @@ article
     display: flex;
     flex-wrap: wrap;
     padding-top: 15px;
-    background-color:#f2f2f2;
     border-radius: 10px;
     padding-top: 40px;
+    margin-left: 30px;
    
 }
 
@@ -331,7 +331,7 @@ article
     margin-bottom: 15px;
     margin-right: 15px;
     cursor: pointer;
-    width: 350px;
+    width: 300px;
     height: auto;
 }
 
@@ -344,7 +344,7 @@ article
 .main_accommodation img
 {
     border-radius: 1rem 1rem 0rem 0rem;
-    width: 99%;
+    width: 100%;
     height: 9rem;
     background-color: white;
     object-fit: cover;
@@ -441,7 +441,7 @@ article
 
 aside
 { 
-    width: 25%;
+    width: 30%;
     background-color: #f2f2f2;
     padding: 20px;
     box-shadow: 0px 5px 10px #d9d9d9;
@@ -574,6 +574,7 @@ h3
    align-items: center;
    object-fit: cover;
    flex-wrap: wrap;
+   padding-right: 20px;
 }
 
 .container3 img
@@ -623,7 +624,7 @@ padding-top: 40px;
    border: 2px #b1b1b1;
    border-radius: 8px;
    box-shadow: 0 0 16px #0000002e;
-   width: 100%;
+   width: 95%;
 }
 .card2
 {
@@ -644,13 +645,10 @@ padding-top: 40px;
     border: 2px #b1b1b1;
     border-radius: 8px;
     box-shadow: 0 0 16px #0000002e;
-    width: 100%;
+    width: 95%;
     margin-top: 50px;
 }
-.card3
-{
-   
-}
+
 
 .img_ile
 {
@@ -669,10 +667,6 @@ padding-top: 40px;
     height: 26rem;
 }
 
-.card4
-{
-  
-}
 
 .img_calanques
 {
@@ -695,7 +689,7 @@ padding-top: 40px;
    border: 2px #b1b1b1;
    border-radius: 8px;
    box-shadow: 0 0 16px #0000002e;
-   width: 100%;
+   width: 95%;
 }
 
 .card5
@@ -717,13 +711,10 @@ padding-top: 40px;
     border: 2px #b1b1b1;
     border-radius: 8px;
     box-shadow: 0 0 16px #0000002e;
-    width: 100%;
+    width: 95%;
     margin-top: 50px;
 }
-.card6
-{
-    
-}
+
 .img_longchamp
 {
    width: 100%;
@@ -1031,12 +1022,12 @@ footer a:hover
 
        .block1
        {
-          width: 100%;
+          /*width: 100%;*/
        }
 
        .block2
        {
-           width: 100%;
+          /* width: 100%;*/
     
        }
 
@@ -1272,6 +1263,7 @@ aside h1
     width: 800px;
     margin-top: 15px;
     margin-top: 20px;
+    margin-left: 10px;
    }
 
    .conteneur1
