@@ -544,19 +544,20 @@ aside img
 {
     align-items: center;
     color: #181818;
+    padding-top: 15px;
 }
 
 .hoteldeleau_info
 {
    align-items: center;
    color: #181818;
-
 }
 
 .hotelbleublanc
 {
    align-items: center;
    color: #181818;
+ 
 }
 
 
@@ -869,10 +870,16 @@ footer a:hover
            flex-wrap: wrap;
        }
 
-       .subscribe:hover {
+       .subscribe:hover 
+       {
         border-top: none;
         border-bottom: none;
-    }
+       }
+
+       h1
+       {
+      display: flex;
+       }
            
        #search
        {
@@ -914,7 +921,7 @@ footer a:hover
        .block-text-filtre
        {
         position: absolute;
-        top: 410px;
+        top: 400px;
        }
 
 
@@ -922,6 +929,11 @@ footer a:hover
        {
           margin-left: 15px;
               
+       }
+
+       p
+       {
+           margin-top: 50px;
        }
 
        /*main_accomodation*/
@@ -944,7 +956,6 @@ footer a:hover
 
        article
        {
-        flex: 1;
         margin-right: 0%;
         width: 100%;
         height: auto;
@@ -966,6 +977,7 @@ footer a:hover
         flex-wrap: wrap;
         display: flex;
         flex-direction: column;
+        margin: 0;
        }
 
        .conteneur1 div
@@ -990,7 +1002,6 @@ footer a:hover
        .conteneur2
        {
         width: 65%;
-    
        }
 
        .conteneur2 div
@@ -998,14 +1009,26 @@ footer a:hover
         width: 80%;
        }
        
-       .conteneur2 img {
+       .conteneur2 img 
+       {
         width: 100%;
         height: 200px;   
-    }
+       }
 
        .conteneur2 img 
        {
            width: 500px;
+       }
+
+       .hoteldumatin_info
+       {
+           align-items: center;
+           padding-top: 40px;
+       }
+
+       .hoteldeleau_info
+       {
+        padding-top: 40px;
        }
 
 
@@ -1015,6 +1038,7 @@ footer a:hover
        {
           flex-direction: column;
           justify-content: center;
+          display: flex;
           height: auto;
           object-fit: cover;
          /* flex-wrap: wrap;*/
@@ -1022,12 +1046,12 @@ footer a:hover
 
        .block1
        {
-          /*width: 100%;*/
+          width: 100%;*/
        }
 
        .block2
        {
-          /* width: 100%;*/
+          width: 100%;*/
     
        }
 
@@ -1055,6 +1079,7 @@ footer a:hover
           margin-top: 50px;
           margin-left: 20px;
           border-radius: 10px;
+         
        }
 
        .img_fort
@@ -1256,6 +1281,11 @@ aside h1
     width: 140%;
    } 
 
+   .hoteldeleau_info
+   {
+       padding-top: 15px;
+   }
+
    /*article*/
 
    article 
@@ -1274,7 +1304,7 @@ aside h1
 
    .conteneur1 div
    {
-    
+   
    }
 
 
