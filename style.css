@@ -1244,7 +1244,9 @@ footer a:hover
    .conteneur_filter 
    {
     flex-wrap: wrap;
-    display: flex;
+        flex-direction: row;
+        align-items: left;
+        justify-content: space-around;
    }
 
    .main_accommodation 
