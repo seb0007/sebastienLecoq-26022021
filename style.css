@@ -1272,7 +1272,7 @@ footer a:hover
         .party2
         {
             flex-direction: column;
-            margin-right: 500px;
+            margin-right: 420px;
 
         }
 
@@ -1334,6 +1334,7 @@ footer a:hover
         width: 500px;
         margin-top: 50px;
         border-radius: 10px;
+
 
        }
 
@@ -1398,6 +1399,13 @@ footer a:hover
 
       
    }   
+
+   @media screen and (max-widht: 526px)
+   {
+
+
+    
+   }
 
   
 
