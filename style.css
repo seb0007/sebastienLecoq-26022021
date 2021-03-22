@@ -1008,11 +1008,17 @@ footer a:hover
 
     .picture1
     {
-        width: 45%;
+        width: 43%;
     }
+
     .picture4
     {
        width: 43%;
+    }
+
+    .picture5
+    {
+        width: 170%;
     }
 
     
