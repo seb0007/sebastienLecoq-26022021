@@ -911,7 +911,7 @@ footer a:hover
  
     .main_accommodation 
     {
-     /*display: flex;*/
+    
      flex-direction: column-reverse;
     }
 
@@ -985,7 +985,12 @@ footer a:hover
      
      display: flex;
     }
-
+    
+    .Activity h3
+    {
+        margin-left: 40px;
+    }
+    
     .party1
     {
         margin: 20px;
@@ -1024,7 +1029,13 @@ footer a:hover
     
     }
    
- 
+    @media screen and (max-width: 888px) 
+    {
+        article
+        {
+            width: 100%;
+        }
+    }
 
     /*mobile*/
 
