@@ -922,14 +922,34 @@ footer a:hover
       /* justify-content: space-evenly;*/
     }
 
+    .aubergecannebiere
+    {
+        margin-left: 20px;
+    }
+
     .hotelduport
   {
-      margin-left: 50px;
+      margin-left: 100px;
+  }
+
+  .hotellesmouettes
+  {
+      margin-left: 20px;
   }
 
   .hoteldelamer
   {
-      margin-left: 50px;
+      margin-left: 100px;
+  }
+
+  .aubergelepanier
+  {
+      margin-left: 20px;
+  }
+
+  .hotelamina
+  {
+      margin-left: 100px;
   }
  
     .info a
