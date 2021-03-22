@@ -899,16 +899,16 @@ footer a:hover
  
     .conteneur_filter 
     {
-         flex-wrap: wrap;
-         flex-direction: row;
-         align-items: left;
-         justify-content: space-around;
+     flex-wrap: wrap;
+     flex-direction: row;
+     align-items: left;
+     justify-content: space-around;
     }
  
     .main_accommodation 
     {
-      display: flex;
-     flex-direction: column-reverse;
+    display: flex;
+    flex-direction: column-reverse;
     }
 
     article
@@ -1009,7 +1009,17 @@ footer a:hover
 
     .picture1
     {
-        width: 43%;
+        width: 45%;
+    }
+
+    .picture2
+    {
+        width: 180%;
+    }
+
+    .picture3
+    {
+        width: 180%;
     }
 
     .picture4
