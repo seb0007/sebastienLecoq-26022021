@@ -11,10 +11,10 @@ body
 {
    font-family: "raleway thin";
    font-weight: normal;
-   color: #181818;                     /*??????????????????*/
+   color: #181818;                    
    box-sizing: border-box;
-   margin: auto;
-   height: auto;
+   /*margin: auto;
+   height: auto;*/
 }
 
 
@@ -596,7 +596,7 @@ h3
 {
     display: flex;
     align-items: center;
-    margin-right: 150px;
+    padding-right: 130px;
 }
 
 
@@ -844,9 +844,9 @@ footer a:hover
     {
      body
      {
-     width: 100%;
+    /* width: 100%;
      height: auto;
-     margin: auto;
+     margin: auto;*/
      }   
  
      header
@@ -1043,7 +1043,7 @@ footer a:hover
       
        article 
        {
-        width: 100%;
+        width: 110%;
        }
 
       .hotelduport
@@ -1076,7 +1076,7 @@ footer a:hover
 
     aside 
     {
-    width: 93%;
+    width: 110%;
     padding: 10px;
     }
 
@@ -1088,6 +1088,11 @@ footer a:hover
     .hoteldumatin, .hoteldeleau, .hotelbleublanc {
       width: 95%;
   }
+
+    .section_two
+    {
+        /*width: 100%;*/
+    }
 
     .container3 {
         display: flex;
@@ -1103,6 +1108,20 @@ footer a:hover
     .picture3
     {
         width: 170%;
+    }
+
+    .picture4
+    {
+        width: 300px;
+    }
+    .picture5
+    {
+        width: 310px;
+    }
+
+    .picture6
+    {
+        width: 310px;
     }
 
 
