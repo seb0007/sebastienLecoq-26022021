@@ -919,7 +919,18 @@ footer a:hover
     {
        width: 100%;
        margin: 0;
+      /* justify-content: space-evenly;*/
     }
+
+    .hotelduport
+  {
+      margin-left: 50px;
+  }
+
+  .hoteldelamer
+  {
+      margin-left: 50px;
+  }
  
     .info a
     {
@@ -927,8 +938,7 @@ footer a:hover
      color: black;
    }
 
-   .conteneur1
-   {justify-content: space-evenly;}
+
  
     .conteneur2
     {
@@ -1127,6 +1137,11 @@ footer a:hover
         width: 350px;
        }
 
+       .hotelbleublanc
+       {
+          
+       }
+
        /*aside*/
 
        aside
@@ -1143,6 +1158,7 @@ footer a:hover
        .conteneur2
        {
         width: 65%;
+
        }
 
        .conteneur2 div
