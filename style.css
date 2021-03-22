@@ -608,7 +608,7 @@ h3
 {
    width: 50%;
    height: 26rem;
-   margin-left: 20px;
+   margin-left: 5px;
    flex-direction: column;
    border: 2px #b1b1b1;
    border-radius: 8px;
@@ -682,6 +682,7 @@ margin-left: 35px;
     box-shadow: 0 0 16px #0000002e;
     width: 45%;
     height: 26rem;
+    margin-left: 5px;
    
 }
 
@@ -708,7 +709,7 @@ margin-left: 35px;
    border: 2px #b1b1b1;
    border-radius: 8px;
    box-shadow: 0 0 16px #0000002e;
-   width: 180%;
+   width: 172%;
   
 }
 
@@ -731,7 +732,7 @@ margin-left: 35px;
     border: 2px #b1b1b1;
     border-radius: 8px;
     box-shadow: 0 0 16px #0000002e;
-    width: 180%;
+    width: 172%;
     margin-top: 50px;
 }
 
@@ -953,7 +954,7 @@ footer a:hover
 
     .picture4
     {
-       
+       width: 43%;
     }
 
     
