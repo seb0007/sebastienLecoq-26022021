@@ -911,14 +911,13 @@ footer a:hover
  
     .main_accommodation 
     {
-     display: flex;
+     /*display: flex;*/
      flex-direction: column-reverse;
     }
 
     article
     {
         width: 92%;
-        flex-direction: row;
         margin-left: 20px;
     }
 
@@ -1158,7 +1157,6 @@ footer a:hover
         align-items: left;
         padding-top: 5px;
         border-radius: 15px;
-        justify-content: space-evenly;  /*???*/
         background-color: white; 
         margin-top: 20px;
         flex-wrap: wrap;
@@ -1173,10 +1171,37 @@ footer a:hover
         width: 350px;
        }
 
-       .hotelbleublanc
-       {
-          
-       }
+       .aubergecannebiere
+    {
+        margin-left: 0;
+    
+    }
+
+       .hotelduport
+    {
+       margin-left: 0;
+    }
+
+      .hotellesmouettes
+    {
+        margin-left: 0px;
+    }
+  
+      .hoteldelamer
+    {
+        margin-left: 0px;
+    }
+  
+      .aubergelepanier
+    {
+        margin-left: 0px;
+    }
+  
+      .hotelamina
+    {
+        margin-left: 0px;
+    }
+
 
        /*aside*/
 
