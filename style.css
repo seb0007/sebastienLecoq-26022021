@@ -1215,7 +1215,6 @@ footer a:hover
     .header_nav 
     {
     display: flex;
-    flex-direction: column;
     border-top: none;
     }
 
@@ -1232,8 +1231,7 @@ footer a:hover
     justify-content:space-around;
     border-bottom: solid 3px lightgrey;
     padding-bottom: 20px;
-    position: relative;
-    right: 150px;
+   
     }
 
     .nav_list:hover 
