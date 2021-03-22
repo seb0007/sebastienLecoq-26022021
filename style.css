@@ -1272,12 +1272,23 @@ footer a:hover
    .conteneur1
    {
        justify-content: space-evenly;
-      
    }
+
+   .conteneur1 a
+{
+    text-decoration: none;
+    color: black;
+}
 
    .conteneur2
    {
-       
+
+   }
+
+   .container3
+   {
+    
+    flex-direction: column;
    }
 
    }
