@@ -1122,7 +1122,7 @@ footer a:hover
 
     .picture4
     {
-        width: 300px;
+        width: 320px;
     }
     .picture5
     {
@@ -1134,6 +1134,10 @@ footer a:hover
         width: 310px;
     }
 
+    footer
+    {
+      
+    }
 
 
     }
