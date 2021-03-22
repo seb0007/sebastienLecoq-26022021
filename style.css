@@ -367,7 +367,6 @@ article
 {
     display: flex;
     flex-direction: column;
-    width: 100px;
     padding: 10px 10px 10px 10px;
     box-shadow: 0px 5px 10px #d9d9d9;
     border-radius: 1rem 1rem 1rem 1rem;
@@ -377,7 +376,6 @@ article
 {
     display: flex;
     flex-direction: column;
-    width: 100px;
     padding: 10px 10px 10px 10px;
     box-shadow: 0px 5px 10px #d9d9d9;
     border-radius: 1rem 1rem 1rem 1rem;
@@ -387,7 +385,6 @@ article
 {
     display: flex;
     flex-direction: column;
-    width: 100px;
     padding: 10px 10px 10px 10px;
     box-shadow: 0px 5px 10px #d9d9d9;
     border-radius: 1rem 1rem 1rem 1rem;
@@ -397,7 +394,6 @@ article
 {
     display: flex;
     flex-direction: column;
-    width: 100px;
     padding: 10px 10px 10px 10px;
     box-shadow: 0px 5px 10px #d9d9d9;
     border-radius: 1rem 1rem 1rem 1rem;
@@ -408,7 +404,6 @@ article
 {
     display: flex;
     flex-direction: column;
-    width: 100px; 
     padding: 10px 10px 10px 10px;
     box-shadow: 0px 5px 10px #d9d9d9;
     border-radius: 1rem 1rem 1rem 1rem;
@@ -418,7 +413,6 @@ article
 {
     display: flex;
     flex-direction: column;
-    width: 100px;
     padding: 10px 10px 10px 10px;
     box-shadow: 0px 5px 10px #d9d9d9;
     border-radius: 1rem 1rem 1rem 1rem;
@@ -1047,8 +1041,24 @@ footer a:hover
       
        article 
        {
-        width: 93%;
+        width: 100%;
        }
+
+   .hotelduport
+   {
+       margin-left: 10px;
+   }
+
+   .hoteldelamer
+   {
+       margin-left: 10px;
+   }
+
+   .hotelamina
+   {
+       margin-left: 10px;
+   }
+
 
 
       aside 
@@ -1059,6 +1069,13 @@ footer a:hover
 
       .hoteldumatin, .hoteldeleau, .hotelbleublanc {
         width: 95%;
+    }
+
+    .conteneur1
+    {
+        display: flex;
+        flex-direction: row;
+
     }
 
     .conteneur2
@@ -1127,7 +1144,7 @@ footer a:hover
        .subscribe {
            display: flex;
            justify-content: flex-end;
-           margin-right: 150px;
+           margin-right: 170px;
            flex-wrap: wrap;
        }
 
@@ -1196,6 +1213,13 @@ footer a:hover
        {
            margin-top: 50px;
        }
+
+       .paragraphe
+       {
+           align-items: center;
+           display: flex;
+       }
+
 
        /*main_accomodation*/
 
@@ -1282,24 +1306,13 @@ footer a:hover
 
        aside
        {
-        width: 100%;
+        width: 93%;
         border-radius: 0px;
         height: 850px;
         margin-bottom: 15px;
         margin-left: 0px;
         flex-wrap: wrap;
         padding-left: 10px;
-       }
-
-       .conteneur2
-       {
-        width: 65%;
-
-       }
-
-       .conteneur2 div
-       {
-        width: 80%;
        }
        
        .conteneur2 img 
@@ -1311,6 +1324,16 @@ footer a:hover
        .conteneur2 img 
        {
            width: 500px;
+       }
+
+       .hoteldeleau
+       {
+           margin-top: 50px;
+       }
+
+       .hotelbleublanc
+       {
+           margin-top: 50px;
        }
 
        .hoteldumatin_info
@@ -1333,21 +1356,21 @@ footer a:hover
           display: flex;
           height: auto;
           object-fit: cover;
-          align-items: center;
+          align-items: left;
           width: 100%;
-         /* flex-wrap: wrap;*/
+          flex-wrap: wrap;
        }
 
        .party1
         {
             flex-direction: column;
-            margin-right: 600px;
+            margin-right: 500px;
         }
 
         .party2
         {
             flex-direction: column;
-            margin-right: 420px;
+            margin-right: 0px;
 
         }
 
@@ -1359,15 +1382,17 @@ footer a:hover
        .block2
        {
           width: 100%;
+          margin-right: 250px;
     
        }
         
        .picture1
        {
           height: 300px;
-          width: 500px;
+          width: 350px;
           border-radius: 10px;
           margin-top: 20px;
+         
        }
 
        .img_vieuxport
@@ -1379,7 +1404,7 @@ footer a:hover
        .picture2
        {
           height: 300px;
-          width: 500px;
+          width: 350px;
           margin-top: 50px;
           border-radius: 10px;
        }
@@ -1393,7 +1418,7 @@ footer a:hover
        {
           
         height: 300px;
-        width: 500px;
+        width: 350px;
         margin-top: 50px;
         border-radius: 10px;
        }
@@ -1406,7 +1431,7 @@ footer a:hover
        .picture4
        {
         height: 300px;
-        width: 500px;
+        width: 350px;
         margin-top: 50px;
         border-radius: 10px;
 
@@ -1421,7 +1446,7 @@ footer a:hover
        .picture5
        {
         height: 300px;
-        width: 500px;
+        width: 350px;
         margin-top: 50px;
         border-radius: 10px;
        }
@@ -1434,7 +1459,7 @@ footer a:hover
        .picture6
        {
         height: 300px;
-        width: 500px;
+        width: 350px;
         margin-top: 50px;
         border-radius: 10px;
        }
