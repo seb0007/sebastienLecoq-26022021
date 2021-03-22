@@ -1269,6 +1269,11 @@ footer a:hover
     flex-direction: column-reverse;
    }
 
+   .conteneur1
+   {
+       justify-content: space-evenly;
+   }
+
    }
 
 
