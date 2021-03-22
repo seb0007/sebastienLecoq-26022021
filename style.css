@@ -844,7 +844,7 @@ footer a:hover
 
     }        /*mobile*/
 
-       @media all and (max-width: 767px)
+       @media all and (max-width: 540px)
        {
 
         #logo img
@@ -1274,7 +1274,7 @@ footer a:hover
        justify-content: space-evenly;
    }
 
-   .info
+   .info a
 {
     text-decoration: none;
     color: black;
