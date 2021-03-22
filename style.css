@@ -1044,44 +1044,48 @@ footer a:hover
         width: 100%;
        }
 
-   .hotelduport
-   {
-       margin-left: 10px;
-   }
-
-   .hoteldelamer
-   {
-       margin-left: 10px;
-   }
-
-   .hotelamina
-   {
-       margin-left: 10px;
-   }
-
-
-
-      aside 
+      .hotelduport
       {
-      width: 93%;
-      padding: 10px;
+       margin-left: 10px;
       }
 
-      .hoteldumatin, .hoteldeleau, .hotelbleublanc {
-        width: 95%;
-    }
+      .hoteldelamer
+      {
+       margin-left: 10px;
+      }
+
+      .hotelamina
+      {
+       margin-left: 10px;
+      }
+
 
     .conteneur1
     {
         display: flex;
         flex-direction: row;
-
     }
 
     .conteneur2
     {
         flex-direction: column;
+        margin-left: 50px;
     }
+
+    aside 
+    {
+    width: 93%;
+    padding: 10px;
+    }
+
+    aside h1
+    {
+        margin-left: 60px;
+    }
+
+    .hoteldumatin, .hoteldeleau, .hotelbleublanc {
+      width: 95%;
+  }
 
     .container3 {
         display: flex;
