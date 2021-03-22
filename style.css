@@ -914,17 +914,22 @@ footer a:hover
      display: flex;
      flex-direction: column-reverse;
     }
+
+    .marseille h1
+    {
+      margin-left: 40px;
+    }
  
     .conteneur1
     {
        width: 100%;
        margin: 0;
-      /* justify-content: space-evenly;*/
     }
 
     .aubergecannebiere
     {
-        margin-left: 20px;
+        margin-left: 30px;
+    
     }
 
     .hotelduport
@@ -934,7 +939,7 @@ footer a:hover
 
   .hotellesmouettes
   {
-      margin-left: 20px;
+      margin-left: 30px;
   }
 
   .hoteldelamer
@@ -944,7 +949,7 @@ footer a:hover
 
   .aubergelepanier
   {
-      margin-left: 20px;
+      margin-left: 30px;
   }
 
   .hotelamina
