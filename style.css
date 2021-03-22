@@ -973,7 +973,7 @@ footer a:hover
 
    @media screen and (max-width: 768px) {
        
-    body
+    /*body
     {
     width: 100%;
     height: auto;
@@ -1044,7 +1044,7 @@ footer a:hover
     flex-direction: column-reverse;
    }
 
-/*aside*/
+/*aside
 
     aside 
   {
@@ -1076,7 +1076,7 @@ aside h1
        padding-top: 15px;
    }
 
-   /*article*/
+   article
 
    article 
    {
@@ -1090,7 +1090,6 @@ aside h1
      /*display: flex;*/
      width: 100%;
      margin: 0;
-     justify-content: space-evenly;
    }
 
    .conteneur1 div
@@ -1099,7 +1098,7 @@ aside h1
    }
 
 
-   /*activités*/
+   /*activités
 
   .container3
   {
@@ -1196,7 +1195,7 @@ aside h1
    {
        margin-top: 20px;
    }
-
+*/
    
 
     }
