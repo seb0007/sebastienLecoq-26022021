@@ -1203,7 +1203,7 @@ footer a:hover
 
    
 
-   @media screen and (max-width: 768px) {
+   @media screen and (max-width: 1024px) {
        
     body
     {
@@ -1264,7 +1264,7 @@ footer a:hover
 
    .conteneur_filter 
    {
-    flex-wrap: wrap;
+        flex-wrap: wrap;
         flex-direction: row;
         align-items: left;
         justify-content: space-around;
@@ -1274,18 +1274,17 @@ footer a:hover
    {
     display: flex;
     flex-direction: column-reverse;
-    flex-wrap: wrap;
-    margin: 0px;
    }
 
 /*aside*/
 
-aside 
-{
- width: 92%;
- margin-left: 10px;
- flex-direction: row;
-}  
+    aside 
+  {
+   width: 92%;
+   padding: 10px;
+  }  
+
+
 
 aside h1
 {
@@ -1294,14 +1293,13 @@ aside h1
 
    .conteneur2
    {
-    flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
 
    }
 
    .conteneur2 div
    {
-    width: 140%;
+   /* width: 140%;*/
    } 
 
    .hoteldeleau_info
@@ -1313,10 +1311,9 @@ aside h1
 
    article 
    {
-    width: 800px;
+    width: 100%;
     margin-top: 15px;
-    margin-top: 20px;
-    margin-left: 10px;
+    display: flex;
    }
 
    .conteneur1
