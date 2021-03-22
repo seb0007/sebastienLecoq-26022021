@@ -922,14 +922,17 @@ footer a:hover
     }
  
     .info a
- {
+    {
      text-decoration: none;
      color: black;
- }
+   }
+
+   .conteneur1
+   {justify-content: space-evenly;}
  
     .conteneur2
     {
- width: 100%;
+      width: 100%;
     }
  
     .container3
@@ -1059,6 +1062,7 @@ aside h1
    .conteneur2
    {
     flex-direction: column;
+    width: 100%;
 
    }
 
