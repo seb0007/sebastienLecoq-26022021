@@ -843,7 +843,338 @@ footer a:hover
         width: 33%;
     }
 
-    }        /*mobile*/
+    }    
+    
+    @media screen and (max-width: 1024px) 
+    {
+     body
+     {
+     width: 100%;
+     height: auto;
+     margin: auto;
+     }   
+ 
+     header
+     {
+     width: 100%;
+     }  
+ 
+     .header_nav 
+     {
+     display: flex;
+     border-top: none;
+     }
+ 
+     #logo img
+     {
+     height: 4rem;
+     padding-top: 30px;
+     }
+ 
+     .nav_list 
+     {
+     width: 100%;
+     display: flex;
+     justify-content:space-around;
+     border-bottom: solid 3px lightgrey;
+     padding-bottom: 20px;
+    
+     }
+ 
+     .nav_list:hover 
+     {
+     border-top: none;
+     border-bottom: solid 3px #0065fc;
+     padding-bottom: 30px;
+     }    
+ 
+     .subscribe 
+     {
+     display: flex;
+     justify-content: flex-end;
+     padding-right: 50px;
+     flex-wrap: wrap;
+     }
+ 
+     .subscribe:hover 
+     {
+     border-top: none;
+     border-bottom: none;
+    }
+ 
+    .conteneur_filter 
+    {
+         flex-wrap: wrap;
+         flex-direction: row;
+         align-items: left;
+         justify-content: space-around;
+    }
+ 
+    .main_accommodation 
+    {
+     display: flex;
+     flex-direction: column-reverse;
+    }
+ 
+    .conteneur1
+    {
+        justify-content: space-evenly;
+    }
+ 
+    .info a
+ {
+     text-decoration: none;
+     color: black;
+ }
+ 
+    .conteneur2
+    {
+ 
+    }
+ 
+    .container3
+    {
+     
+     flex-direction: column;
+    }
+ 
+    }
+
+    /*tablette*/
+
+   
+
+   @media screen and (max-width: 768px) {
+       
+    body
+    {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    }   
+
+    header
+    {
+    width: 100%;
+    }  
+
+    .header_nav 
+    {
+    display: flex;
+    flex-direction: column;
+    border-top: none;
+    }
+
+    #logo img
+    {
+    height: 4rem;
+    padding-top: 30px;
+    }
+
+    .nav_list 
+    {
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    border-bottom: solid 3px lightgrey;
+    padding-bottom: 20px;
+    position: relative;
+    right: 150px;
+    }
+
+    .nav_list:hover 
+    {
+    border-top: none;
+    border-bottom: solid 3px #0065fc;
+    padding-bottom: 30px;
+    }    
+
+    .subscribe 
+    {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    flex-wrap: wrap;
+    }
+
+    .subscribe:hover 
+    {
+    border-top: none;
+    border-bottom: none;
+   }
+
+   .conteneur_filter 
+   {
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: left;
+        justify-content: space-around;
+   }
+
+   .main_accommodation 
+   {
+    display: flex;
+    flex-direction: column-reverse;
+   }
+
+/*aside*/
+
+    aside 
+  {
+   width: 92%;
+   padding: 10px;
+  }  
+
+
+
+aside h1
+{
+ margin-right: 20px;
+}
+
+   .conteneur2
+   {
+    flex-direction: column;
+
+   }
+
+   .conteneur2 div
+   {
+   /* width: 140%;*/
+   } 
+
+   .hoteldeleau_info
+   {
+       padding-top: 15px;
+   }
+
+   /*article*/
+
+   article 
+   {
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+   }
+
+   .conteneur1
+   {
+     display: flex;
+     width: 100%;
+     justify-content: space-evenly;
+   }
+
+   .conteneur1 div
+   {
+   
+   }
+
+
+   /*activités*/
+
+  .container3
+  {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+
+  .party1
+  {
+     
+  }
+
+  .party2
+  {
+    
+  }
+
+  .block1
+  {
+      
+  }
+
+  .block2
+  {
+      margin-left: 0px;
+  }
+
+  .picture1
+  {
+    margin-left: 15px;
+    width: 300px;
+  }
+
+  .picture2
+  {
+   margin-left: 50px;
+   width: 300px;
+  }
+
+  .picture3
+  {
+   width: 300px;
+   margin-left: 50px;
+  }
+
+  .picture4
+  {
+   margin-left: 15px;
+   margin-top: 40px;
+   width: 300px;
+  }
+
+  .picture5
+  {
+   position: relative;
+   left: 90px;
+   margin-top: 40px;
+   width: 300px;
+  }
+
+  .picture6
+  {
+    position: relative;
+    left: 90px;
+    width: 300px;
+    margin-right: 50px;
+  }
+
+   .footer
+   {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+   }
+
+   footer ul {
+    margin-right: 0;
+}
+
+   .left
+   {
+       margin-top: 22px;
+   }
+
+   .middle
+   {
+       margin-top: 20px;
+   }
+
+   .right
+   {
+       margin-top: 20px;
+   }
+
+   
+
+    }
+   
+ 
+
+    /*mobile*/
 
        @media all and (max-width: 767px)
        {
@@ -1199,331 +1530,9 @@ footer a:hover
       
    }   
 
-   @media screen and (max-width: 1024px) 
-   {
-    body
-    {
-    width: 100%;
-    height: auto;
-    margin: auto;
-    }   
+  
 
-    header
-    {
-    width: 100%;
-    }  
-
-    .header_nav 
-    {
-    display: flex;
-    border-top: none;
-    }
-
-    #logo img
-    {
-    height: 4rem;
-    padding-top: 30px;
-    }
-
-    .nav_list 
-    {
-    width: 100%;
-    display: flex;
-    justify-content:space-around;
-    border-bottom: solid 3px lightgrey;
-    padding-bottom: 20px;
-   
-    }
-
-    .nav_list:hover 
-    {
-    border-top: none;
-    border-bottom: solid 3px #0065fc;
-    padding-bottom: 30px;
-    }    
-
-    .subscribe 
-    {
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 50px;
-    flex-wrap: wrap;
-    }
-
-    .subscribe:hover 
-    {
-    border-top: none;
-    border-bottom: none;
-   }
-
-   .conteneur_filter 
-   {
-        flex-wrap: wrap;
-        flex-direction: row;
-        align-items: left;
-        justify-content: space-around;
-   }
-
-   .main_accommodation 
-   {
-    display: flex;
-    flex-direction: column-reverse;
-   }
-
-   .conteneur1
-   {
-       justify-content: space-evenly;
-   }
-
-   .info a
-{
-    text-decoration: none;
-    color: black;
-}
-
-   .conteneur2
-   {
-
-   }
-
-   .container3
-   {
-    
-    flex-direction: column;
-   }
-
-   }
-
-
-
-   /*tablette*/
 
    
 
-   @media screen and (max-width: 768px) {
-       
-    body
-    {
-    width: 100%;
-    height: auto;
-    margin: auto;
-    }   
 
-    header
-    {
-    width: 100%;
-    }  
-
-    .header_nav 
-    {
-    display: flex;
-    flex-direction: column;
-    border-top: none;
-    }
-
-    #logo img
-    {
-    height: 4rem;
-    padding-top: 30px;
-    }
-
-    .nav_list 
-    {
-    width: 100%;
-    display: flex;
-    justify-content:space-around;
-    border-bottom: solid 3px lightgrey;
-    padding-bottom: 20px;
-    position: relative;
-    right: 150px;
-    }
-
-    .nav_list:hover 
-    {
-    border-top: none;
-    border-bottom: solid 3px #0065fc;
-    padding-bottom: 30px;
-    }    
-
-    .subscribe 
-    {
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 50px;
-    flex-wrap: wrap;
-    }
-
-    .subscribe:hover 
-    {
-    border-top: none;
-    border-bottom: none;
-   }
-
-   .conteneur_filter 
-   {
-        flex-wrap: wrap;
-        flex-direction: row;
-        align-items: left;
-        justify-content: space-around;
-   }
-
-   .main_accommodation 
-   {
-    display: flex;
-    flex-direction: column-reverse;
-   }
-
-/*aside*/
-
-    aside 
-  {
-   width: 92%;
-   padding: 10px;
-  }  
-
-
-
-aside h1
-{
- margin-right: 20px;
-}
-
-   .conteneur2
-   {
-    flex-direction: column;
-
-   }
-
-   .conteneur2 div
-   {
-   /* width: 140%;*/
-   } 
-
-   .hoteldeleau_info
-   {
-       padding-top: 15px;
-   }
-
-   /*article*/
-
-   article 
-   {
-    width: 100%;
-    margin-top: 15px;
-    display: flex;
-   }
-
-   .conteneur1
-   {
-     display: flex;
-     width: 100%;
-   }
-
-   .conteneur1 div
-   {
-   
-   }
-
-
-   /*activités*/
-
-  .container3
-  {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    
-  }
-
-  .party1
-  {
-     
-  }
-
-  .party2
-  {
-    
-  }
-
-  .block1
-  {
-      
-  }
-
-  .block2
-  {
-      margin-left: 0px;
-  }
-
-  .picture1
-  {
-    margin-left: 15px;
-    width: 300px;
-  }
-
-  .picture2
-  {
-   margin-left: 50px;
-   width: 300px;
-  }
-
-  .picture3
-  {
-   width: 300px;
-   margin-left: 50px;
-  }
-
-  .picture4
-  {
-   margin-left: 15px;
-   margin-top: 40px;
-   width: 300px;
-  }
-
-  .picture5
-  {
-   position: relative;
-   left: 90px;
-   margin-top: 40px;
-   width: 300px;
-  }
-
-  .picture6
-  {
-    position: relative;
-    left: 90px;
-    width: 300px;
-    margin-right: 50px;
-  }
-
-   .footer
-   {
-    height: auto;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-   }
-
-   footer ul {
-    margin-right: 0;
-}
-
-   .left
-   {
-       margin-top: 22px;
-   }
-
-   .middle
-   {
-       margin-top: 20px;
-   }
-
-   .right
-   {
-       margin-top: 20px;
-   }
-
-   
-
-    }
-   
