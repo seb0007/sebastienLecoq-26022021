@@ -915,16 +915,24 @@ footer a:hover
      flex-direction: column-reverse;
     }
 
-    .marseille h1
+    article
     {
-      margin-left: 40px;
+        width: 92%;
+        flex-direction: row;
+        margin-left: 20px;
     }
- 
+
     .conteneur1
     {
        width: 100%;
        margin: 0;
     }
+
+    .marseille h1
+    {
+      margin-left: 40px;
+    }
+ 
 
     .aubergecannebiere
     {
@@ -963,7 +971,10 @@ footer a:hover
      color: black;
    }
 
-
+     aside
+     {
+         width: 90%;
+     }
  
     .conteneur2
     {
