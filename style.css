@@ -844,7 +844,7 @@ footer a:hover
 
     }    
     
-    @media screen and (max-width: 1024px) 
+    @media screen and (max-width: 768px) 
     {
      body
      {
@@ -1414,6 +1414,14 @@ footer a:hover
 
       
    }   
+
+   @media screen and (max-widht: 772px)
+   {
+
+
+
+   }
+ 
 
    @media screen and (max-widht: 772px)
    {
