@@ -592,7 +592,6 @@ h3
 .party1
 {
     display: flex;
-    /*justify-content: space-between;*/
     align-items: center;
 }
 
@@ -600,7 +599,6 @@ h3
 .party2
 {
     display: flex;
-    /*justify-content: space-between;*/
     align-items: center;
     margin-right: 150px;
 }
@@ -682,7 +680,7 @@ margin-left: 35px;
     border: 2px #b1b1b1;
     border-radius: 8px;
     box-shadow: 0 0 16px #0000002e;
-    width: 50%;
+    width: 45%;
     height: 26rem;
    
 }
@@ -710,7 +708,7 @@ margin-left: 35px;
    border: 2px #b1b1b1;
    border-radius: 8px;
    box-shadow: 0 0 16px #0000002e;
-   width: 200%;
+   width: 180%;
   
 }
 
@@ -733,7 +731,7 @@ margin-left: 35px;
     border: 2px #b1b1b1;
     border-radius: 8px;
     box-shadow: 0 0 16px #0000002e;
-    width: 200%;
+    width: 180%;
     margin-top: 50px;
 }
 
@@ -937,6 +935,30 @@ footer a:hover
      
      flex-direction: column;
     }
+
+    .party1
+    {
+        margin: 0;
+    }
+    .party2
+    {
+        margin: 0;
+    }
+
+
+    .party2
+    {
+        margin: 0;
+    }
+
+    .picture4
+    {
+       
+    }
+
+    
+
+    
  
     }
 
