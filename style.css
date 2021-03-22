@@ -933,7 +933,7 @@ footer a:hover
     .container3
     {
      
-     flex-direction: column;
+     display: flex;
     }
 
     .party1
