@@ -911,7 +911,7 @@ footer a:hover
  
     .main_accommodation 
     {
-    
+      display: flex;
      flex-direction: column-reverse;
     }
 
@@ -990,7 +990,7 @@ footer a:hover
     {
         margin-left: 40px;
     }
-    
+
     .party1
     {
         margin: 20px;
@@ -1029,12 +1029,61 @@ footer a:hover
     
     }
    
-    @media screen and (max-width: 888px) 
+    @media screen and (max-width: 768px) 
     {
-        article
+        body
         {
-            width: 100%;
+        width: 100%;
+        height: auto;
+        margin: auto;
+        }   
+
+        .main_accommodation 
+        {
+          display: flex;
+         flex-direction: column-reverse;
         }
+
+      
+       article 
+       {
+        width: 93%;
+       }
+
+
+      aside 
+      {
+      width: 93%;
+      padding: 10px;
+      }
+
+      .hoteldumatin, .hoteldeleau, .hotelbleublanc {
+        width: 95%;
+    }
+
+    .conteneur2
+    {
+        flex-direction: column;
+    }
+
+    .container3 {
+        display: flex;
+        flex-wrap: wrap;
+        width: auto;
+    }
+
+    .picture2
+    {
+        width: 170%;
+    }
+
+    .picture3
+    {
+        width: 170%;
+    }
+
+
+
     }
 
     /*mobile*/
@@ -1426,20 +1475,7 @@ footer a:hover
       
    }   
 
-   @media screen and (max-widht: 772px)
-   {
-
-
-
-   }
- 
-
-   @media screen and (max-widht: 772px)
-   {
-
-
-
-   }
+   
 
   
 
