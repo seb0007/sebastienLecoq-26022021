@@ -10,8 +10,7 @@ body
 
 {
    font-family: "raleway thin";
-   font-weight: normal;
-   color: #181818;                    
+   font-weight: normal;                  
    margin: auto;
    height: auto;
 }
@@ -778,30 +777,30 @@ footer a:hover
     
       
 
-        #logo img
-        {
-           height: 4rem;
-           padding-top: 30px;
-        }
+    #logo img
+    {
+        height: 4rem;
+        padding-top: 30px;
+    }
 
-        .conteneur_filtre {
-            flex-wrap: wrap;
-            flex-direction: row;
-            align-items: left;
-            justify-content: space-around;
-        }
+    .conteneur_filtre {
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: left;
+        justify-content: space-around;
+    }
    
-       h1 
+    h1 
        {
-          margin-left: 15px;
+        margin-left: 15px;
        }
 
-       #main_accommodation {
+    #main_accommodation {
         display: flex;
         flex-direction: column-reverse;
     }
 
-       article {
+    article {
         width: 100%;
         justify-content: space-evenly;
     }
@@ -944,12 +943,6 @@ footer a:hover
   {
       margin-left: 100px;
   }
- 
-    .info a
-    {
-     text-decoration: none;
-     color: black;
-   }
 
      aside
      {
@@ -1120,11 +1113,6 @@ footer a:hover
       width: 95%;
   }
 
-    .section_two
-    {
-        /*width: 100%;*/
-    }
-
     .container3 {
         display: flex;
         flex-wrap: wrap;
@@ -1136,12 +1124,7 @@ footer a:hover
         width: 320px;
     }
 
-    .picture2
-    {
-        width: 180%;
-    }
-
-    .picture3
+    .picture2, .picture3
     {
         width: 180%;
     }
@@ -1150,12 +1133,7 @@ footer a:hover
     {
         width: 320px;
     }
-    .picture5
-    {
-        width: 310px;
-    }
-
-    .picture6
+    .picture5, .picture6
     {
         width: 310px;
     }
@@ -1431,6 +1409,7 @@ footer a:hover
           width: 100%;
           flex-wrap: wrap;
           margin-left: 0px;
+          justify-content: center;
        }
 
        .party1
