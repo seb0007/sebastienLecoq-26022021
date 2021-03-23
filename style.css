@@ -959,8 +959,8 @@ footer a:hover
     .conteneur2
     {
       /*display: flex;
-      flex-direction: row;
-      align-items: center;*/
+      flex-direction: row;       
+      align-items: center;*/ /*mettre horizontalement*/
       width: 100%;
     }
 
@@ -969,10 +969,13 @@ footer a:hover
         width: 33%;
         display: flex;
     }
+
+    /*Activity*/
  
     .container3
     {
      display: flex;
+     justify-content: space-between;
     }
     
     .Activity h3
@@ -982,16 +985,17 @@ footer a:hover
 
     .party1
     {
-        margin: 20px;
+       /* ????*/
     }
     .party2
     {
-        margin: 20px;
+       /* ?????*/
     }
 
     .block1
     {
         margin-left: 70px;
+        margin-right: 80px;
     }
 
     .block2
@@ -1002,7 +1006,7 @@ footer a:hover
 
     .picture1
     {
-        width: 45%;
+        width: 50%;
     }
 
     .picture2
@@ -1017,7 +1021,7 @@ footer a:hover
 
     .picture4
     {
-       width: 43%;
+       width: 48%;
     }
 
     .picture5
@@ -1067,7 +1071,8 @@ footer a:hover
        article 
        {
         width: 100%;
-        margin: 0px;
+        margin-left: 0px;
+        margin-top: 15px;
        }
 
        .conteneur1
@@ -1126,14 +1131,19 @@ footer a:hover
         width: auto;
     }
 
+    .picture1
+    {
+        width: 320px;
+    }
+
     .picture2
     {
-        width: 170%;
+        width: 180%;
     }
 
     .picture3
     {
-        width: 170%;
+        width: 180%;
     }
 
     .picture4
@@ -1410,6 +1420,7 @@ footer a:hover
 
 /*activités*/
 
+
        .container3
        {
           flex-direction: column;
@@ -1425,20 +1436,20 @@ footer a:hover
        .party1
         {
           flex-direction: column;
-          margin-right: 500px;
+          margin-right: 550px;
         }
 
         .party2
         {
           flex-direction: column;
           display: flex;
-          margin-right: 220px;
+          margin-right: 420px;
         }
 
        .block1
        {
           width: 100%;
-          margin-left: 10px;
+          padding-left: 100px;
        }
 
        .block2
@@ -1453,6 +1464,7 @@ footer a:hover
           width: 350px;
           border-radius: 10px;
           margin-top: 20px;
+          margin-right: 150px;
          
        }
 
