@@ -12,9 +12,8 @@ body
    font-family: "raleway thin";
    font-weight: normal;
    color: #181818;                    
-   box-sizing: border-box;
-   /*margin: auto;
-   height: auto;*/
+   margin: auto;
+   height: auto;
 }
 
 
@@ -263,8 +262,6 @@ nav li a
     color: blue;
 }
 
-
-
 h1
 {
   
@@ -272,7 +269,6 @@ h1
    height: 20px;       
    font-size: 20px;
 }
-
 
 .paragraphe
 {
@@ -322,7 +318,6 @@ article
     border-radius: 10px;
     padding-top: 40px;
     margin-left: 30px;
-   
 }
 
 .conteneur1 div 
@@ -568,7 +563,6 @@ h3
    justify-content: space-between;
    align-items: center;
    object-fit: cover;
-   flex-wrap: wrap;
    margin-left: 20px;
    width: 100%;
 }
@@ -844,9 +838,7 @@ footer a:hover
     {
      body
      {
-    /* width: 100%;
-     height: auto;
-     margin: auto;*/
+     width: 100%;
      }   
  
      header
@@ -913,7 +905,7 @@ footer a:hover
 
     article
     {
-        width: 92%;
+        width: 95%;
         margin-left: 20px;
     }
 
@@ -968,17 +960,25 @@ footer a:hover
 
      aside
      {
-         width: 90%;
+         width: 93%;
      }
  
     .conteneur2
     {
+      /*display: flex;
+      flex-direction: row;
+      align-items: center;*/
       width: 100%;
+    }
+
+    .hoteldelamer, .hoteldumatin, .hotelbleublanc
+    {
+        width: 33%;
+        display: flex;
     }
  
     .container3
     {
-     
      display: flex;
     }
     
@@ -1034,6 +1034,26 @@ footer a:hover
 
     
     }
+
+    @media screen and (max-widht: 856px)
+    {
+        .conteneur1
+        {
+            flex-direction: column;
+            align-items: center;
+            width: 90%;
+        }
+
+        .container3
+        {
+           /* display: flex;*/
+        }
+
+        .picture5
+        {
+            width: 300px;
+        }
+    }
    
     @media screen and (max-width: 768px) 
     {
@@ -1053,7 +1073,7 @@ footer a:hover
       
        article 
        {
-        width: 110%;
+        width: 100%;
        }
 
       .hotelduport
@@ -1078,6 +1098,8 @@ footer a:hover
         flex-direction: row;
     }
 
+    /*aside*/
+
     .conteneur2
     {
         flex-direction: column;
@@ -1086,7 +1108,7 @@ footer a:hover
 
     aside 
     {
-    width: 110%;
+    width: 95%;
     padding: 10px;
     }
 
@@ -1147,6 +1169,11 @@ footer a:hover
        @media all and (max-width: 767px)
        {
 
+        body {
+            padding: 0;
+            margin: 0;
+        }
+
         #logo img
         {
            height: 4rem;
@@ -1195,7 +1222,7 @@ footer a:hover
 
        h1
        {
-      display: flex;
+        display: flex;
        }
            
        #search
@@ -1395,7 +1422,7 @@ footer a:hover
           display: flex;
           height: auto;
           object-fit: cover;
-          align-items: left;
+          align-items: center;
           width: 100%;
           flex-wrap: wrap;
           margin-left: 0px;
@@ -1403,15 +1430,15 @@ footer a:hover
 
        .party1
         {
-            flex-direction: column;
-            margin-right: 500px;
+          flex-direction: column;
+          margin-right: 500px;
         }
 
         .party2
         {
-            flex-direction: column;
-            margin-right: 0px;
-
+          flex-direction: column;
+          display: flex;
+          margin-right: 220px;
         }
 
        .block1
@@ -1422,8 +1449,6 @@ footer a:hover
        .block2
        {
           width: 100%;
-          margin-right: 250px;
-    
        }
         
        .picture1
@@ -1538,7 +1563,7 @@ footer a:hover
         }
 
       
-   }   
+   } 
 
    
 
