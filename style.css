@@ -674,7 +674,7 @@ margin-left: 45px;
     border: 2px #b1b1b1;
     border-radius: 8px;
     box-shadow: 0 0 16px #0000002e;
-    width: 50%;
+    width: 45%;
     height: 26rem;
 }
 
@@ -1054,7 +1054,7 @@ footer a:hover
         {
         width: 100%;
         height: auto;
-        margin: auto;
+        margin: 0px;
         }   
 
         .main_accommodation 
@@ -1067,7 +1067,14 @@ footer a:hover
        article 
        {
         width: 100%;
+        margin: 0px;
        }
+
+       .conteneur1
+    {
+        display: flex;
+        flex-direction: row;
+    }
 
       .hotelduport
       {
@@ -1084,13 +1091,6 @@ footer a:hover
        margin-left: 10px;
       }
 
-
-    .conteneur1
-    {
-        display: flex;
-        flex-direction: row;
-    }
-
     /*aside*/
 
     .conteneur2
@@ -1103,6 +1103,7 @@ footer a:hover
     {
     width: 95%;
     padding: 10px;
+    margin: 0px;
     }
 
     aside h1
@@ -1437,11 +1438,13 @@ footer a:hover
        .block1
        {
           width: 100%;
+          margin-left: 10px;
        }
 
        .block2
        {
           width: 100%;
+          margin-left: 85px;
        }
         
        .picture1
@@ -1492,8 +1495,7 @@ footer a:hover
         width: 350px;
         margin-top: 50px;
         border-radius: 10px;
-
-
+        margin-right: 150px;
        }
 
        .img_calanques
@@ -1507,6 +1509,7 @@ footer a:hover
         width: 350px;
         margin-top: 50px;
         border-radius: 10px;
+        margin-left: 30px;
        }
 
        .img_notredame
@@ -1520,6 +1523,7 @@ footer a:hover
         width: 350px;
         margin-top: 50px;
         border-radius: 10px;
+        margin-left: 30px;
        }
 
       
