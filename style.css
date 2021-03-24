@@ -957,17 +957,12 @@ footer a:hover
 
     .picture1
     {
-        width: 50%;
+        width: 48%;
     }
 
-    .picture2
+    .picture2, .picture3
     {
-        width: 180%;
-    }
-
-    .picture3
-    {
-        width: 180%;
+        width: 170%;
     }
 
     .picture4
@@ -975,7 +970,7 @@ footer a:hover
        width: 48%;
     }
 
-    .picture5
+    .picture5, .picture6
     {
         width: 170%;
     }
