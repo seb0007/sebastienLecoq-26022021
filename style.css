@@ -357,7 +357,7 @@ article
    color:black    /*??????*/
 }
 
-.aubergecannebiere
+.aubergecannebiere, .hotelduport, .hotellesmouettes, .hoteldelamer, .aubergelepanier, .hotelamina
 {
     display: flex;
     flex-direction: column;
@@ -366,51 +366,6 @@ article
     border-radius: 1rem 1rem 1rem 1rem;
 }
 
-.hotelduport
-{
-    display: flex;
-    flex-direction: column;
-    padding: 10px 10px 10px 10px;
-    box-shadow: 0px 5px 10px #d9d9d9;
-    border-radius: 1rem 1rem 1rem 1rem;
-}
-
-.hotellesmouettes
-{
-    display: flex;
-    flex-direction: column;
-    padding: 10px 10px 10px 10px;
-    box-shadow: 0px 5px 10px #d9d9d9;
-    border-radius: 1rem 1rem 1rem 1rem;
-}
-
-.hoteldelamer
-{
-    display: flex;
-    flex-direction: column;
-    padding: 10px 10px 10px 10px;
-    box-shadow: 0px 5px 10px #d9d9d9;
-    border-radius: 1rem 1rem 1rem 1rem;
-}
-
-
-.aubergelepanier
-{
-    display: flex;
-    flex-direction: column;
-    padding: 10px 10px 10px 10px;
-    box-shadow: 0px 5px 10px #d9d9d9;
-    border-radius: 1rem 1rem 1rem 1rem;
-}
-
-.hotelamina
-{
-    display: flex;
-    flex-direction: column;
-    padding: 10px 10px 10px 10px;
-    box-shadow: 0px 5px 10px #d9d9d9;
-    border-radius: 1rem 1rem 1rem 1rem;
-}
 
 .info
 {
@@ -559,11 +514,9 @@ h3
 .container3
 {
    display: flex;
-   justify-content: space-between;
-   align-items: center;
-   object-fit: cover;
+   justify-content: space-between; 
    margin-left: 20px;
-   width: 100%;
+   /*width: 100%;*/
 }
 
 .container3 img
@@ -589,7 +542,7 @@ h3
 {
     display: flex;
     align-items: center;
-    padding-right: 130px;
+    padding-right: 135px;
 }
 
 .block1
@@ -1148,7 +1101,7 @@ footer a:hover
 
     /*mobile*/
 
-       @media all and (max-width: 767px)
+       @media all and (max-width: 600px)
        {
 
         body {
@@ -1289,7 +1242,7 @@ footer a:hover
 
        article
        {
-        margin-right: 0%;
+        margin: 0%;
         width: 100%;
         height: auto;
         flex-wrap: wrap;
@@ -1362,6 +1315,11 @@ footer a:hover
         flex-wrap: wrap;
         padding-left: 10px;
        }
+
+       .conteneur2
+       {
+           margin: 20px;
+       }
        
        .conteneur2 img 
        {
@@ -1409,7 +1367,7 @@ footer a:hover
           width: 100%;
           flex-wrap: wrap;
           margin-left: 0px;
-          justify-content: center;
+          /*justify-content: center;*/
        }
 
        .party1
