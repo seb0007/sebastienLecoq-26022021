@@ -343,7 +343,6 @@ article
     background-color: white;
     object-fit: cover;
     border-color: white;
-    /*align-items: stretch;*/
 }
 
 .marseille_accommodation h1
@@ -516,6 +515,7 @@ h3
    display: flex;
    justify-content: space-between; 
    margin-left: 20px;
+   flex-wrap: wrap;
    /*width: 100%;*/
 }
 
