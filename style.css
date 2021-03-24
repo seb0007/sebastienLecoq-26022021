@@ -523,7 +523,6 @@ h3
    justify-content: space-between; 
    margin-left: 20px;
    flex-wrap: wrap;
-   /*width: 100%;*/
 }
 
 .container3 img
@@ -543,7 +542,6 @@ h3
     display: flex;
     align-items: center;
 }
-
 
 .party2
 {
@@ -1414,6 +1412,7 @@ footer a:hover
           border-radius: 10px;
           margin-top: 20px;
           margin-right: 150px;
+          margin-left: 0px;
          
        }
 
@@ -1457,6 +1456,7 @@ footer a:hover
         margin-top: 50px;
         border-radius: 10px;
         margin-right: 150px;
+        margin-left: 0px;
        }
 
        .img_calanques
