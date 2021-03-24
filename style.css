@@ -1162,8 +1162,13 @@ footer a:hover
        #search
        {
         width: 100%;
-        /*border-radius: 15px 15px 15px 15px;*/
+        border-radius: 15px 15px 15px 15px;
         margin-left: 15px;
+       }
+
+       .searchbar
+       {
+           border-radius: none;
        }
 
        .icon-right
@@ -1183,10 +1188,9 @@ footer a:hover
         height: 37px;
         align-items: center;
        }
-        
-       
 
-      .conteneur-filtre
+       /*filtres*/
+       .conteneur-filtre
        {
         justify-content: space-between;
         display: flex;
@@ -1195,6 +1199,7 @@ footer a:hover
         width: 70%;
         margin-top: 40px;
        }
+ 
 
        .block-text-filtre
        {
@@ -1225,7 +1230,6 @@ footer a:hover
 
        .main_accommodation
        {
-           flex-direction: column;
            display: flex;
            margin-right: 0;
            margin-left: 0;
@@ -1364,7 +1368,6 @@ footer a:hover
           object-fit: cover;
           align-items: center;
           width: 100%;
-          flex-wrap: wrap;
           margin-left: 0px;
        }
 
@@ -1416,7 +1419,8 @@ footer a:hover
           width: 350px;
           margin-top: 50px;
           border-radius: 10px;
-       }
+        }
+
 
        .img_fort
        {
