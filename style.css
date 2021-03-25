@@ -934,42 +934,11 @@ footer a:hover
 
     .party1
     {
-      
+      width: 50%;
     }
     .party2
     {
-    
-    }
-
-    .mblock1
-    {
-     
-    }
-
-    .mblock2
-    {
-       
-    }
-
-
-    .mpicture1
-    {
-        width: 20%;
-    }
-
-    .picture2, .picture3
-    {
-        width: 100%;
-    }
-
-    .picture4
-    {
-       width: 100%;
-    }
-
-    .picture5, .picture6
-    {
-        width: 100%;
+    width: 50%;
     }
 
     
@@ -1068,30 +1037,12 @@ footer a:hover
          margin-left: 0px;
      }
 
-    .container3 {
+    .mcontainer3 {
         display: flex;
         flex-wrap: wrap;
         width: auto;
     }
 
-    .picture1
-    {
-        width: 320px;
-    }
-
-    .picture2, .picture3
-    {
-        width: 180%;
-    }
-
-    .picture4
-    {
-        width: 320px;
-    }
-    .picture5, .picture6
-    {
-        width: 310px;
-    }
 
     footer
     {
@@ -1264,7 +1215,7 @@ footer a:hover
         flex-wrap: wrap;
         display: flex;
         flex-direction: column;
-        margin: 0;
+        margin: 0px;
        }
 
        .conteneur1 div
@@ -1369,9 +1320,8 @@ footer a:hover
     width: 100%;
     margin-top: 20px;
     }
+ 
 
-
-    
 
        .footer
        {
