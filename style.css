@@ -105,7 +105,7 @@ p
 {
     margin-top: 35px;
     margin-left: 5px;
-    padding-right: 220px;
+    padding-right: 150px;
 
 }
 
@@ -299,7 +299,7 @@ h1
 
 article 
 {
-    width: 80%;
+    width: 60%;
     background-color: #f2f2f2;
     justify-content: left;
     padding-top: 15px;
@@ -382,7 +382,7 @@ article
 
 aside
 { 
-    width: 26%;
+    width: 35%;
     background-color: #f2f2f2;
     padding: 20px;
     box-shadow: 0px 5px 10px #d9d9d9;
@@ -551,7 +551,7 @@ h3
     width: 100%;
 }
 
-.block1 .picture2
+.block1 .picture2 .picture3
 {
     width: 100%;
 }
@@ -566,6 +566,7 @@ h3
 {
     display: flex;
     flex-direction: column;
+    padding-right: 20px;
 }
 
 .picture1
@@ -920,7 +921,7 @@ footer a:hover
 
     /*Activity*/
  
-    .container3
+    .mcontainer3
     {
      display: flex;
      justify-content: space-between;
@@ -933,43 +934,42 @@ footer a:hover
 
     .party1
     {
-       /* ????*/
+      
     }
     .party2
     {
-       /* ?????*/
+    
     }
 
-    .block1
+    .mblock1
     {
-        margin-left: 70px;
-        margin-right: 80px;
+     
     }
 
-    .block2
+    .mblock2
     {
-        margin-left: 70px;
+       
     }
 
 
-    .picture1
+    .mpicture1
     {
-        width: 48%;
+        width: 20%;
     }
 
     .picture2, .picture3
     {
-        width: 170%;
+        width: 100%;
     }
 
     .picture4
     {
-       width: 48%;
+       width: 100%;
     }
 
     .picture5, .picture6
     {
-        width: 170%;
+        width: 100%;
     }
 
     
