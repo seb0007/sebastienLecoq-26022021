@@ -932,36 +932,7 @@ footer a:hover
         margin-left: 40px;
     }
 
-    .party1
-    {
-      width: 50%;
-    }
-    .party2
-    {
-    width: 50%;
-    }
-
     
-    }
-
-    @media screen and (max-widht: 856px)
-    {
-        .conteneur1
-        {
-            flex-direction: column;
-            align-items: center;
-            width: 90%;
-        }
-
-        .container3
-        {
-           /* display: flex;*/
-        }
-
-        .picture5
-        {
-            width: 300px;
-        }
     }
    
     @media screen and (max-width: 768px) 
@@ -1043,12 +1014,11 @@ footer a:hover
         width: auto;
     }
 
-
-    footer
+    .picture5
     {
-      
+        height: 200px;
     }
-
+    
 
     }
 
@@ -1323,40 +1293,22 @@ footer a:hover
         margin-top: 20px;
     }
 
-    .picture1
+    .picture1, .picture2, .picture3, .picture4, .picture5, .picture6
     {
         height: 230px;
     }
 
-    .picture1 img 
+    .picture1 img, .picture2 img, .picture3 img, .picture4 img, .picture5 img, .picture6 img
 
     {
         height: 150px;
     }
 
-    .picture1 p
+    .picture1 p, .picture2 p, .picture3 p, .picture4 p, .picture5 p, .picture6 p
     {
         position: relative;
         bottom: 20px;
     }
-
-    .picture4
-    {
-        height: 230px;
-    }
-
-    .picture4 img 
-    {
-        height: 150px;
-    }
-    
-    .picture4 p
-    {
-      position: relative;
-      bottom: 30px;
-    }
- 
-
 
        .footer
        {
