@@ -552,7 +552,7 @@ h3
 {
     display: flex;
     align-items: center;
-    padding-right: 130px;
+   /* padding-right: 130px;*/
 }
 
 .block1
@@ -1365,7 +1365,7 @@ footer a:hover
 
 /*activités*/
 
-
+/*
        .container3
        {
           flex-direction: column;
@@ -1489,7 +1489,7 @@ footer a:hover
       .img_longchamp
        {
         height: 200px;
-       }
+       }*/
        
        .footer
        {
