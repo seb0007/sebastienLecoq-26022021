@@ -1313,12 +1313,48 @@ footer a:hover
         .mcontainer3
     {
         flex-direction: column;
+        margin-right: 20px;
+        margin-left: 10px;
     }
 
     .mparty1, .mparty2, .mblock1, .mblock2
     {
-    width: 100%;
-    margin-top: 20px;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .picture1
+    {
+        height: 230px;
+    }
+
+    .picture1 img 
+
+    {
+        height: 150px;
+        
+    }
+
+    .picture1 p
+    {
+        position: relative;
+        bottom: 20px;
+    }
+
+    .picture4
+    {
+        height: 230px;
+    }
+
+    .picture4 img 
+    {
+        height: 150px;
+    }
+    
+    .picture4 p
+    {
+      position: relative;
+      bottom: 30px;
     }
  
 
