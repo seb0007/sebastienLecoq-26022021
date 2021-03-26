@@ -315,21 +315,20 @@ h1
     border-color: white;
 }
 
-.marseille h1
-{
-    font-size: 18px;
-    font-weight: bold;
-}
-
 article 
 {
     width: 60%;
     background-color: #f2f2f2;
-    /*justify-content: left;*/
     padding-top: 15px;
     padding-left: 15px;
     border-radius: 7px;
     box-shadow: 0px 5px 10px #d9d9d9;
+}
+
+.marseille h1
+{
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .conteneur1 
@@ -348,7 +347,7 @@ article
     margin-bottom: 15px;
     margin-right: 15px;
     cursor: pointer;
-    width: 300px;     /* horizontal dans media 1024*/
+    width: 300px;     
     height: auto;
 }
 
@@ -398,17 +397,15 @@ aside
 { 
     width: 30%;
     background-color: #f2f2f2;
-    padding-top: 30px;
+    margin-left: 15px;
+    padding: 30px;
     box-shadow: 0px 5px 10px #d9d9d9;
     border-radius: 1rem 0 0 1rem;
-    margin-left: 15px;
-    margin-right: 20px;
-  
 }
 
 aside h1
 {
-    margin: 5px;
+    margin: 0px;
     display: flex;
     justify-content: space-between;
     font-size: 18px;
@@ -418,17 +415,14 @@ aside h1
 aside a
 {
    text-decoration: #0065fc; 
+   color: #181818;
 }
 
-aside img
-{
-    height: 120px;
-    background-color: white;
-}
 .conteneur2
 {
-    display: inline-block;
     flex-direction: column;
+    justify-content: space-around;
+    padding-top: 10px;
 }
 
 .conteneur2 div 
@@ -441,13 +435,17 @@ aside img
 .conteneur2 img
 {
     border-radius: 1rem 0 0 1rem;
-    
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background-color: #b1b1b1;
+    object-fit: cover;
 }
 
 .hoteldumatin
 {
     display: flex;
-    height: 28%;
+    height: 155px;
     padding: 0.375rem;
     background-color: white;
     border: 2px white;
@@ -455,13 +453,12 @@ aside img
     box-sizing: border-box;
     box-shadow: 0 0 16px #0000002e;
     margin-top: 20px;
-    width: 95%;
 }
 
 .hoteldeleau
 {
     display: flex;
-    height: 28%;
+    height: 155px;
     padding: 0.375rem;
     background-color: white;
     border: 2px white;
@@ -474,7 +471,7 @@ aside img
 .hotelbleublanc
 {
     display: flex;
-    height: 28%;
+    height: 155px;
     padding: 0.375rem;
     background-color:white;
     border: 2px white;
@@ -515,7 +512,6 @@ aside img
 
 .hotelbleublanc
 {
-   align-items: center;
    color: #181818;
  
 }
@@ -581,7 +577,6 @@ h3
 {
    width: 100%;
    height: 26rem;
-  /* margin-left: 5px;*/
    flex-direction: column;
    border: 2px #b1b1b1;
    border-radius: 8px;
@@ -912,15 +907,18 @@ footer a:hover
      aside
      {
          width: 96%;
-         margin-left: 20px;
+         padding: 10px;
      }
  
     .conteneur2
     {
-      /*display: flex;    
-      align-items: center; /*mettre horizontalement*/
+       
+      display: flex; 
+      flex-direction: row;   
       width: 100%;
-      border-radius: ;
+     /* align-items: center; /*mettre horizontalement*/
+     /* width: 100%;
+      border-radius: ;*/
     }
 
     .hoteldelamer, .hoteldumatin, .hotelbleublanc
