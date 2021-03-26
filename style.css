@@ -580,7 +580,6 @@ h3
 {
    width: 100%;
    height: 26rem;
-  /* margin-left: 5px;*/
    flex-direction: column;
    border: 2px #b1b1b1;
    border-radius: 8px;
@@ -862,6 +861,7 @@ footer a:hover
     {
         width: 95%;
         margin-left: 20px;
+        justify-content: space-around;
     }
 
     .conteneur1
@@ -885,7 +885,7 @@ footer a:hover
 
     .hotelduport
   {
-      margin-left: 100px;
+      margin-left: 150px;
   }
 
   .hotellesmouettes
@@ -895,7 +895,7 @@ footer a:hover
 
   .hoteldelamer
   {
-      margin-left: 100px;
+      margin-left: 150px;
   }
 
   .aubergelepanier
@@ -905,13 +905,18 @@ footer a:hover
 
   .hotelamina
   {
-      margin-left: 100px;
+      margin-left: 150px;
   }
 
      aside
      {
-         width: 96%;
+         width: 90%;
          margin-left: 20px;
+     }
+
+     aside h1
+     {
+         padding-right: 80px;
      }
  
     .conteneur2
@@ -1005,7 +1010,7 @@ footer a:hover
 
     aside h1
     {
-        margin-left: 40px;
+        padding-right: 30px;
     }
 
     .hoteldumatin, .hoteldeleau, .hotelbleublanc {
@@ -1022,6 +1027,7 @@ footer a:hover
         flex-wrap: wrap;
         width: auto;
     }
+
 
     .picture5
     {
@@ -1188,11 +1194,10 @@ footer a:hover
 
        article
        {
-        margin: 0%;
+        margin-left: 5px;
         width: 100%;
         height: auto;
         flex-wrap: wrap;
-        margin-left: 10px;
         background-color: white;
         box-shadow: none;
        }
@@ -1208,7 +1213,7 @@ footer a:hover
         flex-wrap: wrap;
         display: flex;
         flex-direction: column;
-        margin: 0px;
+        margin: 0px
        }
 
        .conteneur1 div
@@ -1251,13 +1256,14 @@ footer a:hover
 
        /*aside*/
 
+      
+
        aside
        {
         width: 96%;
         border-radius: 0px;
         height: 850px;
         margin-bottom: 15px;
-        margin-left: 0px;
         flex-wrap: wrap;
         padding-left: 10px;
        }
@@ -1269,8 +1275,8 @@ footer a:hover
 
        .conteneur2 a
        {
-color: black;
-text-decoration: none;
+         color: black;
+         text-decoration: none;
        }
        
        .conteneur2 img 
