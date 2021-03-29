@@ -377,6 +377,14 @@ article
     border-radius: 1rem 1rem 1rem 1rem;
 }
 
+.img-hebergement{
+    height: 100px;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
 
 .info
 {
@@ -1042,6 +1050,11 @@ footer a:hover
             width: 100%;
         }
 
+        #logo img
+        {
+            width: 80px;
+        }
+
         .header_nav
        {
            width: 100%;
@@ -1059,7 +1072,7 @@ footer a:hover
            padding-bottom: 20px;
            border-top: none;
            position: relative;
-           right: 100px;
+           right: 80px;
            padding-left: 0px;
            padding-right: 0px;
        }
@@ -1070,13 +1083,15 @@ footer a:hover
            border-bottom: solid 3px #0065fc;
            padding-bottom: 30px;
            color: #0065fc;
-       }    
+       }  
+       
+       nav li
+       {margin-right: 0px;}
    
        
        .subscribe {
            display: flex;
            justify-content: flex-end;
-          /* margin-right: 100px;*/
            flex-wrap: wrap;
        }
 
@@ -1378,9 +1393,6 @@ footer a:hover
 
       
    } 
-  
-
-
 
    
 
