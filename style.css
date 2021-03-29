@@ -224,6 +224,14 @@ nav li a
    width: auto;
    padding: 0px 10px 0 0;
 }
+
+.block-filtre:hover
+{
+   background-color: #f2f2f2;
+   transition: 350ms;
+   color: blue;
+}
+
 .conteneur-icon-filtre{
    color:#0065FC;
    background-color: #DEEBFF;
@@ -254,12 +262,7 @@ nav li a
     font-size: 16px;
    font-weight: bold;
 }
- 
 
-.block-filtre:hover
-{
-    color: blue;
-}
 
 h1
 {
@@ -1029,7 +1032,9 @@ footer a:hover
        }  
        
        nav li
-       {margin-right: 0px;}
+       {
+           margin-right: 0px;
+       }
    
        
        .subscribe {
