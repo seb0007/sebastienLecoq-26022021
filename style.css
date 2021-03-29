@@ -27,9 +27,6 @@ h2, aside h1, h3, footer h1,
     font-family: 'raleway', Arial, Helvetica, sans-serif;
 }
 
-
-
-
 /*SECTION HEADER*/
 
 header
@@ -128,11 +125,10 @@ p
     color: #0065fc;
 }
 
-
 nav li
 
 {
-   margin-right: 50px;    /* marche pour les 2 menus*/
+   margin-right: 50px;   
    display: inline;
    text-decoration: none;
    color: black; 
@@ -140,10 +136,8 @@ nav li
 
 nav li a
 { 
-   color: black;        /* marche pour le menu 1 */ 
+   color: black;        
 }
-
-
 
 #search
 {
@@ -153,14 +147,12 @@ nav li a
    border-color: #b1b1b1;
    align-items: center;
    margin-left: 5px;
-  
 }
 
 .searchbar
 {
    height: 37px;
 }
-
 
 .icon-left 
 {
@@ -180,7 +172,6 @@ nav li a
 {
   color: black;
   font-weight: bold;
- 
 }
 
 .icon-right
@@ -250,19 +241,11 @@ nav li a
    font-weight: bold;
 }
 
-
 .conteneur-text-filtre
 {
    margin-left: 5px;
    font-weight: bold;
 }
-
-.conteneur-text-filtre1
-{
-    font-size: 16px;
-   font-weight: bold;
-}
-
 
 h1
 {
@@ -363,11 +346,6 @@ article
 {
    font-size: 18px;
    font-weight: bold;
-}
-
-.conteneur1 a:visited 
-{
-   color:black    
 }
 
 .aubergecannebiere, .hotelduport, .hotellesmouettes, .hoteldelamer, .aubergelepanier, .hotelamina
@@ -482,20 +460,9 @@ aside a
     margin-top: 60px;
 }
 
-.etoiles 
+.tittle_hotel1
 {
-    color: #0065fc;
-}
-
-.etoiles1
-{
-    color: #0065fc;
     margin-top: 10px;
-}
-
-.etoilegrise
-{
-    color: grey;
 }
 
 .hoteldumatin_info
@@ -515,11 +482,23 @@ aside a
 {
    align-items: center;
    color: #181818;
- 
 }
 
+.etoiles 
+{
+    color: #0065fc;
+}
 
+.etoiles1
+{
+    color: #0065fc;
+    margin-top: 10px;
+}
 
+.etoilegrise
+{
+    color: grey;
+}
 
 /*SECTION ACTIVITY*/
 
@@ -920,11 +899,11 @@ footer a:hover
        }
 
        .conteneur1
-    {
+       {
         display: flex;
         flex-direction: row;
         padding-left: 10px;
-    }
+      }
 
       .hotelduport
       {
@@ -1219,8 +1198,6 @@ footer a:hover
 
        /*aside*/
 
-      
-
        aside
        {
         width: 96%;
@@ -1291,11 +1268,6 @@ footer a:hover
     {
         height: 230px;
         border-radius: 1rem 1rem 1rem 1rem;
-    }
-
-    .picture6
-    {
-        margin-top: 30px;
     }
 
     .picture1 img, .picture2 img, .picture3 img, .picture4 img, .picture5 img, .picture6 img
