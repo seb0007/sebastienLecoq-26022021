@@ -861,7 +861,7 @@ footer a:hover
 
     article
     {
-        width: 95%;
+        width: 93%;
         margin-left: 20px;
         justify-content: space-around;
     }
@@ -870,6 +870,7 @@ footer a:hover
     {
        width: 100%;
        margin: 0;
+       padding-left: 50px;
     }
 
    
@@ -923,8 +924,6 @@ footer a:hover
  
     .conteneur2
     {
-      /*display: flex;    
-      align-items: center; /*mettre horizontalement*/
       width: 100%;
       border-radius: ;
     }
@@ -978,6 +977,7 @@ footer a:hover
     {
         display: flex;
         flex-direction: row;
+        padding-left: 10px;
     }
 
       .hotelduport
@@ -1286,6 +1286,7 @@ footer a:hover
        .conteneur2
        {
            margin: 0px;
+           padding-left: 20px;
        }
 
        .conteneur2 a
