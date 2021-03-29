@@ -328,7 +328,7 @@ article
     padding-top: 15px;
     padding-left: 15px;
     border-radius: 7px;
-    box-shadow: 0px 5px 10px #d9d9d9;
+    box-shadow: 10px 10px 10px 10px #0000002e;
 }
 
 .conteneur1 
@@ -346,8 +346,8 @@ article
     background-color: white;
     margin-bottom: 15px;
     margin-right: 15px;
-    width: 300px;     /* horizontal dans media 1024*/
     height: auto;
+    width: 300px;    /* erreur*/
 }
 
 .conteneur1 a
@@ -372,19 +372,16 @@ article
     display: flex;
     flex-direction: column;
     padding: 10px 10px 10px 10px;
-    box-shadow: 0px 5px 10px #d9d9d9;
+    box-shadow: 10px 10px 10px 10px #d9d9d9;
     border-radius: 1rem 1rem 1rem 1rem;
+    width: 300px;
 }
 
-.img-hebergement{
-    height: 100px;
-    width: 100%;
-    object-fit: cover;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+.img-hebergement
+{
+
 }
-
-
+  
 .info
 {
   margin-top: 15px;
@@ -406,7 +403,7 @@ aside
     background-color: #f2f2f2;
     margin-left: 15px;
     padding: 20px;
-    box-shadow: 0px 5px 10px #d9d9d9;
+    box-shadow: 10px 10px 10px 10px #d9d9d9;
     border-radius: 1rem 0 0 1rem;
 }
 
@@ -426,7 +423,6 @@ aside a
 
 .conteneur2
 {
-   /* display: inline-block;*/
     flex-direction: column;
     padding-top: 10px;
 }
@@ -448,26 +444,25 @@ aside a
 {
     display: flex;
     height: 28%;
-    padding: 0.375rem;
+    padding: 4px;
     background-color: white;
     border: 2px white;
     border-radius: 8px;
     box-sizing: border-box;
-    box-shadow: 0 0 16px #0000002e;
+    box-shadow: 10px 10px 10px 10px #0000002e;
     margin-top: 20px;
-    width: 95%;
 }
 
 .hoteldeleau
 {
     display: flex;
     height: 28%;
-    padding: 0.375rem;
+    padding: 4px;
     background-color: white;
     border: 2px white;
     border-radius: 8px;
     box-sizing: border-box;
-    box-shadow: 0 0 16px #0000002e;
+    box-shadow: 10px 10px 10px 10px #0000002e;
     margin-top: 60px;
 }
 
@@ -475,12 +470,12 @@ aside a
 {
     display: flex;
     height: 28%;
-    padding: 0.375rem;
+    padding: 4px;
     background-color:white;
     border: 2px white;
     border-radius: 8px;
     box-sizing: border-box;
-    box-shadow: 0 0 16px #0000002e;
+    box-shadow: 10px 10px 10px 10px #0000002e;
     margin-top: 60px;
 }
 
@@ -519,6 +514,8 @@ aside a
    color: #181818;
  
 }
+
+
 
 
 /*SECTION ACTIVITY*/
@@ -584,7 +581,7 @@ h3
    flex-direction: column;
    border: 2px #b1b1b1;
    border-radius: 8px;
-   box-shadow: 0 0 16px #0000002e;
+   box-shadow: 10px 10px 10px 10px #0000002e;
 }
 
 .img_vieuxport
@@ -599,7 +596,7 @@ h3
    flex-direction: column;
    border: 2px #b1b1b1;
    border-radius: 8px;
-   box-shadow: 0 0 16px #0000002e;
+   box-shadow: 10px 10px 10px 10px #0000002e;
    width: 100%;
 }
 .card2
@@ -619,7 +616,7 @@ h3
     flex-direction: column;
     border: 2px #b1b1b1;
     border-radius: 8px;
-    box-shadow: 0 0 16px #0000002e;
+    box-shadow: 10px 10px 10px 10px #0000002e;
     width: 100%;
     margin-top: 30px;
 }
@@ -637,7 +634,7 @@ h3
     flex-direction: column;
     border: 2px #b1b1b1;
     border-radius: 8px;
-    box-shadow: 0 0 16px #0000002e;
+    box-shadow: 10px 10px 10px 10px #0000002e;
     width: 100%;
     height: 26rem;
 }
@@ -655,7 +652,7 @@ h3
    flex-direction: column;
    border: 2px #b1b1b1;
    border-radius: 8px;
-   box-shadow: 0 0 16px #0000002e;
+   box-shadow: 10px 10px 10px 10px #0000002e;
    width: 100%;
 }
 
@@ -676,7 +673,7 @@ h3
     flex-direction: column;
     border: 2px #b1b1b1;
     border-radius: 8px;
-    box-shadow: 0 0 16px #0000002e;
+    box-shadow: 10px 10px 10px 10px #0000002e; 
     width: 100%;
     margin-top: 30px;
 }
@@ -869,8 +866,9 @@ footer a:hover
  
     .conteneur2
     {
-      width: 100%;
-      border-radius: ;
+      width: 90%;
+      border-radius: 8px;
+      margin-left: 70px;
     }
 
     .hoteldelamer, .hoteldumatin, .hotelbleublanc
