@@ -346,7 +346,6 @@ article
     background-color: white;
     margin-bottom: 15px;
     margin-right: 15px;
-    cursor: pointer;
     width: 300px;     /* horizontal dans media 1024*/
     height: auto;
 }
@@ -493,7 +492,7 @@ aside a
 .etoiles1
 {
     color: #0065fc;
-    padding-top: 10px;
+    margin-top: 10px;
 }
 
 .etoilegrise
@@ -734,61 +733,7 @@ footer a:hover
     color:#0065fc;
 }
 
-
-
-
-@media all and (max-width: 1400px) {
-    
-      
-
-    #logo img
-    {
-        height: 4rem;
-        padding-top: 30px;
-    }
-
-    .conteneur_filtre {
-        flex-wrap: wrap;
-        flex-direction: row;
-        align-items: left;
-        justify-content: space-around;
-    }
-   
-    h1 
-       {
-        margin-left: 15px;
-       }
-
-    #main_accommodation {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-
-    article {
-        width: 100%;
-        justify-content: space-evenly;
-    }
-
-    aside {
-        width: 95%;
-        flex-direction: row;
-        margin-left: 15px;
-        margin-bottom: 40px;
-    }  
-
-    .hoteldumatin {
-        width: 33%;
-    }
-
-    .hoteldeleau {
-        width: 33%;
-    }
-
-    .hotelbleublanc {
-        width: 33%;
-    }
-
-    }    
+ 
     
     @media screen and (max-width: 1024px) 
     {
@@ -997,12 +942,6 @@ footer a:hover
 
     /*aside*/
 
-    .conteneur2
-    {
-        flex-direction: column;
-        margin-left: 30px;
-    }
-
     aside 
     {
     width: 95%;
@@ -1013,6 +952,12 @@ footer a:hover
     aside h1
     {
         padding-right: 30px;
+    }
+
+    .conteneur2
+    {
+        flex-direction: column;
+        margin-left: 30px;
     }
 
     .hoteldumatin, .hoteldeleau, .hotelbleublanc {
