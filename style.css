@@ -778,7 +778,7 @@ footer a:hover
 
     article
     {
-        width: 91%;
+        width: 94%;
         margin-left: 20px;
         margin-top: 30px;
         justify-content: space-around;
@@ -788,7 +788,12 @@ footer a:hover
     {
        width: 100%;
        margin: 0;
-       padding-left: 50px;
+       padding-left: 0px;
+    }
+
+    .conteneur1 div 
+    {
+        display: inline-block;
     }
    
     .marseille h1
@@ -804,7 +809,7 @@ footer a:hover
 
     .hotelduport
   {
-      margin-left: 100px;
+      margin-left: 30px;
   }
 
   .hotellesmouettes
@@ -814,7 +819,7 @@ footer a:hover
 
   .hoteldelamer
   {
-      margin-left: 100px;
+      margin-left: 30px;
   }
 
   .aubergelepanier
@@ -824,13 +829,13 @@ footer a:hover
 
   .hotelamina
   {
-      margin-left: 100px;
+      margin-left: 30px;
   }
 
 
      aside
      {
-         width: 90%;
+         width: 93%;
          margin-left: 20px;
      }
 
@@ -1145,7 +1150,7 @@ footer a:hover
 
        .conteneur1 div
        {
-        background-color: none;/*?????*/
+        background-color: none;
         width: 100%;
        }
 
@@ -1221,15 +1226,10 @@ footer a:hover
         border-radius: 1rem 1rem 1rem 1rem;
        }
 
-       .hoteldumatin_info
+       .hoteldumatin_info,  .hoteldeleau_info,  .hotelbleublanc_info
        {
            align-items: center;
            padding-top: 40px;
-       }
-
-       .hoteldeleau_info
-       {
-        padding-top: 40px;
        }
 
 
