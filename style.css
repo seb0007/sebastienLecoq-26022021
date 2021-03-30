@@ -102,7 +102,7 @@ p
 {
     margin-top: 35px;
     margin-left: 5px;
-    padding-right: 20px;
+    padding-right: 30px;
 
 }
 
@@ -778,8 +778,9 @@ footer a:hover
 
     article
     {
-        width: 93%;
+        width: 91%;
         margin-left: 20px;
+        margin-top: 30px;
         justify-content: space-around;
     }
 
@@ -789,7 +790,6 @@ footer a:hover
        margin: 0;
        padding-left: 50px;
     }
-
    
     .marseille h1
     {
@@ -800,7 +800,6 @@ footer a:hover
     .aubergecannebiere
     {
         margin-left: 30px;
-    
     }
 
     .hotelduport
@@ -827,6 +826,7 @@ footer a:hover
   {
       margin-left: 100px;
   }
+
 
      aside
      {
@@ -870,56 +870,55 @@ footer a:hover
    
     @media screen and (max-width: 768px) 
     {
-        body
-        {
-        width: 100%;
-        height: auto;
-        margin: 0px;
-        }   
+     body
+    {
+      width: 100%;
+      height: auto;
+      margin: 0px;
+    }   
 
-        .main_accommodation 
-        {
-          display: flex;
-         flex-direction: column-reverse;
-        }
+    .main_accommodation 
+    {
+      display: flex;
+      flex-direction: column-reverse;
+    }
 
-      
-       article 
-       {
-        width: 96%;
-        margin-left: 0px;
-        margin-top: 15px;
-       }
+     article 
+    {
+      width: 96%;
+      margin-left: 0px;
+      margin-top: 15px;
+    }
 
-       .conteneur1
-       {
-        display: flex;
-        flex-direction: row;
-        padding-left: 10px;
-      }
+    .conteneur1
+    {
+      display: flex;
+      flex-direction: row;
+      padding-left: 10px;
+    }
 
-      .hotelduport
-      {
-       margin-left: 10px;
-      }
+    .hotelduport
+    {
+      margin-left: 10px;
+    }
 
-      .hoteldelamer
-      {
-       margin-left: 10px;
-      }
+    .hoteldelamer
+    {
+      margin-left: 10px;
+    }
 
-      .hotelamina
-      {
-       margin-left: 10px;
-      }
+    .hotelamina
+    {
+      margin-left: 10px;
+    }
 
     /*aside*/
 
     aside 
     {
-    width: 95%;
-    padding: 10px;
-    margin: 0px;
+      width: 95%;
+      padding: 10px;
+      margin: 0px;
     }
 
     aside h1
@@ -947,7 +946,6 @@ footer a:hover
         flex-wrap: wrap;
         width: auto;
     }
-
 
     .picture5
     {
@@ -980,7 +978,7 @@ footer a:hover
            border-top: none;
        }
    
-       .nav_list 
+        .nav_list 
        {
            width: 100%;
            display: flex;
@@ -994,27 +992,24 @@ footer a:hover
            padding-right: 0px;
        }
 
-     
-       .nav_list:hover {
+        .nav_list:hover {
            border-top: none;
            border-bottom: solid 3px #0065fc;
            padding-bottom: 30px;
            color: #0065fc;
        }  
        
-       nav li
+        nav li
        {
            margin-right: 0px;
        }
    
-       
-       .subscribe {
+        .subscribe {
            display: flex;
            justify-content: flex-end;
            flex-wrap: wrap;
            position: relative;
        }
-
 
        .subscribe:hover 
        {
@@ -1068,7 +1063,6 @@ footer a:hover
        }
 
 
-
        /*filtres*/
        .conteneur-filtre
        {
@@ -1080,14 +1074,12 @@ footer a:hover
         margin-top: 40px;
        }
  
-
        .block-text-filtre
        {
         position: absolute;
         top: 400px;
         margin-left: 10px;
        }
-
 
        .block-filtre
        {
@@ -1287,8 +1279,7 @@ footer a:hover
         bottom: 20px;
     }
 
-
-       .footer
+        .footer
        {
             height: auto;
             flex-direction: column;
@@ -1296,7 +1287,6 @@ footer a:hover
             padding-top: 15px;
         }
 
-           
         .left {
             width: auto;
             padding-left: 25px;
