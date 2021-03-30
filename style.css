@@ -1252,7 +1252,8 @@ footer a:hover
 
 .section_two
 {
-    width: 95%;
+    width: 93%;
+    margin-left: 10px;
 }
 
 
@@ -1265,7 +1266,7 @@ footer a:hover
 
     .mparty1, .mparty2, .mblock1, .mblock2
     {
-        width: 100%;
+        width: 96%;
         margin-top: 30px;
         margin-left: 15px;
     }
