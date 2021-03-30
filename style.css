@@ -146,7 +146,7 @@ nav li a
    display: flex;
    border-color: #b1b1b1;
    align-items: center;
-   margin-left: 5px;
+   margin-left: 5px; 
 }
 
 .searchbar
@@ -355,7 +355,7 @@ article
     padding: 10px 10px 10px 10px;
     box-shadow: 10px 10px 10px 10px #d9d9d9;
     border-radius: 1rem 1rem 1rem 1rem;
-    width: 300px;
+    /*width: 100%;*/
 }
 
 .img-hebergement
@@ -1136,7 +1136,7 @@ footer a:hover
        article
        {
         margin-left: 5px;
-        width: 100%;
+        width: 90%;
         height: auto;
         flex-wrap: wrap;
         background-color: white;
@@ -1146,7 +1146,7 @@ footer a:hover
 
        .conteneur1
        {
-        width: 100%;
+        width: 88%;
         align-items: left;
         padding-top: 5px;
         border-radius: 15px;
@@ -1161,7 +1161,7 @@ footer a:hover
        .conteneur1 div
        {
         background-color: none;/*?????*/
-        width: 350px;
+        width: 100%;
        }
 
        .aubergecannebiere
@@ -1250,11 +1250,17 @@ footer a:hover
 
 /*activités*/
 
+.section_two
+{
+    width: 95%;
+}
+
 
     .mcontainer3
     {
         flex-direction: column;
         margin-right: 30px;
+        width: 92%;
     }
 
     .mparty1, .mparty2, .mblock1, .mblock2
