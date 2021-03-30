@@ -392,7 +392,6 @@ aside
 { 
     width: 30%;
     background-color: #f2f2f2;
-    margin-left: 15px;
     padding: 20px;
     box-shadow: 10px 10px 10px 10px #d9d9d9;
     border-radius: 1rem 0 0 1rem;
@@ -479,13 +478,7 @@ aside a
 {
     align-items: center;
     color: #181818;
-    padding-top: 15px;
-}
-
-.hoteldeleau_info
-{
-   align-items: center;
-   color: #181818;
+    padding-top: 5px;
 }
 
 .hotelbleublanc
