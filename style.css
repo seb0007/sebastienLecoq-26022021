@@ -362,6 +362,11 @@ article
     margin-bottom: 30px;
 }
 
+.night 
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
  
 .info
 {
@@ -418,7 +423,6 @@ aside a
 .conteneur2 div 
 {
     margin-left: 10px;
-   /* margin-bottom: 15px;*/
     width: 90%;
 }
 
@@ -451,7 +455,7 @@ aside a
     border-radius: 8px;
     box-sizing: border-box;
     box-shadow: 5px 5px 5px 5px #0000002e;
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 .hotelbleublanc
@@ -464,7 +468,7 @@ aside a
     border-radius: 8px;
     box-sizing: border-box;
     box-shadow: 5px 5px 5px 5px #0000002e;
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 .tittle_hotel1
