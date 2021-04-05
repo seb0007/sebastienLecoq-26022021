@@ -1050,11 +1050,6 @@ footer a:hover
         margin-left: 15px;
        }
 
-       .searchbar
-       {
-           border-radius: none;
-       }
-
        .icon-right
        {
           display: none;
@@ -1148,7 +1143,6 @@ footer a:hover
        .conteneur1
        {
         width: 88%;
-        align-items: left;
         padding-top: 5px;
         border-radius: 15px;
         background-color: white; 
@@ -1161,7 +1155,6 @@ footer a:hover
 
        .conteneur1 div
        {
-        background-color: none;
         width: 100%;
 
        }
