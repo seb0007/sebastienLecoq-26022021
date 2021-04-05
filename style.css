@@ -22,7 +22,12 @@ nav a, h1, p
     font-family: 'raleway', Arial, Helvetica, sans-serif;
 }
 
-h2, aside h1, h3, footer h1,
+h2, h3
+{
+    font-family: 'raleway', Arial, Helvetica, sans-serif;
+}
+
+aside h1, footer h1,
 {
     font-family: 'raleway', Arial, Helvetica, sans-serif;
 }
@@ -177,7 +182,7 @@ nav li a
    padding: 7px 12px;
    color: white;
    list-style: none;
-   border: #0065FC solid 2px;
+   border: #0065fc solid 2px;
    border-top-right-radius: 15px;
    border-bottom-right-radius: 15px;
    background-color: #0065FC;
@@ -770,7 +775,6 @@ footer a:hover
     {
      flex-wrap: wrap;
      flex-direction: row;
-     align-items: left;
      justify-content: space-around;
     }
  
