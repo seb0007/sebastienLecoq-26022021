@@ -480,12 +480,6 @@ aside a
 {
     align-items: center;
     color: #181818;
-
-}
-
-.night1
-{
-    margin-top: 20px;
 }
 
 .etoiles 
@@ -496,7 +490,7 @@ aside a
 .etoiles1
 {
     color: #0065fc;
-    margin-top: 30px;
+    margin-top: 10px;
     padding-left: 10px;
 }
 
