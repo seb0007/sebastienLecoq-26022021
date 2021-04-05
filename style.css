@@ -27,7 +27,12 @@ h2, h3
     font-family: 'raleway', Arial, Helvetica, sans-serif;
 }
 
-aside h1, footer h1,
+aside h1
+{
+    font-family: 'raleway', Arial, Helvetica, sans-serif;
+}
+
+footer h1 
 {
     font-family: 'raleway', Arial, Helvetica, sans-serif;
 }
