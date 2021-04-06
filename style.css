@@ -452,7 +452,7 @@ aside a
     height: 28%;
     padding: 4px;
     background-color: white;
-    border: 2px white;
+   /* border: 2px white;*/
     border-radius: 8px;
     box-sizing: border-box;
     box-shadow: 5px 5px 5px 5px #0000002e;
@@ -465,7 +465,7 @@ aside a
     height: 28%;
     padding: 4px;
     background-color: white;
-    border: 2px white;
+   /* border: 2px white;*/
     border-radius: 8px;
     box-sizing: border-box;
     box-shadow: 5px 5px 5px 5px #0000002e;
@@ -478,7 +478,7 @@ aside a
     height: 28%;
     padding: 4px;
     background-color:white;
-    border: 2px white;
+    /*border: 2px white;*/
     border-radius: 8px;
     box-sizing: border-box;
     box-shadow: 5px 5px 5px 5px #0000002e;
@@ -703,7 +703,6 @@ h4
     display: flex;
     margin-top: 50px;
     background-color: #f2f2f2;
-   /* border: 2px #f2f2f2;*/
     border-radius: 5px;
     height: 220px;
     justify-content: space-around;
