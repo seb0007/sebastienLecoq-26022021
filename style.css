@@ -821,13 +821,14 @@ footer a:hover
         margin-left: 20px;
         margin-top: 30px;
         justify-content: space-around;
+        flex-wrap: wrap;
     }
 
     .conteneur1
     {
        width: 100%;
        margin: 0;
-       padding-left: 50px;
+       flex-wrap: wrap;
     }
 
     .conteneur1 div 
