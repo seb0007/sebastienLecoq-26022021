@@ -703,7 +703,7 @@ h3
     display: flex;
     margin-top: 50px;
     background-color: #f2f2f2;
-    border: 2px #f2f2f2;
+   /* border: 2px #f2f2f2;*/
     border-radius: 5px;
     height: 220px;
     justify-content: space-around;
