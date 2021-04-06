@@ -173,7 +173,6 @@ nav li a
    background-color: #f2f2f2;
    padding-left: 30px;
    height: 25px;
-  /* border: #f2f2f2 solid 2px;*/
 }
 
 ::placeholder
@@ -187,7 +186,6 @@ nav li a
    padding: 7px 12px;
    color: white;
    list-style: none;
-   /*border: #0065fc solid 2px;*/
    border-top-right-radius: 15px;
    border-bottom-right-radius: 15px;
    background-color: #0065FC;
@@ -206,6 +204,7 @@ nav li a
     display: none;
 }
 
+/* filtres */
 
 .conteneur-filtre{
    display: flex;
@@ -241,7 +240,6 @@ nav li a
    display: flex;
    justify-content: center;
    align-items: center;
-   /*border: #DEEBFF 2px solid;*/
 }
 
 .block-text-filtre
@@ -307,7 +305,6 @@ h1
     height: 9rem;
     background-color: white;
     object-fit: cover;
-    /*border-color: white;*/
 }
 
 .marseille h2
