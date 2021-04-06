@@ -309,7 +309,7 @@ h1
     border-color: white;
 }
 
-.marseille h1
+.marseille h2
 {
     font-size: 18px;
     font-weight: bold;
@@ -412,14 +412,14 @@ aside
     margin-right: 20px;
 }
 
-aside h2
+aside h3
 {
     display: flex;
     justify-content: space-between;
     font-size: 18px;
     font-weight: bold;
     padding-right: 50px;
-    margin-top: 15px;
+    margin-top: 30px;
 }
 
 aside a
@@ -537,7 +537,7 @@ aside a
     width: 100%;
 }
 
-h3
+h4
 {
    font-size: 18px;
    margin-left: 20px;
@@ -847,36 +847,10 @@ footer a:hover
     }
  
 
-    .aubergecannebiere
+    .aubergecannebiere, .hotelduport,  .hotellesmouettes,  .hoteldelamer,  .aubergelepanier, .hotelamina
     {
         margin-left: 30px;
     }
-
-    .hotelduport
-  {
-      margin-left: 30px;
-  }
-
-  .hotellesmouettes
-  {
-      margin-left: 30px;
-  }
-
-  .hoteldelamer
-  {
-      margin-left: 30px;
-  }
-
-  .aubergelepanier
-  {
-      margin-left: 30px;
-  }
-
-  .hotelamina
-  {
-      margin-left: 30px;
-  }
-
 
      aside
      {
@@ -897,10 +871,11 @@ footer a:hover
       margin-bottom: 30px;
     }
 
-    .hoteldelamer, .hoteldumatin, .hotelbleublanc
+    .hoteldeleau, .hoteldumatin, .hotelbleublanc
     {
         width: 33%;
         display: flex;
+        margin-top: 40px;
     }
 
     .night2
