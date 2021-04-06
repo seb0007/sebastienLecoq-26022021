@@ -172,8 +172,8 @@ nav li a
    padding: 6px 15px;
    background-color: #f2f2f2;
    padding-left: 30px;
-   height: 22px;
-   border: #f2f2f2 solid 2px;
+   height: 25px;
+  /* border: #f2f2f2 solid 2px;*/
 }
 
 ::placeholder
@@ -187,11 +187,12 @@ nav li a
    padding: 7px 12px;
    color: white;
    list-style: none;
-   border: #0065fc solid 2px;
+   /*border: #0065fc solid 2px;*/
    border-top-right-radius: 15px;
    border-bottom-right-radius: 15px;
    background-color: #0065FC;
    text-decoration: none;
+   height: 23px;
 }
 
 .icon-right a
@@ -240,7 +241,7 @@ nav li a
    display: flex;
    justify-content: center;
    align-items: center;
-   border: #DEEBFF 2px solid;
+   /*border: #DEEBFF 2px solid;*/
 }
 
 .block-text-filtre
@@ -306,7 +307,7 @@ h1
     height: 9rem;
     background-color: white;
     object-fit: cover;
-    border-color: white;
+    /*border-color: white;*/
 }
 
 .marseille h2
@@ -452,7 +453,6 @@ aside a
     height: 28%;
     padding: 4px;
     background-color: white;
-   /* border: 2px white;*/
     border-radius: 8px;
     box-sizing: border-box;
     box-shadow: 5px 5px 5px 5px #0000002e;
@@ -465,7 +465,6 @@ aside a
     height: 28%;
     padding: 4px;
     background-color: white;
-   /* border: 2px white;*/
     border-radius: 8px;
     box-sizing: border-box;
     box-shadow: 5px 5px 5px 5px #0000002e;
@@ -478,7 +477,6 @@ aside a
     height: 28%;
     padding: 4px;
     background-color:white;
-    /*border: 2px white;*/
     border-radius: 8px;
     box-sizing: border-box;
     box-shadow: 5px 5px 5px 5px #0000002e;
