@@ -412,14 +412,14 @@ aside
     margin-right: 20px;
 }
 
-aside h1
+aside h2
 {
     display: flex;
     justify-content: space-between;
     font-size: 18px;
     font-weight: bold;
     padding-right: 50px;
-    padding-top: 15px;
+    margin-top: 15px;
 }
 
 aside a
@@ -722,8 +722,6 @@ h3
      padding: 2rem 1rem;
      list-style-type: none;
 } 
-
-
 
 footer a 
 {
