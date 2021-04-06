@@ -1212,35 +1212,10 @@ footer a:hover
 
        }
 
-       .aubergecannebiere
+       .aubergecannebiere,  .hotelduport, .hotellesmouettes, .hoteldelamer, .aubergelepanier, .hotelamina
     {
         margin-left: 0;
     
-    }
-
-       .hotelduport
-    {
-       margin-left: 0;
-    }
-
-      .hotellesmouettes
-    {
-        margin-left: 0px;
-    }
-  
-      .hoteldelamer
-    {
-        margin-left: 0px;
-    }
-  
-      .aubergelepanier
-    {
-        margin-left: 0px;
-    }
-  
-      .hotelamina
-    {
-        margin-left: 0px;
     }
 
 
