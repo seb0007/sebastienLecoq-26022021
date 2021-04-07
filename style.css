@@ -313,7 +313,7 @@ h1
     font-weight: bold;
 }
 
-article 
+.article 
 {
     width: 63%;
     background-color: #f2f2f2;
@@ -952,7 +952,7 @@ footer a:hover
       margin: 0px;
     }
 
-    aside h1
+    aside h3
     {
         padding-right: 30px;
     }
@@ -961,6 +961,11 @@ footer a:hover
     {
         flex-direction: column;
         margin-left: 30px;
+    }
+
+    h4
+    {
+        margin-left: 10px;
     }
 
     .hoteldumatin, .hoteldeleau, .hotelbleublanc {
@@ -1200,10 +1205,10 @@ footer a:hover
 
        .conteneur2
        {
-           margin: 0px;
-           padding-left: 20px;
-           width: 95%;
-           margin-bottom: 20px;
+         margin: 0px;
+         margin-left: 20px;
+         width: 95%;
+         margin-bottom: 20px;
        }
 
        .conteneur2 a
@@ -1258,16 +1263,11 @@ footer a:hover
 
 /*activités*/
 
-.section_two
-{
-    width: 93%;
-    margin-left: 10px;
-}
-
-     .Activity h3
-     {
-         margin-left: 30px;
-     }
+    .section_two
+    {
+        width: 93%;
+        margin-left: 10px;
+    }
 
 
     .mcontainer3
@@ -1359,6 +1359,8 @@ footer a:hover
        {
            margin-top: 10px;
        }
+
+
 
 
    }
