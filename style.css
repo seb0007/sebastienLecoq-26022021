@@ -815,7 +815,7 @@ footer a:hover
     flex-direction: column-reverse;
     }
 
-    article
+    .article
     {
         width: 94%;
         margin-left: 20px;
@@ -914,7 +914,7 @@ footer a:hover
       flex-direction: column-reverse;
     }
 
-     article 
+     .article 
     {
       width: 96%;
       margin-left: 0px;
@@ -1155,7 +1155,7 @@ footer a:hover
        }
 
 
-       article
+       .article
        {
         margin-left: 5px;
         width: 90%;
