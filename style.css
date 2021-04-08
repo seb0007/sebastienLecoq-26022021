@@ -170,8 +170,9 @@ nav li a
    border-bottom-left-radius: 15px;
    padding: 6px 15px;
    background-color: #f2f2f2;
-   padding-left: 30px;
    height: 25px;
+   display: flex;
+   align-items: center;
 }
 
 ::placeholder
@@ -201,6 +202,7 @@ nav li a
 
 .rechercher_loupe {
     display: none;
+    justify-content: center;
 }
 
 /* filtres */
@@ -1063,7 +1065,8 @@ footer a:hover
        { 
            display: flex;
            justify-content: space-between;
-           width: 85%;
+           width: 100%;
+           padding: 0px;
        }
    
         .nav_list 
@@ -1155,12 +1158,13 @@ footer a:hover
         row-gap: 5px;
         width: 80%;
         margin-top: 40px;
+        flex-direction: row;
        }
  
        .block-text-filtre
        {
         position: absolute;
-        top: 420px;
+        top: 390px;
         margin-left: 10px;
        }
 
