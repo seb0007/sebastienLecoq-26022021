@@ -81,7 +81,8 @@ p
     margin-right: 10px;
     padding-left: 10px;
     position: relative;
-    flex-direction: row-reverse;
+    width: 100%;
+    justify-content: right;
 }
 
 .header_nav a
@@ -95,7 +96,6 @@ p
     display: flex;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-right: 30px;
 }
 
 .nav_list, .subscribe 
@@ -1029,8 +1029,17 @@ footer a:hover
         body {
             padding: 0;
             margin: 0;
+            width: 98%;
+        }
+
+        header 
+        {
+            flex-direction: column;
+            margin: 0 auto;
+            display: flex;
             width: 100%;
         }
+        
 
         #logo img
         {
@@ -1040,7 +1049,6 @@ footer a:hover
 
         .header_nav
        {
-           width: 100%;
            display: flex;
            flex-direction: column;
            border-top: none;
@@ -1058,14 +1066,14 @@ footer a:hover
        {
            width: 100%;
            display: flex;
-           justify-content: center;
+          justify-content: center;
            border-bottom: solid 3px lightgrey;
            padding-bottom: 20px;
            border-top: none;
            position: relative;
-           right: 90px;
            padding-left: 0px;
            padding-right: 0px;
+           margin: 0;
        }
 
         .nav_list:hover {
@@ -1084,7 +1092,8 @@ footer a:hover
            display: flex;
            justify-content: flex-end;
            flex-wrap: wrap;
-           position: relative;
+           position: absolute;
+           right: 0px;
        }
 
        .subscribe:hover 
@@ -1147,7 +1156,7 @@ footer a:hover
        .block-text-filtre
        {
         position: absolute;
-        top: 400px;
+        top: 420px;
         margin-left: 10px;
        }
 
@@ -1244,6 +1253,7 @@ footer a:hover
         flex-wrap: wrap;
         padding-left: 0px;
         margin: 0px auto;
+        width: 100%;
        }
 
        .conteneur2
@@ -1381,6 +1391,10 @@ footer a:hover
 
    @media screen and (max-width: 590px)
    {
+       body 
+       {
+           width: 98%;
+       }
 
         #header_list
         {
@@ -1418,4 +1432,14 @@ footer a:hover
 
 
 
+   }
+
+   @media screen and (max-width: 306px)
+   {
+    .block-text-filtre
+    {
+     position: absolute;
+     top: 440px;
+     margin-left: 10px;
+    }
    }
