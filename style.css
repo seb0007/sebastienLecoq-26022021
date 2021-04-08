@@ -1257,7 +1257,7 @@ footer a:hover
         flex-wrap: wrap;
         padding-left: 0px;
         margin: 0px auto;
-        width: 100%;
+       /* width: 100%;*/
        }
 
        .conteneur2
