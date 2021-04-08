@@ -1051,7 +1051,7 @@ footer a:hover
        { 
            display: flex;
            justify-content: space-between;
-          /* width: 90%;*/
+           width: 90%;
        }
    
         .nav_list 
@@ -1381,7 +1381,13 @@ footer a:hover
 
    @media screen and (max-width: 590px)
    {
-    
+
+        #header_list
+        {
+            padding-right: 0;
+        }    
+
+
        .conteneur2 div
        {
            flex-direction: column;
