@@ -924,6 +924,7 @@ footer a:hover
         {
             justify-content: center;
         }
+
     }
    
     @media screen and (max-width: 850px) 
@@ -1050,7 +1051,7 @@ footer a:hover
        { 
            display: flex;
            justify-content: space-between;
-           width: 100%;
+          /* width: 90%;*/
        }
    
         .nav_list 
@@ -1104,7 +1105,6 @@ footer a:hover
            
        #search
        {
-        width: 100%;
         border-radius: 15px 15px 15px 15px;
         margin-left: 15px;
        }
@@ -1239,11 +1239,11 @@ footer a:hover
 
        aside
        {
-        width: 100%;
         border-radius: 0px;
         margin-bottom: 15px;
         flex-wrap: wrap;
         padding-left: 0px;
+        margin: 0px auto;
        }
 
        .conteneur2
@@ -1381,7 +1381,6 @@ footer a:hover
 
    @media screen and (max-width: 590px)
    {
-
     
        .conteneur2 div
        {
