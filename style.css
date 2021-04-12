@@ -22,10 +22,12 @@ nav a, h1, p
     font-family: 'raleway', Arial, Helvetica, sans-serif;
 }
 
-h2, h3
+h2, h3, h4
 {
     font-family: 'raleway', Arial, Helvetica, sans-serif;
 }
+
+
 
 aside h1
 {
@@ -33,6 +35,11 @@ aside h1
 }
 
 footer h1 
+{
+    font-family: 'raleway', Arial, Helvetica, sans-serif;
+}
+
+.fa-infotext
 {
     font-family: 'raleway', Arial, Helvetica, sans-serif;
 }
@@ -71,6 +78,7 @@ margin-left: 10px;
 p
 {
    margin-left: 10px;
+   font-family: 'raleway', Arial, Helvetica, sans-serif;
 }
 
 
@@ -213,6 +221,7 @@ nav li a
    margin-top: 20px;
    margin-left: 10px;
    cursor: pointer;
+   font-family: 'raleway', Arial, Helvetica, sans-serif;
 }
 
 .block-filtre{
@@ -344,6 +353,7 @@ h2
     background-color: white;
     margin-right: 15px;
     width: 300px; 
+    font-family: 'raleway', Arial, Helvetica, sans-serif;
 }
 
 .conteneur1 a
@@ -443,6 +453,7 @@ aside a
 {
     margin-left: 10px;
     width: 90%;
+    font-family: 'raleway', Arial, Helvetica, sans-serif;
 }
 
 .conteneur2 img
@@ -735,6 +746,7 @@ h4
  {
      padding: 2rem 1rem;
      list-style-type: none;
+     font-family: 'raleway', Arial, Helvetica, sans-serif;
 } 
 
 footer a 
@@ -746,6 +758,7 @@ footer a
 footer li
 {
     margin-top: 10px;
+    font-family: 'raleway', Arial, Helvetica, sans-serif;
 }
 
 
@@ -1188,7 +1201,7 @@ footer a:hover
        .block-text-filtre
        {
         position: absolute;
-        top: 400px;
+        top: 390px;
         margin-left: 10px;
        }
 
