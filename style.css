@@ -77,17 +77,15 @@ p
 .header_nav
 {
     display: flex;
+    flex-direction: row-reverse;
     color:#444;
     margin-right: 10px;
-    position: relative;
-    width: 100%;
-    justify-content: right;
-}
+    padding-left: 10px;
+    }
 
 .header_nav a
 {
     color:#444;
-    text-decoration: none;
 }
 
 #header_list
@@ -97,12 +95,17 @@ p
     padding-bottom: 20px;
 }
 
+#header_list a, .subscribe a 
+{
+    text-decoration: none;
+}
+
 .nav_list, .subscribe 
 {
-    font-size: 1.1em;
+    font-size: 1.2em;
     padding-top: 20px;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
     color:#444;
     border-top: solid 3px white;
 }
@@ -110,14 +113,11 @@ p
 .subscribe 
 {
     margin-top: 35px;
-    margin-left: 5px;
-    padding-right: 30px;
-
+  
 }
 
 .subscribe a {
     color: #0065fc;
-    text-decoration: none;
 }
 
 
@@ -1121,6 +1121,9 @@ footer a:hover
            flex-wrap: wrap;
            position: absolute;
            right: 0px;
+           padding: 0px;
+          top: 20px;
+           
        }
 
        .subscribe:hover 
@@ -1184,7 +1187,7 @@ footer a:hover
        .block-text-filtre
        {
         position: absolute;
-        top: 390px;
+        top: 400px;
         margin-left: 10px;
        }
 
@@ -1455,6 +1458,11 @@ footer a:hover
       .etoiles2
        {
            margin-top: 10px;
+       }
+
+       .block-text-filtre
+       {
+           top:400px;
        }
 
  }
