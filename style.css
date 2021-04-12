@@ -448,6 +448,7 @@ aside a
 .conteneur2 img
 {
     border-radius: 1rem 0 0 1rem;
+    width: 80%;
 }
 
 .hoteldumatin
@@ -781,7 +782,7 @@ footer a:hover
     }
 }
     
-    @media screen and (max-width: 1230px) 
+    @media screen and (max-width: 1380px) 
     {
      body
      {
