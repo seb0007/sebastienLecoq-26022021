@@ -454,7 +454,7 @@ aside a
 .hoteldumatin
 {
     display: flex;
-    height: 28%;
+    /*height: 28%;*/
     padding: 4px;
     background-color: white;
     border-radius: 8px;
@@ -466,7 +466,7 @@ aside a
 .hoteldeleau
 {
     display: flex;
-    height: 28%;
+   /* height: 28%;*/
     padding: 4px;
     background-color: white;
     border-radius: 8px;
@@ -478,7 +478,7 @@ aside a
 .hotelbleublanc
 {
     display: flex;
-    height: 28%;
+    /*height: 28%;*/
     padding: 4px;
     background-color:white;
     border-radius: 8px;
@@ -713,7 +713,6 @@ h4
     background-color: #f2f2f2;
     border-radius: 5px;
     height: 220px;
-    justify-content: space-around;
     padding-top: 40px;
 }   
 
@@ -747,6 +746,20 @@ footer a:hover
     color:#0065fc;
 }
 
+.left
+{
+    padding-left: 30px;
+}
+
+.middle
+{
+    padding-left: 300px;
+}
+
+.right
+{
+    padding-left: 300px;
+}
     
 @media screen and (max-width: 1700px) 
 {
