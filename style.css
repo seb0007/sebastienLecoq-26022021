@@ -512,6 +512,7 @@ aside a
     margin-top: 10px;
 }
 
+
 .tittle_hotel
 {
     color: #181818;
@@ -525,6 +526,13 @@ aside a
 }
 
 .etoiles2
+{
+    color: #0065fc;
+    margin-top: 35px;
+    padding-left: 10px;
+}
+
+.etoiles3
 {
     color: #0065fc;
     margin-top: 35px;
