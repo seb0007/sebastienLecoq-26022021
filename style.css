@@ -1,15 +1,23 @@
+/*@font-face
+{
+font-family: "Raleway";
+src: url('polices/Raleway-Regular.ttf') format('truetype');
+font-weight: 400;
+}
+
 @font-face
 {
-font-family: "raleway thin", Arial, Helvetica, sans-serif;
-font-weight: bold;
-
+font-family: "Raleway";
+src: url('polices/Raleway-Bold.ttf') format('truetype');
+font-weight: 700;*/
 }
+
 
 
 body
 
 {
-   font-family: "raleway thin";
+    font-family: "Raleway" , Arial, Helvetica, sans-serif ;
    font-weight: normal;                  
    margin: auto;
    height: auto;
@@ -547,7 +555,7 @@ aside a
 .etoiles3
 {
     color: #0065fc;
-    margin-top: 35px;
+    margin-top: 50px;
     padding-left: 10px;
 }
 
